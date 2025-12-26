@@ -2635,15 +2635,15 @@ msgstr "Диаграмма [%s] сохранена"
 msgid "Chart [%s] was added to dashboard [%s]"
 msgstr "Диаграмма [%s] добавлена на дашборд [%s]"
 
-#, fuzzy, python-brace-format, python-format
+#, fuzzy, python-brace-format
 msgid "Chart [{}] has been overwritten"
 msgstr "Диаграмма [%s] перезаписана"
 
-#, fuzzy, python-brace-format, python-format
+#, fuzzy, python-brace-format
 msgid "Chart [{}] has been saved"
 msgstr "Диаграмма [%s] сохранена"
 
-#, fuzzy, python-brace-format, python-format
+#, fuzzy, python-brace-format
 msgid "Chart [{}] was added to dashboard [{}]"
 msgstr "Диаграмма [%s] добавлена на дашборд [%s]"
 
@@ -3733,7 +3733,7 @@ msgstr "ID дашборда"
 msgid "Dashboard [%s] just got created and chart [%s] was added to it"
 msgstr "Дашборд [%s] был создан и диаграмма [%s] добавлена на него"
 
-#, fuzzy, python-brace-format, python-format
+#, fuzzy, python-brace-format
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "Дашборд [%s] был создан и диаграмма [%s] добавлена на него"
 
@@ -15452,3 +15452,4 @@ msgstr "область масштабирования"
 
 msgid "© Layer attribution"
 msgstr "© Настройки слоя"
+

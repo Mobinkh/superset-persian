@@ -11190,14 +11190,14 @@ msgstr "Toujours filtrer sur la colonne temporelle principale"
 msgid "Set System Dark Theme"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Set System Default Theme"
 msgstr "Toujours filtrer sur la colonne temporelle principale"
 
 msgid "Set as system dark theme"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Set as system default theme"
 msgstr "Toujours filtrer sur la colonne temporelle principale"
 
@@ -16892,3 +16892,4 @@ msgstr "zone de zoom"
 
 msgid "© Layer attribution"
 msgstr ""
+

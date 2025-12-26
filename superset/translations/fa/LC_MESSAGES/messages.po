@@ -889,7 +889,9 @@ msgstr "افزودن لاگ"
 msgid ""
 "Add Query A and Query B identifiers to tooltips to help differentiate "
 "series"
-msgstr "شناسه‌های پرس‌وجوی A و پرس‌وجوی B را به راهنماهای ابزار اضافه کنید تا به تمایز سری‌ها کمک کند."
+msgstr ""
+"شناسه‌های پرس‌وجوی A و پرس‌وجوی B را به راهنماهای ابزار اضافه کنید تا به "
+"تمایز سری‌ها کمک کند."
 
 msgid "Add Report"
 msgstr "افزودن گزارش"
@@ -1706,7 +1708,9 @@ msgstr ""
 msgid ""
 "Any dashboards using these themes will be automatically dissociated from "
 "them."
-msgstr "هر داشبوردی که از این تم‌ها استفاده کند، به‌طور خودکار از آنها جدا خواهد شد."
+msgstr ""
+"هر داشبوردی که از این تم‌ها استفاده کند، به‌طور خودکار از آنها جدا خواهد "
+"شد."
 
 msgid "Any dashboards using this theme will be automatically dissociated from it."
 msgstr "هر داشبوردی که از این قالب استفاده کند، به‌طور خودکار از آن جدا خواهد شد."
@@ -1846,12 +1850,16 @@ msgstr "آیا مطمئن هستید که می‌خواهید ادامه دهی�
 msgid ""
 "Are you sure you want to remove the system dark theme? The application "
 "will fall back to the configuration file dark theme."
-msgstr "آیا مطمئن هستید که می‌خواهید تم تیره سیستم را حذف کنید؟ برنامه به فایل پیکربندی تم تیره برمی‌گردد."
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید تم تیره سیستم را حذف کنید؟ برنامه به فایل "
+"پیکربندی تم تیره برمی‌گردد."
 
 msgid ""
 "Are you sure you want to remove the system default theme? The application"
 " will fall back to the configuration file default."
-msgstr "آیا مطمئن هستید که می‌خواهید قالب پیش‌فرض سیستم را حذف کنید؟ برنامه به پیش‌فرض فایل پیکربندی برمی‌گردد."
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید قالب پیش‌فرض سیستم را حذف کنید؟ برنامه به "
+"پیش‌فرض فایل پیکربندی برمی‌گردد."
 
 msgid "Are you sure you want to save and apply changes?"
 msgstr "آیا مطمئن هستید که می‌خواهید تغییرات را ذخیره و اعمال کنید؟"
@@ -1860,13 +1868,19 @@ msgstr "آیا مطمئن هستید که می‌خواهید تغییرات ر�
 msgid ""
 "Are you sure you want to set \"%s\" as the system dark theme? This will "
 "apply to all users who haven't set a personal preference."
-msgstr "آیا مطمئن هستید که می‌خواهید «%s» را به عنوان تم تیره سیستم تنظیم کنید؟ این برای همه کاربرانی که تنظیمات شخصی خود را تنظیم نکرده‌اند، اعمال خواهد شد."
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید «%s» را به عنوان تم تیره سیستم تنظیم کنید؟ "
+"این برای همه کاربرانی که تنظیمات شخصی خود را تنظیم نکرده‌اند، اعمال خواهد"
+" شد."
 
 #, python-format
 msgid ""
 "Are you sure you want to set \"%s\" as the system default theme? This "
 "will apply to all users who haven't set a personal preference."
-msgstr "آیا مطمئن هستید که می‌خواهید «%s» را به عنوان قالب پیش‌فرض سیستم تنظیم کنید؟ این «»برای همه کاربرانی که تنظیمات شخصی خود را تنظیم نکرده‌اند، اعمال خواهد شد."
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید «%s» را به عنوان قالب پیش‌فرض سیستم تنظیم "
+"کنید؟ این «»برای همه کاربرانی که تنظیمات شخصی خود را تنظیم نکرده‌اند، "
+"اعمال خواهد شد."
 
 msgid "Area"
 msgstr "منطقه"
@@ -2143,7 +2157,10 @@ msgid ""
 "Bounds for the X-axis. Selected time merges with min/max date of the "
 "data. When left empty, bounds dynamically defined based on the min/max of"
 " the data."
-msgstr "محدوده‌هایی برای محور X. زمان انتخاب شده با تاریخ حداقل/حداکثر داده‌ها ادغام می‌شود. در صورت خالی بودن، محدوده‌ها به صورت پویا بر اساس حداقل/حداکثر داده‌ها تعریف می‌شوند."
+msgstr ""
+"محدوده‌هایی برای محور X. زمان انتخاب شده با تاریخ حداقل/حداکثر داده‌ها "
+"ادغام می‌شود. در صورت خالی بودن، محدوده‌ها به صورت پویا بر اساس "
+"حداقل/حداکثر داده‌ها تعریف می‌شوند."
 
 msgid ""
 "Bounds for the Y-axis. When left empty, the bounds are dynamically "
@@ -2416,10 +2433,14 @@ msgid "Cannot delete system themes"
 msgstr "نمی‌توان به کوئری دسترسی پیدا کرد"
 
 msgid "Cannot delete theme that is set as system default or dark theme"
-msgstr "نمی‌توان تمی را که به عنوان پیش‌فرض سیستم یا تم تیره تنظیم شده است، حذف کرد"
+msgstr ""
+"نمی‌توان تمی را که به عنوان پیش‌فرض سیستم یا تم تیره تنظیم شده است، حذف "
+"کرد"
 
 msgid "Cannot delete theme that is set as system default or dark theme."
-msgstr "نمی‌توان تمی را که به عنوان پیش‌فرض سیستم یا تم تیره تنظیم شده است، حذف کرد."
+msgstr ""
+"نمی‌توان تمی را که به عنوان پیش‌فرض سیستم یا تم تیره تنظیم شده است، حذف "
+"کرد."
 
 #, python-format
 msgid "Cannot find the table (%s) metadata."
@@ -4123,8 +4144,8 @@ msgid ""
 "Default URL to redirect to when accessing from the dataset list page. "
 "Accepts relative URLs such as"
 msgstr ""
-"آدرس اینترنتی پیش‌فرض برای هدایت به هنگام دسترسی از صفحه فهرست مجموعه داده‌ها. "
-"آدرس‌های اینترنتی نسبی مانند"
+"آدرس اینترنتی پیش‌فرض برای هدایت به هنگام دسترسی از صفحه فهرست مجموعه "
+"داده‌ها. آدرس‌های اینترنتی نسبی مانند"
 
 msgid "Default Value"
 msgstr "مقدار پیش‌فرض"
@@ -4338,7 +4359,7 @@ msgstr "این کانتینر را حذف کنید و ذخیره کنید تا �
 msgid "Delete user"
 msgstr "حذف کوئری"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "حذف شده: %s"
 
@@ -4678,8 +4699,8 @@ msgid ""
 "Downloading %(rows)s rows based on the LIMIT configuration. If you want "
 "the entire result set, you need to adjust the LIMIT."
 msgstr ""
-"دانلود %(rows)s ردیف‌ها بر اساس پیکربندی LIMIT. اگر می‌خواهید"
-"برای کل مجموعه نتایج، باید LIMIT را تنظیم کنید."
+"دانلود %(rows)s ردیف‌ها بر اساس پیکربندی LIMIT. اگر می‌خواهیدبرای کل "
+"مجموعه نتایج، باید LIMIT را تنظیم کنید."
 
 msgid "Draft"
 msgstr "پیش‌نویس"
@@ -6003,8 +6024,9 @@ msgid ""
 "Gantt chart visualizes important events over a time span. Every data "
 "point displayed as a separate event along a horizontal line."
 msgstr ""
-"نمودار گانت رویدادهای مهم را در یک بازه زمانی تجسم می‌کند. هر داده‌ای"
-"نقطه‌ای که به عنوان یک رویداد جداگانه در امتداد یک خط افقی نمایش داده می‌شود."
+"نمودار گانت رویدادهای مهم را در یک بازه زمانی تجسم می‌کند. هر "
+"داده‌اینقطه‌ای که به عنوان یک رویداد جداگانه در امتداد یک خط افقی نمایش "
+"داده می‌شود."
 
 msgid "Gauge Chart"
 msgstr "چارت مقیاس"
@@ -6117,8 +6139,9 @@ msgid ""
 "Groups remaining series into an \"Others\" category when series limit is "
 "reached. This prevents incomplete time series data from being displayed."
 msgstr ""
-"وقتی محدودیت سری‌ها وجود داشته باشد، سری‌های باقی‌مانده را در یک دسته‌ی «سایر» گروه‌بندی می‌کند."
-"رسیده است. این کار از نمایش داده‌های سری زمانی ناقص جلوگیری می‌کند."
+"وقتی محدودیت سری‌ها وجود داشته باشد، سری‌های باقی‌مانده را در یک دسته‌ی "
+"«سایر» گروه‌بندی می‌کند.رسیده است. این کار از نمایش داده‌های سری زمانی "
+"ناقص جلوگیری می‌کند."
 
 msgid "Guest user cannot modify chart payload"
 msgstr "کاربر مهمان نمی‌تواند بارگذاری نمودار را تغییر دهد"
@@ -6352,8 +6375,8 @@ msgid ""
 "In order to connect to non-public sheets you need to either provide a "
 "service account or configure an OAuth2 client."
 msgstr ""
-"برای اتصال به صفحات غیر عمومی، باید یکی از موارد زیر را ارائه دهید:"
-"حساب سرویس یا پیکربندی یک کلاینت OAuth2."
+"برای اتصال به صفحات غیر عمومی، باید یکی از موارد زیر را ارائه دهید:حساب "
+"سرویس یا پیکربندی یک کلاینت OAuth2."
 
 msgid "In this view you can preview the first 25 rows. "
 msgstr "در این نما می‌توانید پیش‌نمایشی از ۲۵ ردیف اول را مشاهده کنید."
@@ -7360,7 +7383,6 @@ msgid ""
 " operate over the time series data points."
 msgstr ""
 
-
 msgid "Metric"
 msgstr "معیار"
 
@@ -7743,7 +7765,7 @@ msgstr "هنوز هیچ %s وجود ندارد"
 msgid "No Data"
 msgstr "هیچ داده‌ای وجود ندارد"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "هنوز هیچ %s وجود ندارد"
 
@@ -9438,11 +9460,11 @@ msgstr "ستون را انتخاب کنید"
 msgid "Reset columns"
 msgstr "ستون را انتخاب کنید"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s رمز عبور"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s رمز عبور"
 
@@ -9580,9 +9602,9 @@ msgid ""
 "retrieved, respecting the row limit. All Records: Percentages are "
 "calculated based on the total dataset, ignoring the row limit."
 msgstr ""
-"محدودیت ردیف: درصدها بر اساس زیرمجموعه داده‌ها محاسبه می‌شوند."
-"بازیابی شده، با رعایت محدودیت ردیف. همه رکوردها: درصدها عبارتند از"
-"بر اساس کل مجموعه داده‌ها محاسبه می‌شود، بدون در نظر گرفتن محدودیت ردیف."
+"محدودیت ردیف: درصدها بر اساس زیرمجموعه داده‌ها محاسبه می‌شوند.بازیابی "
+"شده، با رعایت محدودیت ردیف. همه رکوردها: درصدها عبارتند ازبر اساس کل "
+"مجموعه داده‌ها محاسبه می‌شود، بدون در نظر گرفتن محدودیت ردیف."
 
 msgid ""
 "Row containing the headers to use as column names (0 is first line of "
@@ -10808,8 +10830,8 @@ msgid ""
 "Something went wrong with embedded authentication. Check the dev console "
 "for details."
 msgstr ""
-"مشکلی در احراز هویت تعبیه‌شده پیش آمده است. کنسول توسعه‌دهندگان را بررسی کنید."
-"برای جزئیات"
+"مشکلی در احراز هویت تعبیه‌شده پیش آمده است. کنسول توسعه‌دهندگان را بررسی "
+"کنید.برای جزئیات"
 
 msgid "Something went wrong."
 msgstr "چیزی اشتباه پیش رفت."
@@ -11562,7 +11584,9 @@ msgstr ""
 "داشبورد ویرایش کنید."
 
 msgid "The color used when a value doesn't match any defined breakpoints."
-msgstr "رنگی که وقتی یک مقدار با هیچ نقطه شکست تعریف‌شده‌ای مطابقت ندارد، استفاده می‌شود."
+msgstr ""
+"رنگی که وقتی یک مقدار با هیچ نقطه شکست تعریف‌شده‌ای مطابقت ندارد، استفاده"
+" می‌شود."
 
 #, fuzzy
 msgid ""
@@ -11715,7 +11739,7 @@ msgid ""
 msgstr "شیء engine_params در تماس sqlalchemy.create_engine unpack می‌شود."
 
 msgid "The exponent to compute all sizes from. \"EXP\" only"
-msgstr "توانی که همه اندازه‌ها را از آن محاسبه می‌کند. فقط \`EXP\`"
+msgstr "توانی که همه اندازه‌ها را از آن محاسبه می‌کند. فقط \\`EXP\\`"
 
 msgid ""
 "The extent of the map on application start. FIT DATA automatically sets "
@@ -12181,7 +12205,7 @@ msgid "The size of the square cell, in pixels"
 msgstr "اندازه سلول مربعی، به پیکسل"
 
 msgid "The slope to compute all sizes from. \"LINEAR\" only"
-msgstr "شیبی که همه اندازه‌ها از آن محاسبه می‌شوند. فقط \`LINEAR\`"
+msgstr "شیبی که همه اندازه‌ها از آن محاسبه می‌شوند. فقط \\`LINEAR\\`"
 
 msgid "The submitted payload failed validation."
 msgstr "بار ارسال شده در اعتبارسنجی شکست خورد."
@@ -12776,7 +12800,9 @@ msgstr "این عنصر را برای ترسیم روی نمودار تعریف 
 msgid ""
 "This email is already associated with an account. Please choose another "
 "one."
-msgstr "این ایمیل قبلاً به یک حساب کاربری مرتبط شده است. لطفاً یک حساب دیگر انتخاب کنید."
+msgstr ""
+"این ایمیل قبلاً به یک حساب کاربری مرتبط شده است. لطفاً یک حساب دیگر "
+"انتخاب کنید."
 
 msgid ""
 "This field is used as a unique identifier to attach the calculated "
@@ -13132,8 +13158,8 @@ msgid ""
 "To enable multiple column sorting, hold down the ⇧ Shift key while "
 "clicking the column header."
 msgstr ""
-"برای فعال کردن مرتب‌سازی چند ستونی، کلید ⇧ Shift را نگه دارید و همزمان ..."
-"کلیک کردن روی سر ستون"
+"برای فعال کردن مرتب‌سازی چند ستونی، کلید ⇧ Shift را نگه دارید و همزمان "
+"...کلیک کردن روی سر ستون"
 
 msgid "To filter on a metric, use Custom SQL tab."
 msgstr "برای فیلتر کردن روی یک معیار، از تب SQL سفارشی استفاده کنید."
@@ -13360,8 +13386,9 @@ msgid ""
 "Unable to identify temporal column for date range time comparison.Please "
 "ensure your dataset has a properly configured time column."
 msgstr ""
-"قادر به شناسایی ستون زمانی برای مقایسه محدوده تاریخ و زمان نیست. لطفا"
-"مطمئن شوید که مجموعه داده‌های شما دارای ستون زمان به درستی پیکربندی شده است."
+"قادر به شناسایی ستون زمانی برای مقایسه محدوده تاریخ و زمان نیست. "
+"لطفامطمئن شوید که مجموعه داده‌های شما دارای ستون زمان به درستی پیکربندی "
+"شده است."
 
 msgid ""
 "Unable to load columns for the selected table. Please select a different "
@@ -14027,7 +14054,7 @@ msgstr "نتوانستم کوئری شما را بررسی کنم."
 msgid "Waterfall Chart"
 msgstr "نمودار آبشار"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "نمی‌توان به پایگاه داده \"%(database)s\" متصل شد."
 
@@ -14559,7 +14586,7 @@ msgstr "بله، تغییرات را بازنویسی کنید"
 msgid "You are adding tags to %s %ss"
 msgstr "شما در حال اضافه کردن برچسب به %s %ss هستید"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr "شما در حال ویرایش یک کوئری از مجموعه داده مجازی هستید."
 
@@ -14623,8 +14650,8 @@ msgid ""
 "across multiple charts.\r\n"
 "        The color scheme selection is disabled."
 msgstr ""
-"شما در حال مشاهده این نمودار در یک زمینه داشبورد با برچسب‌های اشتراک‌گذاری شده هستید"
-"در چندین نمودار.\r\n"
+"شما در حال مشاهده این نمودار در یک زمینه داشبورد با برچسب‌های "
+"اشتراک‌گذاری شده هستیددر چندین نمودار.\r\n"
 "انتخاب طرح رنگ غیرفعال است."
 
 msgid ""
@@ -15674,3 +15701,4 @@ msgstr "منطقه‌ی زوم"
 
 msgid "© Layer attribution"
 msgstr ""
+

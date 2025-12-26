@@ -4033,11 +4033,11 @@ msgstr ""
 msgid "Delete user"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Uložené dotazy"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration?"
 msgstr "Uložené dotazy"
 
@@ -9185,7 +9185,7 @@ msgstr ""
 msgid "Save changes to your chart?"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Save changes to your dashboard?"
 msgstr "Importovať dashboard"
 
@@ -13459,7 +13459,7 @@ msgstr ""
 msgid "You are adding tags to %s %ss"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -14497,3 +14497,4 @@ msgstr ""
 
 msgid "© Layer attribution"
 msgstr ""
+

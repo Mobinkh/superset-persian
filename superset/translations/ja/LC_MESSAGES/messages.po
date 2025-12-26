@@ -4118,7 +4118,7 @@ msgstr "このコンテナを削除し、保存してこのメ​​ッセージ
 msgid "Delete user"
 msgstr "ユーザーを削除"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "ユーザー削除しました: %s"
 
@@ -7357,7 +7357,7 @@ msgstr "%s はまだありません"
 msgid "No Data"
 msgstr "データなし"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "%s はまだありません"
 
@@ -8981,11 +8981,11 @@ msgstr "列をリセット"
 msgid "Reset columns"
 msgstr "列をリセット"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s パスワード"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s パスワード"
 
@@ -13252,7 +13252,7 @@ msgstr "クエリを確認できませんでした。"
 msgid "Waterfall Chart"
 msgstr "ウォーターフォールチャート"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "“%(database)s” に接続できません。"
 
@@ -13751,7 +13751,7 @@ msgstr "はい、変更を上書きします"
 msgid "You are adding tags to %s %ss"
 msgstr "%s %ss にタグを追加しています"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -14804,3 +14804,4 @@ msgstr "ズームエリア"
 
 msgid "© Layer attribution"
 msgstr ""
+

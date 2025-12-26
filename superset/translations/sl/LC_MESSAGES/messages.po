@@ -4364,7 +4364,7 @@ msgstr "Izbrišite ta okvir in shranite za odpravo tega sporočila."
 msgid "Delete user"
 msgstr "Izbriši poizvedbo"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Izbrisano: %s"
 
@@ -7773,7 +7773,7 @@ msgstr "%s še ne obstajajo"
 msgid "No Data"
 msgstr "Ni podatkov"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "%s še ne obstajajo"
 
@@ -9472,11 +9472,11 @@ msgstr "Izberite stolpec"
 msgid "Reset columns"
 msgstr "Izberite stolpec"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s GESLO"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s GESLO"
 
@@ -14023,7 +14023,7 @@ msgstr "Poizvedbe ni bilo mogoče preveriti"
 msgid "Waterfall Chart"
 msgstr "Grafikon slapov"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "Povezava s podatkovno bazo \"%(database)s\" ni uspela."
 
@@ -14576,7 +14576,7 @@ msgstr "Da, prepiši spremembe"
 msgid "You are adding tags to %s %ss"
 msgstr "Oznake dodajate %s %ss"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -15678,3 +15678,4 @@ msgstr "približaj območje"
 
 msgid "© Layer attribution"
 msgstr ""
+

@@ -4479,7 +4479,7 @@ msgstr "Excluir este contêiner e salvar para remover essa mensagem."
 msgid "Delete user"
 msgstr "Excluir consulta"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Excluído: %s"
 
@@ -7944,7 +7944,7 @@ msgstr "Sem %s ainda"
 msgid "No Data"
 msgstr "Sem dados"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "Sem %s ainda"
 
@@ -9696,11 +9696,11 @@ msgstr "Selecionar coluna"
 msgid "Reset columns"
 msgstr "Selecionar coluna"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s SENHA"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s SENHA"
 
@@ -14413,7 +14413,7 @@ msgstr "Não foi possível verificar sua consulta"
 msgid "Waterfall Chart"
 msgstr "Pesquisar todos os gráficos"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "Não é possível se conectar ao banco de dados \"%(database)s\"."
 
@@ -14967,7 +14967,7 @@ msgstr "Sim, sobrescrever mudanças"
 msgid "You are adding tags to %s %ss"
 msgstr "Você está adicionando marcas para %s %ss"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -16105,3 +16105,4 @@ msgstr "área de zoom"
 
 msgid "© Layer attribution"
 msgstr ""
+

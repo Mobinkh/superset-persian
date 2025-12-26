@@ -3986,7 +3986,7 @@ msgstr ""
 msgid "Delete user"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr ""
 
@@ -6487,7 +6487,7 @@ msgstr ""
 msgid "Live render"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Load CSS template"
 msgstr ""
 
@@ -9058,7 +9058,7 @@ msgstr ""
 msgid "Save changes to your chart?"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Save changes to your dashboard?"
 msgstr ""
 
@@ -13264,7 +13264,7 @@ msgstr ""
 msgid "You are adding tags to %s %ss"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -13716,7 +13716,7 @@ msgstr ""
 msgid "dashboard"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "dashboards"
 msgstr ""
 
@@ -14289,3 +14289,4 @@ msgstr ""
 
 msgid "© Layer attribution"
 msgstr ""
+

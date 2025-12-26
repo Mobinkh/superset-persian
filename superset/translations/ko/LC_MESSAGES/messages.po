@@ -1452,7 +1452,7 @@ msgstr "데이터 베이스 목록을 가져오는 도중 에러가 발생하였
 msgid "An error occurred while fetching user values: %s"
 msgstr "데이터 베이스 목록을 가져오는 도중 에러가 발생하였습니다."
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "An error occurred while formatting SQL"
 msgstr "데이터 베이스 목록을 가져오는 도중 에러가 발생하였습니다."
 
@@ -4280,7 +4280,7 @@ msgstr ""
 msgid "Delete user"
 msgstr "삭제"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "삭제"
 
@@ -9354,11 +9354,11 @@ msgstr "컬럼 목록"
 msgid "Reset columns"
 msgstr "컬럼 목록"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "비밀번호"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "비밀번호"
 
@@ -9731,7 +9731,7 @@ msgstr "차트 보기"
 msgid "Save changes to your chart?"
 msgstr "차트 보기"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Save changes to your dashboard?"
 msgstr "대시보드 추가"
 
@@ -14200,7 +14200,7 @@ msgstr ""
 msgid "You are adding tags to %s %ss"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -15294,3 +15294,4 @@ msgstr ""
 
 msgid "© Layer attribution"
 msgstr ""
+

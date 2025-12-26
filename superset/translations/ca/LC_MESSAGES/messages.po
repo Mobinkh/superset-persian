@@ -4386,7 +4386,7 @@ msgstr "Elimina aquest contenidor i desa per eliminar aquest missatge."
 msgid "Delete user"
 msgstr "Eliminar usuari"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Usuari eliminat: %s"
 
@@ -7760,7 +7760,7 @@ msgstr "Cap %s encara"
 msgid "No Data"
 msgstr "Sense Dades"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "Cap %s encara"
 
@@ -9463,11 +9463,11 @@ msgstr "Restablir columnes"
 msgid "Reset columns"
 msgstr "Restablir columnes"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "CONTRASENYA %s"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "CONTRASENYA %s"
 
@@ -14099,7 +14099,7 @@ msgstr "No s'ha pogut comprovar la teva consulta"
 msgid "Waterfall Chart"
 msgstr "Gràfic de Cascada"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "No es pot connectar a la base de dades \"%(database)s\"."
 
@@ -14613,7 +14613,7 @@ msgstr "Sí, sobreescriure canvis"
 msgid "You are adding tags to %s %ss"
 msgstr "Estàs afegint etiquetes a %s %ss"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr "Eliminada 1 columna del dataset virtual"
 
@@ -15722,3 +15722,4 @@ msgstr "àrea de zoom"
 
 msgid "© Layer attribution"
 msgstr "© Atribució de capa"
+

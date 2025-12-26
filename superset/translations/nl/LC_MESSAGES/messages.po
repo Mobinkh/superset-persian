@@ -4428,7 +4428,7 @@ msgstr "Verwijder deze container en sla op om dit bericht te verwijderen."
 msgid "Delete user"
 msgstr "Verwijder query"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Verwijderd: %s"
 
@@ -7862,7 +7862,7 @@ msgstr "Nog geen %s"
 msgid "No Data"
 msgstr "Geen Data"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "Nog geen %s"
 
@@ -9578,11 +9578,11 @@ msgstr "Selecteer kolom"
 msgid "Reset columns"
 msgstr "Selecteer kolom"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s WACHTWOORD"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s WACHTWOORD"
 
@@ -14251,7 +14251,7 @@ msgstr "Kon uw query niet controleren"
 msgid "Waterfall Chart"
 msgstr "Waterval Diagram"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "Kan geen verbinding maken met database “%(database)s”."
 
@@ -14810,7 +14810,7 @@ msgstr "Ja, wijzigingen overschrijven"
 msgid "You are adding tags to %s %ss"
 msgstr "U voegt labels toe aan %s %ss"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -15930,3 +15930,4 @@ msgstr "zoom gebied"
 
 msgid "© Layer attribution"
 msgstr ""
+

@@ -4083,7 +4083,7 @@ msgstr ""
 msgid "Delete user"
 msgstr "Sorguyu sil"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Silindi: %s"
 
@@ -8928,11 +8928,11 @@ msgstr "Kolon seç"
 msgid "Reset columns"
 msgstr "Kolon seç"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s ŞİFRE"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s ŞİFRE"
 
@@ -13586,7 +13586,7 @@ msgstr "Evet, değişiklikleri üstüne yaz"
 msgid "You are adding tags to %s %ss"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -14629,3 +14629,4 @@ msgstr ""
 
 msgid "© Layer attribution"
 msgstr ""
+

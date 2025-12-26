@@ -4473,7 +4473,7 @@ msgstr ""
 msgid "Delete user"
 msgstr "Abfrage löschen"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Gelöscht: %s"
 
@@ -7916,7 +7916,7 @@ msgstr "Noch keine %s"
 msgid "No Data"
 msgstr "Keine Daten"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "Noch keine %s"
 
@@ -9669,11 +9669,11 @@ msgstr "Spalte auswählen"
 msgid "Reset columns"
 msgstr "Spalte auswählen"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s PASSWORT"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s PASSWORT"
 
@@ -14420,7 +14420,7 @@ msgstr "Ihre Abfrage konnte nicht überprüft werden"
 msgid "Waterfall Chart"
 msgstr "Wasserfall-Diagramm"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr ""
 "Es konnte keine Verbindung zur Datenbank \"%(database)s\" hergestellt "
@@ -14984,7 +14984,7 @@ msgstr "Ja, Änderungen überschreiben"
 msgid "You are adding tags to %s %ss"
 msgstr "Sie fügen Tags zu %s %ss hinzu."
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -16108,3 +16108,4 @@ msgstr "Zoombereich"
 
 msgid "© Layer attribution"
 msgstr ""
+

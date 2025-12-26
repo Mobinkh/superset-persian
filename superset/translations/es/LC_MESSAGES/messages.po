@@ -4210,7 +4210,7 @@ msgstr "Esquema predeterminado"
 msgid "Default URL"
 msgstr "URL predeterminada"
 
-#, fuzzy, python-brace-format
+#, fuzzy
 msgid ""
 "Default URL to redirect to when accessing from the dataset list page. "
 "Accepts relative URLs such as"
@@ -4438,7 +4438,7 @@ msgstr "Borra este contenedor y guarda para eliminar este mensaje."
 msgid "Delete user"
 msgstr "Eliminar usuario"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Usuario eliminado: %s"
 
@@ -7848,7 +7848,7 @@ msgstr "Todavía no hay %s"
 msgid "No Data"
 msgstr "No hay datos"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "Todavía no hay %s"
 
@@ -9581,11 +9581,11 @@ msgstr "Restablecer columnas"
 msgid "Reset columns"
 msgstr "Restablecer columnas"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s CONTRASEÑA"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s CONTRASEÑA"
 
@@ -14293,7 +14293,7 @@ msgstr "No se ha podido comprobar su consulta"
 msgid "Waterfall Chart"
 msgstr "Gráfico de cascada"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "No se ha podido conectar a la base de datos «%(database)s»."
 
@@ -14850,7 +14850,7 @@ msgstr "Sí, sobrescribir los cambios"
 msgid "You are adding tags to %s %ss"
 msgstr "Está añadiendo etiquetas a %s %ss"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr "Se ha eliminado 1 columna del conjunto de datos virtual"
 
@@ -15965,3 +15965,4 @@ msgstr "área del «zoom»"
 
 msgid "© Layer attribution"
 msgstr "© Atribución de la capa"
+

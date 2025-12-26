@@ -4406,7 +4406,7 @@ msgstr "Видаліть цей контейнер і збережіть, щоб
 msgid "Delete user"
 msgstr "Видалити запит"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Видалено: %s"
 
@@ -7863,7 +7863,7 @@ msgstr "Ще немає %s"
 msgid "No Data"
 msgstr "Немає даних"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "Ще немає %s"
 
@@ -9589,11 +9589,11 @@ msgstr "Виберіть стовпець"
 msgid "Reset columns"
 msgstr "Виберіть стовпець"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s пароль"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s пароль"
 
@@ -14234,7 +14234,7 @@ msgstr "Не зміг перевірити ваш запит"
 msgid "Waterfall Chart"
 msgstr "Шукайте всі діаграми"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "Неможливо підключитися до бази даних “%(database)s”."
 
@@ -14779,7 +14779,7 @@ msgstr "Так, переписати зміни"
 msgid "You are adding tags to %s %ss"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -15909,3 +15909,4 @@ msgstr "масштаб"
 
 msgid "© Layer attribution"
 msgstr ""
+

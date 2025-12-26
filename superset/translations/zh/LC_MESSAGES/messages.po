@@ -4337,7 +4337,7 @@ msgstr "删除此容器并保存以移除此消息。"
 msgid "Delete user"
 msgstr "删除查询"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "已删除：%s"
 
@@ -7792,7 +7792,7 @@ msgstr "还没有 %s"
 msgid "No Data"
 msgstr "没有数据"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "还没有 %s"
 
@@ -9508,11 +9508,11 @@ msgstr "选择列"
 msgid "Reset columns"
 msgstr "选择列"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s 密码"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s 密码"
 
@@ -13942,7 +13942,7 @@ msgstr "无法检查你的查询语句"
 msgid "Waterfall Chart"
 msgstr "瀑布图"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "不能连接到数据库\"%(database)s\""
 
@@ -14465,7 +14465,7 @@ msgstr "是的，覆盖"
 msgid "You are adding tags to %s %ss"
 msgstr "你给 %s %ss 添加了标签"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -15611,3 +15611,4 @@ msgstr "缩放面积"
 
 msgid "© Layer attribution"
 msgstr ""
+

@@ -4317,7 +4317,7 @@ msgstr ""
 msgid "Delete user"
 msgstr "Cancella"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "Cancella"
 
@@ -9457,11 +9457,11 @@ msgstr "Colonna del Tempo"
 msgid "Reset columns"
 msgstr "Colonna del Tempo"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "Porta Broker"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "Porta Broker"
 
@@ -14342,7 +14342,7 @@ msgstr ""
 msgid "You are adding tags to %s %ss"
 msgstr ""
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -15455,3 +15455,4 @@ msgstr ""
 
 msgid "© Layer attribution"
 msgstr ""
+

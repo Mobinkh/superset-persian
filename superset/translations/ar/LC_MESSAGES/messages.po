@@ -4348,7 +4348,7 @@ msgstr "احذف هذه الحاوية واحفظها لإزالة هذه الر
 msgid "Delete user"
 msgstr "حذف الاستعلام"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Delete user registration"
 msgstr "تم الحذف: %s"
 
@@ -7808,7 +7808,7 @@ msgstr "لا %s حتى الآن"
 msgid "No Data"
 msgstr "ما من بيانات"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "No Logs yet"
 msgstr "لا %s حتى الآن"
 
@@ -9508,11 +9508,11 @@ msgstr "حدد العمود"
 msgid "Reset columns"
 msgstr "حدد العمود"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset my password"
 msgstr "%s كلمة المرور"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Reset password"
 msgstr "%s كلمة المرور"
 
@@ -14052,7 +14052,7 @@ msgstr "لم يكن قادرًا على التحقق من الاستعلام ا�
 msgid "Waterfall Chart"
 msgstr "مخطط الشلال"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "We are unable to connect to your database."
 msgstr "غير قادر على الاتصال بقاعدة البيانات \"%(database)s\"."
 
@@ -14576,7 +14576,7 @@ msgstr "نعم، استبدل التغييرات"
 msgid "You are adding tags to %s %ss"
 msgstr "أنت تضيف علامات إلى  %s %ss"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "You are edting a query from the virtual dataset "
 msgstr ""
 
@@ -15678,3 +15678,4 @@ msgstr ""
 
 msgid "© Layer attribution"
 msgstr ""
+
