@@ -746,7 +746,7 @@ EXTRA_CATEGORICAL_COLOR_SCHEMES: list[dict[str, Any]] = []
 
 # Default theme configuration
 # Leave empty to use Superset's default theme
-THEME_DEFAULT: Theme = {"algorithm": "default"}
+THEME_DEFAULT: Theme = {"algorithm": "default", "token": {"direction": "ltr"}}
 
 # Dark theme configuration
 # Applied when user selects dark mode

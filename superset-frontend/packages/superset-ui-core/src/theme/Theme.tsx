@@ -20,7 +20,7 @@
 // eslint-disable-next-line no-restricted-syntax
 import React from 'react';
 import { theme as antdThemeImport, ConfigProvider } from 'antd';
-
+import stylisRTLPlugin from 'stylis-plugin-rtl';
 // @fontsource/* v5.1+ doesn't play nice with eslint-import plugin v2.31+
 /* eslint-disable import/extensions */
 import '@fontsource/inter/200.css';
@@ -43,6 +43,8 @@ import {
 } from '@emotion/react';
 import createCache from '@emotion/cache';
 import { noop } from 'lodash';
+import { DirectionType } from 'antd/es/config-provider';
+import { isThemeDark } from './utils/themeUtils';
 import { GlobalStyles } from './GlobalStyles';
 
 import {
@@ -90,6 +92,18 @@ export class Theme {
     fontWeightLight: '300',
     fontWeightStrong: 500,
   };
+
+  createCache() {
+    return {
+      ltr: createCache({
+        key: 'superset-ltr',
+      }),
+      rtl: createCache({
+        key: 'superset-rtl',
+        stylisPlugins: [stylisRTLPlugin],
+      }),
+    };
+  }
 
   private antdConfig: AntdThemeConfig;
 
@@ -162,11 +176,7 @@ export class Theme {
     };
 
     // Update the providers with the fully formed theme
-    this.updateProviders(
-      this.theme,
-      this.antdConfig,
-      createCache({ key: 'superset' }),
-    );
+    this.updateProviders(this.theme, this.antdConfig, this.createCache());
   }
 
   /**
@@ -205,6 +215,14 @@ export class Theme {
     this.setConfig(newConfig);
   }
 
+  setDirection(direction: DirectionType): void {
+    // Update the providers with the fully formed theme
+    this.updateProviders(
+      { ...this.theme, direction },
+      this.antdConfig,
+      this.createCache(),
+    );
+  }
   json(): string {
     return JSON.stringify(serializeThemeConfig(this.antdConfig), null, 2);
   }
@@ -227,18 +245,23 @@ export class Theme {
     const [themeState, setThemeState] = React.useState({
       theme: this.theme,
       antdConfig: this.antdConfig,
-      emotionCache: createCache({ key: 'superset' }),
+      emotionCache: this.createCache(),
     });
 
+    const { direction = 'ltr' } = themeState.theme;
     this.updateProviders = (theme, antdConfig, emotionCache) => {
       setThemeState({ theme, antdConfig, emotionCache });
+      if (theme.direction === 'rtl') {
+        document?.documentElement?.setAttribute('dir', 'rtl');
+        document?.documentElement?.setAttribute('data-direction', 'rtl');
+      }
     };
 
     return (
-      <EmotionCacheProvider value={themeState.emotionCache}>
+      <EmotionCacheProvider value={themeState.emotionCache[direction]}>
         <ThemeProvider theme={themeState.theme}>
           <GlobalStyles />
-          <ConfigProvider theme={themeState.antdConfig}>
+          <ConfigProvider theme={themeState.antdConfig} direction={direction}>
             {children}
           </ConfigProvider>
         </ThemeProvider>

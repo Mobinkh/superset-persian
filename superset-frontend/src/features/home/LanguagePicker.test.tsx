@@ -34,10 +34,11 @@ const mockedProps = {
       url: '/lang/it',
     },
   },
+  setDirection: () => {},
 };
 
-const TestLanguagePicker = ({ locale, languages }: typeof mockedProps) => {
-  const languageMenuItem = useLanguageMenuItems({ locale, languages });
+const TestLanguagePicker = ({ locale, languages, setDirection }: typeof mockedProps) => {
+  const languageMenuItem = useLanguageMenuItems({ locale, languages, setDirection });
 
   return (
     <Menu aria-label="Languages" items={[languageMenuItem]} mode="horizontal" />

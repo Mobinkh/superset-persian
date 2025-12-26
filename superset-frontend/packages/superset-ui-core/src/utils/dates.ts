@@ -27,6 +27,8 @@ import duration from 'dayjs/plugin/duration';
 import updateLocale from 'dayjs/plugin/updateLocale';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore';
+import jalaliday from 'jalaliday';
+import 'dayjs/locale/fa';
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -37,6 +39,7 @@ dayjs.extend(duration);
 dayjs.extend(updateLocale);
 dayjs.extend(localizedFormat);
 dayjs.extend(isSameOrBefore);
+dayjs.extend(jalaliday);
 
 dayjs.updateLocale('en', {
   invalidDate: 'Invalid date',

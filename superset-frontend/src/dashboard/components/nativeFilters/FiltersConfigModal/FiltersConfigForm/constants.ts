@@ -35,4 +35,5 @@ export const FILTER_SUPPORTED_TYPES = {
     GenericDataType.Temporal,
   ],
   filter_range: [GenericDataType.Numeric],
+  filter_persian_calendar: [GenericDataType.Temporal],
 };

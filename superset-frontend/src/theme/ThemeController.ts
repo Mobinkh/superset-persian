@@ -27,6 +27,7 @@ import {
   ThemeMode,
   themeObject as supersetThemeObject,
 } from '@superset-ui/core';
+import { DirectionType } from 'antd/es/config-provider';
 import {
   getAntdConfig,
   normalizeThemeConfig,
@@ -331,6 +332,16 @@ export class ThemeController {
     this.updateTheme(defaultTheme);
   }
 
+  /**
+   * Sets the direction ('ltr', 'rtl', undefined).
+   * @param direction - The new direction to apply
+   */
+  public setDirection(direction: DirectionType): void {
+    this.validateThemeUpdatePermission();
+
+    this.globalTheme.setDirection(direction);
+  }
+  
   /**
    * Sets a CRUD theme by ID. This will fetch the theme from the API and cache it for dashboard contexts.
    * @param themeId - The ID of the CRUD theme to apply

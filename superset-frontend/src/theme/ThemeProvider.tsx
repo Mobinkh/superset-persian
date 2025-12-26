@@ -24,6 +24,7 @@ import {
   useMemo,
   useState,
 } from 'react';
+import { DirectionType } from 'antd/es/config-provider';
 import {
   type AnyThemeConfig,
   type ThemeContextType,
@@ -75,6 +76,11 @@ export function SupersetThemeProvider({
     [themeController],
   );
 
+  const setDirection = useCallback(
+    (direction: DirectionType) => themeController.setDirection(direction),
+    [themeController],
+  );
+
   // setCrudTheme removed - dashboards should NOT modify the global controller
 
   const setTemporaryTheme = useCallback(
@@ -123,6 +129,7 @@ export function SupersetThemeProvider({
       themeMode: currentThemeMode,
       setTheme,
       setThemeMode,
+      setDirection,
       resetTheme,
       setTemporaryTheme,
       clearLocalOverrides,
@@ -138,6 +145,7 @@ export function SupersetThemeProvider({
       currentThemeMode,
       setTheme,
       setThemeMode,
+      setDirection,
       resetTheme,
       setTemporaryTheme,
       clearLocalOverrides,
