@@ -31,6 +31,7 @@ import {
   getAntdConfig,
   normalizeThemeConfig,
 } from '@superset-ui/core/theme/utils';
+import { DirectionType } from 'antd/es/config-provider';
 import type {
   BootstrapThemeData,
   BootstrapThemeDataConfig,
@@ -320,6 +321,16 @@ export class ThemeController {
     this.updateTheme(theme);
   }
 
+  /**
+   * Sets the direction ('ltr', 'rtl', undefined).
+   * @param direction - The new direction to apply
+   */
+  public setDirection(direction: DirectionType): void {
+    this.validateThemeUpdatePermission();
+
+    this.globalTheme.setDirection(direction);
+  }
+  
   /**
    * Resets the theme to the default theme.
    */

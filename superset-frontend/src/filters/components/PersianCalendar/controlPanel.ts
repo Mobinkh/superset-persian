@@ -16,11 +16,35 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-export { CommonFrame } from './CommonFrame';
-export { CalendarFrame } from './CalendarFrame';
-export { CurrentCalendarFrame } from './CurrentCalendarFrame';
-export { CustomFrame } from './CustomFrame';
-export { AdvancedFrame } from './AdvancedFrame';
-export { DateLabel } from './DateLabel';
-export { PersianCalendarFrame } from './PersianCalendarFrame';
-export { JalaliDatePicker } from './JalaliDatePicker';
+import { t } from '@superset-ui/core';
+
+export default {
+  controlPanelSections: [
+    {
+      label: t('Query'),
+      expanded: true,
+      controlSetRows: [
+        [
+          {
+            name: 'viz_type',
+            config: {
+              type: 'HiddenControl',
+              label: t('Viz Type'),
+              default: 'filter_persian_calendar',
+            },
+          },
+        ],
+        [
+          {
+            name: 'time_range',
+            config: {
+              type: 'HiddenControl',
+              label: t('Time Range'),
+              default: 'No filter',
+            },
+          },
+        ],
+      ],
+    },
+  ],
+};

@@ -16,11 +16,25 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-export { CommonFrame } from './CommonFrame';
-export { CalendarFrame } from './CalendarFrame';
-export { CurrentCalendarFrame } from './CurrentCalendarFrame';
-export { CustomFrame } from './CustomFrame';
-export { AdvancedFrame } from './AdvancedFrame';
-export { DateLabel } from './DateLabel';
-export { PersianCalendarFrame } from './PersianCalendarFrame';
-export { JalaliDatePicker } from './JalaliDatePicker';
+import { buildQueryContext, BuildQuery, QueryFormData } from '@superset-ui/core';
+
+const buildQuery: BuildQuery<QueryFormData> = (
+  formData: QueryFormData,
+  options,
+) => {
+  // For native filters, return a minimal valid query structure
+  // The filter works by setting data mask which affects other charts
+  return buildQueryContext(formData, () => {
+    return [
+      {
+        result_type: 'columns',
+        columns: [],
+        metrics: [],
+        orderby: [],
+        time_range: formData.time_range,
+      },
+    ];
+  });
+};
+
+export default buildQuery;

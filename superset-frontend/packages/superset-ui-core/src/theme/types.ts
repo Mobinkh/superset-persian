@@ -24,6 +24,7 @@ import { theme as antdThemeImport } from 'antd';
  * Get AntdThemeConfig type from the theme object
  */
 import type { ThemeConfig } from 'antd';
+import { DirectionType } from 'antd/es/config-provider';
 import { Theme } from '.';
 
 /**
@@ -123,6 +124,42 @@ export interface SupersetSpecificTokens {
   brandLogoMargin: string;
   brandLogoHref: string;
   brandLogoHeight: string;
+
+  direction: DirectionType;
+  // Spinner-related
+  brandSpinnerUrl?: string;
+  brandSpinnerSvg?: string;
+
+  // Font loading
+  /**
+   * Array of font URLs to load for this theme.
+   * Supports multiple URLs for loading different font families or mixing providers.
+   * Each URL is injected as a CSS @import when the theme is applied.
+   *
+   * @example
+   * Multiple font families from Google Fonts
+   * fontUrls: [
+   *   "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap",
+   *   "https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+   * ]
+   *
+   * @example
+   * Mix Google Fonts and Adobe Fonts
+   * fontUrls: [
+   *   "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap",
+   *   "https://use.typekit.net/abc123.css"
+   * ]
+   */
+  fontUrls?: string[];
+
+  // ECharts-related
+  /** Global ECharts configuration overrides applied to all chart types */
+  echartsOptionsOverrides?: any;
+
+  /** Chart-specific ECharts configuration overrides keyed by viz_type */
+  echartsOptionsOverridesByChartType?: {
+    [chartType: string]: any;
+  };
 }
 
 /**
@@ -388,6 +425,7 @@ export interface ThemeContextType {
   themeMode: ThemeMode;
   setTheme: (config: AnyThemeConfig) => void;
   setThemeMode: (newMode: ThemeMode) => void;
+  setDirection: (newDirection: DirectionType) => void;
   resetTheme: () => void;
   setTemporaryTheme: (config: AnyThemeConfig) => void;
   clearLocalOverrides: () => void;

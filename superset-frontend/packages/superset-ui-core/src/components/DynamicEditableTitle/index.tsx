@@ -56,7 +56,7 @@ const titleStyles = (theme: SupersetTheme) => css`
 
   & .input-sizer {
     position: absolute;
-    left: -9999px;
+    opacity: 0;
     display: inline-block;
     white-space: pre;
   }
@@ -89,7 +89,8 @@ export const DynamicEditableTitle = memo(
         if (sizerRef.current.setSelectionRange) {
           const { length } = sizerRef.current.value;
           sizerRef.current.setSelectionRange(length, length);
-          sizerRef.current.scrollLeft = sizerRef.current.scrollWidth;
+          sizerRef.current.scrollLeft =
+            theme.direction === 'rtl' ? 0 : sizerRef.current.scrollWidth;
         }
       }
     }, [isEditing]);
