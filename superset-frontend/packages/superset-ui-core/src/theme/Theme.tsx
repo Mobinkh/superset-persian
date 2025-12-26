@@ -43,7 +43,9 @@ import {
   CacheProvider as EmotionCacheProvider,
 } from '@emotion/react';
 import createCache from '@emotion/cache';
-import { noop, mergeWith } from 'lodash';
+import { noop } from 'lodash';
+import { DirectionType } from 'antd/es/config-provider';
+import { isThemeDark } from './utils/themeUtils';
 import { GlobalStyles } from './GlobalStyles';
 
 import {
