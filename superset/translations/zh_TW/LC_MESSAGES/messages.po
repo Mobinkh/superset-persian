@@ -17,53 +17,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apache Superset 0.22.1\n"
 "Report-Msgid-Bugs-To: bestlong168@gmail.com\n"
-"POT-Creation-Date: 2025-04-29 12:34+0330\n"
+"POT-Creation-Date: 2025-12-26 20:28+0330\n"
 "PO-Revision-Date: 2019-01-04 22:19+0800\n"
 "Last-Translator: Shao Yu-Lung <bestlong168@gmail.com>\n"
 "Language: zh_TW\n"
 "Language-Team: zh_TW <bestlong168@gmail.com>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-
-msgid ""
-"\n"
-"                The cumulative option allows you to see how your data "
-"accumulates over different\n"
-"                values. When enabled, the histogram bars represent the "
-"running total of frequencies\n"
-"                up to each bin. This helps you understand how likely it "
-"is to encounter values\n"
-"                below a certain point. Keep in mind that enabling "
-"cumulative doesn't change your\n"
-"                original data, it just changes the way the histogram is "
-"displayed."
-msgstr ""
-
-msgid ""
-"\n"
-"                The normalize option transforms the histogram values into"
-" proportions or\n"
-"                probabilities by dividing each bin's count by the total "
-"count of data points.\n"
-"                This normalization process ensures that the resulting "
-"values sum up to 1,\n"
-"                enabling a relative comparison of the data's distribution"
-" and providing a\n"
-"                clearer understanding of the proportion of data points "
-"within each bin."
-msgstr ""
-
-msgid ""
-"\n"
-"                This filter was inherited from the dashboard's context.\n"
-"                It won't be saved when saving the chart.\n"
-"              "
-msgstr ""
-"\n"
-"此過濾條件是從看板上下文繼承的。保存圖表時不會保存。"
+"Generated-By: Babel 2.17.0\n"
 
 #, python-format
 msgid ""
@@ -74,6 +37,45 @@ msgid ""
 "            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n"
 "            "
 msgstr ""
+
+msgid ""
+"\r\n"
+"                The cumulative option allows you to see how your data "
+"accumulates over different\r\n"
+"                values. When enabled, the histogram bars represent the "
+"running total of frequencies\r\n"
+"                up to each bin. This helps you understand how likely it "
+"is to encounter values\r\n"
+"                below a certain point. Keep in mind that enabling "
+"cumulative doesn't change your\r\n"
+"                original data, it just changes the way the histogram is "
+"displayed."
+msgstr ""
+
+msgid ""
+"\r\n"
+"                The normalize option transforms the histogram values into"
+" proportions or\r\n"
+"                probabilities by dividing each bin's count by the total "
+"count of data points.\r\n"
+"                This normalization process ensures that the resulting "
+"values sum up to 1,\r\n"
+"                enabling a relative comparison of the data's distribution"
+" and providing a\r\n"
+"                clearer understanding of the proportion of data points "
+"within each bin."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"\r\n"
+"                This filter was inherited from the dashboard's context."
+"\r\n"
+"                It won't be saved when saving the chart.\r\n"
+"              "
+msgstr ""
+"\n"
+"此過濾條件是從看板上下文繼承的。保存圖表時不會保存。"
 
 msgid " (excluded)"
 msgstr "(不包含)"
@@ -98,6 +100,10 @@ msgstr ""
 msgid " expression which needs to adhere to the "
 msgstr " 表達式必須基於 "
 
+#, fuzzy
+msgid " for details."
+msgstr "詳細訊息"
+
 #, python-format
 msgid " near '%(highlight)s'"
 msgstr ""
@@ -105,20 +111,23 @@ msgstr ""
 msgid " source code of Superset's sandboxed parser"
 msgstr ""
 
+#, fuzzy
 msgid ""
-" standard to ensure that the lexicographical ordering\n"
-"                      coincides with the chronological ordering. If the\n"
+" standard to ensure that the lexicographical ordering\r\n"
+"                      coincides with the chronological ordering. If the"
+"\r\n"
 "                      timestamp format does not adhere to the ISO 8601 "
-"standard\n"
-"                      you will need to define an expression and type for\n"
+"standard\r\n"
+"                      you will need to define an expression and type for"
+"\r\n"
 "                      transforming the string into a date or timestamp. "
-"Note\n"
+"Note\r\n"
 "                      currently time zones are not supported. If time is "
-"stored\n"
+"stored\r\n"
 "                      in epoch format, put `epoch_s` or `epoch_ms`. If no"
-" pattern\n"
+" pattern\r\n"
 "                      is specified we fall back to using the optional "
-"defaults on a per\n"
+"defaults on a per\r\n"
 "                      database/column name level via the extra parameter."
 msgstr ""
 "來確保字符的表達順序與時間順序一致的標準。如果時間戳格式不符合 ISO 8601 "
@@ -133,6 +142,9 @@ msgstr "增加計算列"
 msgid " to add metrics"
 msgstr "增加指標"
 
+msgid " to check for details."
+msgstr ""
+
 #, fuzzy
 msgid " to edit or add columns and metrics."
 msgstr "編輯或增加列與指標"
@@ -143,11 +155,23 @@ msgstr "標記欄位為時間欄位"
 msgid " to open SQL Lab. From there you can save the query as a dataset."
 msgstr "然後打開 SQL 工具箱。在那裡你可以將查詢保存為一個數據集。"
 
+#, fuzzy
+msgid " to see details."
+msgstr "查看查詢詳情"
+
 msgid " to visualize your data."
 msgstr ""
 
 msgid "!= (Is not equal)"
 msgstr "不等於（!=）"
+
+#, python-format
+msgid "\"%s\" is now the system dark theme"
+msgstr ""
+
+#, python-format
+msgid "\"%s\" is now the system default theme"
+msgstr ""
 
 #, fuzzy, python-format
 msgid "% calculation"
@@ -281,6 +305,11 @@ msgid "%s recipients"
 msgstr "%s 最近"
 
 #, fuzzy, python-format
+msgid "%s record"
+msgid_plural "%s records..."
+msgstr[0] "%s 異常"
+
+#, fuzzy, python-format
 msgid "%s row"
 msgid_plural "%s rows"
 msgstr[0] "%s 行"
@@ -290,16 +319,16 @@ msgid "%s saved metric(s)"
 msgstr "%s 保存的指標"
 
 #, fuzzy, python-format
+msgid "%s tab selected"
+msgstr "%s 已選定"
+
+#, fuzzy, python-format
 msgid "%s updated"
 msgstr "上次更新 %s"
 
 #, python-format
 msgid "%s%s"
 msgstr "%s%s"
-
-#, python-format
-msgid "%s-%s of %s"
-msgstr "%s-%s 總計 %s"
 
 msgid "(Removed)"
 msgstr "(已删除)"
@@ -336,6 +365,9 @@ msgstr ""
 
 #, python-format
 msgid "+ %s more"
+msgstr ""
+
+msgid ", then paste the JSON below. See our"
 msgstr ""
 
 msgid ""
@@ -605,6 +637,10 @@ msgid "A Big Number"
 msgstr "大數字"
 
 #, fuzzy
+msgid "A comma separated list of columns that should be parsed as dates"
+msgstr "應作為日期解析的列的逗號分隔列表。"
+
+#, fuzzy
 msgid "A comma-separated list of schemas that files are allowed to upload to."
 msgstr "允許以逗號分割的 CSV 文件上傳"
 
@@ -617,6 +653,7 @@ msgstr "已存在同名的資料庫。"
 msgid "A date is required when using custom date shift"
 msgstr ""
 
+#, python-brace-format
 msgid ""
 "A dictionary with column names and their data types if you need to change"
 " the defaults. Example: {\"user_id\":\"int\"}. Check Python's Pandas "
@@ -710,12 +747,16 @@ msgstr "需要有效的配色方案"
 
 msgid ""
 "A waterfall chart is a form of data visualization that helps in "
-"understanding\n"
+"understanding\r\n"
 "          the cumulative effect of sequentially introduced positive or "
-"negative values.\n"
+"negative values.\r\n"
 "          These intermediate values can either be time based or category "
 "based."
 msgstr ""
+
+#, fuzzy
+msgid "AND"
+msgstr "随機"
 
 msgid "APPLY"
 msgstr "應用"
@@ -728,13 +769,6 @@ msgstr "異步執行查詢"
 
 msgid "AUG"
 msgstr "八月"
-
-msgid "Axis title margin"
-msgstr "軸標題邊距"
-
-#, fuzzy
-msgid "Axis title position"
-msgstr "軸標題的位置"
 
 msgid "About"
 msgstr "關於"
@@ -750,6 +784,10 @@ msgid "Action"
 msgstr "操作"
 
 msgid "Action Log"
+msgstr "操作日誌"
+
+#, fuzzy
+msgid "Action Logs"
 msgstr "操作日誌"
 
 msgid "Actions"
@@ -801,12 +839,8 @@ msgid "Add Dashboard"
 msgstr "新增看板"
 
 #, fuzzy
-msgid "Add divider"
-msgstr "分隔"
-
-#, fuzzy
-msgid "Add filter"
-msgstr "增加過濾條件"
+msgid "Add Group"
+msgstr "新增規則"
 
 #, fuzzy
 msgid "Add Layer"
@@ -814,6 +848,11 @@ msgstr "隐藏 Layer"
 
 msgid "Add Log"
 msgstr "新增日誌"
+
+msgid ""
+"Add Query A and Query B identifiers to tooltips to help differentiate "
+"series"
+msgstr ""
 
 msgid "Add Report"
 msgstr "新增報告"
@@ -879,6 +918,9 @@ msgstr ""
 msgid "Add color for positive/negative change"
 msgstr ""
 
+msgid "Add colors to cell bars for +/-"
+msgstr ""
+
 #, fuzzy
 msgid "Add cross-filter"
 msgstr "增加過濾條件"
@@ -898,20 +940,26 @@ msgid "Add description of your tag"
 msgstr "為您的查詢寫一段描述"
 
 #, fuzzy
+msgid "Add divider"
+msgstr "分隔"
+
+#, fuzzy
 msgid "Add extra connection information."
 msgstr "增加額外的連接訊息"
 
+#, fuzzy
 msgid "Add filter"
 msgstr "增加過濾條件"
 
+#, fuzzy
 msgid ""
-"Add filter clauses to control the filter's source query,\n"
+"Add filter clauses to control the filter's source query,\r\n"
 "                    though only in the context of the autocomplete i.e., "
-"these conditions\n"
+"these conditions\r\n"
 "                    do not impact how the filter is applied to the "
-"dashboard. This is useful\n"
+"dashboard. This is useful\r\n"
 "                    when you want to improve the query's performance by "
-"only scanning a subset\n"
+"only scanning a subset\r\n"
 "                    of the underlying data or limit the available values "
 "displayed in the filter."
 msgstr "為控制篩選器的源查詢增加篩選條件，但這只限於自動完成的上下文，即這些條件不會影響篩選器在仪表板上的應用方式。當你希望通過只掃描底層數據的一個子集來提高查詢性能，或者限制篩選器中顯示的可用值範圍時，這一點特别有用。"
@@ -954,6 +1002,10 @@ msgstr "給圖表增加名稱"
 #, fuzzy
 msgid "Add the name of the dashboard"
 msgstr "給看板增加名稱"
+
+#, fuzzy
+msgid "Add theme"
+msgstr "增加條件"
 
 msgid "Add to dashboard"
 msgstr "增加到看板"
@@ -999,16 +1051,6 @@ msgstr "附加"
 msgid ""
 "Adds color to the chart symbols based on the positive or negative change "
 "from the comparison value."
-msgstr ""
-
-msgid ""
-"Adjust column settings such as specifying the columns to read, how "
-"duplicates are handled, column data types, and more."
-msgstr ""
-
-msgid ""
-"Adjust how spaces, blank lines, null values are handled and other file "
-"wide settings."
 msgstr ""
 
 msgid "Adjust how this database will interact with SQL Lab."
@@ -1059,6 +1101,11 @@ msgstr "選擇看板"
 
 msgid "After"
 msgstr "之後"
+
+msgid ""
+"After making the changes, copy the query and paste in the virtual dataset"
+" SQL snippet settings."
+msgstr ""
 
 msgid "Aggregate"
 msgstr "聚合"
@@ -1191,6 +1238,10 @@ msgstr "所有過濾器"
 msgid "All panels"
 msgstr "應用於所有面板"
 
+#, fuzzy
+msgid "All records"
+msgstr "原始紀錄"
+
 msgid "Allow CREATE TABLE AS"
 msgstr "允許 CREATE TABLE AS"
 
@@ -1235,9 +1286,6 @@ msgstr "允許上傳文件到資料庫"
 
 msgid "Allow node selections"
 msgstr "允許節點選擇"
-
-msgid "Allow sending multiple polygons as a filter event"
-msgstr "允許使用多個多邊形來過濾事件"
 
 msgid ""
 "Allow the execution of DDL (Data Definition Language: CREATE, DROP, "
@@ -1294,10 +1342,6 @@ msgstr "向資料庫傳递單個参數時必須指定引擎。"
 msgid "An error has occurred"
 msgstr "發生了一個錯誤"
 
-#, fuzzy, python-format
-msgid "An error has occurred while syncing virtual dataset columns"
-msgstr "獲取數據集時出錯：%s"
-
 msgid "An error occurred"
 msgstr "發生了一個錯誤"
 
@@ -1351,6 +1395,10 @@ msgid "An error occurred while fetching %ss: %s"
 msgstr "抓取出錯：%ss: %s"
 
 msgid "An error occurred while fetching available CSS templates"
+msgstr "獲取可用的CSS模板時出錯"
+
+#, fuzzy
+msgid "An error occurred while fetching available themes"
 msgstr "獲取可用的CSS模板時出錯"
 
 #, python-format
@@ -1417,9 +1465,17 @@ msgid ""
 "administrator."
 msgstr "獲取表格元數據時發生錯誤。請與管理員聯繫。"
 
+#, fuzzy, python-format
+msgid "An error occurred while fetching theme datasource values: %s"
+msgstr "獲取數據集數據源訊息時出錯： %s"
+
 #, python-format
 msgid "An error occurred while fetching user values: %s"
 msgstr "獲取用戶訊息出錯：%s"
+
+#, fuzzy
+msgid "An error occurred while formatting SQL"
+msgstr "創建數據源時發生錯誤"
 
 #, python-format
 msgid "An error occurred while importing %s: %s"
@@ -1435,6 +1491,10 @@ msgstr "創建數據源時發生錯誤"
 #, fuzzy
 msgid "An error occurred while opening Explore"
 msgstr "精简日誌時出錯 "
+
+#, fuzzy
+msgid "An error occurred while overwriting the dataset"
+msgstr "創建數據源時發生錯誤"
 
 #, fuzzy
 msgid "An error occurred while parsing the key."
@@ -1596,6 +1656,9 @@ msgstr "注释與注释層"
 msgid "Annotations could not be deleted."
 msgstr "無法删除注释。"
 
+msgid "Ant Design Theme Editor"
+msgstr ""
+
 msgid "Any"
 msgstr "所有"
 
@@ -1606,6 +1669,14 @@ msgid ""
 "Any color palette selected here will override the colors applied to this "
 "dashboard's individual charts"
 msgstr "此處選擇的任何調色板都將覆盖應用於此看板的各個圖表的颜色"
+
+msgid ""
+"Any dashboards using these themes will be automatically dissociated from "
+"them."
+msgstr ""
+
+msgid "Any dashboards using this theme will be automatically dissociated from it."
+msgstr ""
 
 msgid "Any databases that allow connections via SQL Alchemy URIs can be added. "
 msgstr "可以增加任何允許通過 SQL AlChemy URI 進行連接的資料庫。"
@@ -1638,6 +1709,13 @@ msgstr "應用的滚動窗口（rolling window）未返回任何數據。請確�
 
 msgid "Apply"
 msgstr "應用"
+
+msgid "Apply & Save"
+msgstr ""
+
+#, fuzzy
+msgid "Apply Filter"
+msgstr "應用過濾器"
 
 #, fuzzy
 msgid "Apply conditional color formatting to metric"
@@ -1693,6 +1771,10 @@ msgstr "確定要删除選定的看板嗎？"
 msgid "Are you sure you want to delete the selected datasets?"
 msgstr "確定要删除選定的數據集嗎？"
 
+#, fuzzy
+msgid "Are you sure you want to delete the selected groups?"
+msgstr "確定要删除選定的圖層嗎？"
+
 msgid "Are you sure you want to delete the selected layers?"
 msgstr "確定要删除選定的圖層嗎？"
 
@@ -1715,6 +1797,10 @@ msgid "Are you sure you want to delete the selected templates?"
 msgstr "確定要删除選定的模板嗎？"
 
 #, fuzzy
+msgid "Are you sure you want to delete the selected themes?"
+msgstr "確定要删除選定的模板嗎？"
+
+#, fuzzy
 msgid "Are you sure you want to delete the selected users?"
 msgstr "您確定要删除選定的查詢嗎？"
 
@@ -1725,8 +1811,30 @@ msgstr "確定要删除選定的數據集嗎？"
 msgid "Are you sure you want to proceed?"
 msgstr "您確定要繼續執行嗎？"
 
+msgid ""
+"Are you sure you want to remove the system dark theme? The application "
+"will fall back to the configuration file dark theme."
+msgstr ""
+
+msgid ""
+"Are you sure you want to remove the system default theme? The application"
+" will fall back to the configuration file default."
+msgstr ""
+
 msgid "Are you sure you want to save and apply changes?"
 msgstr "確定要保存並應用更改嗎？"
+
+#, python-format
+msgid ""
+"Are you sure you want to set \"%s\" as the system dark theme? This will "
+"apply to all users who haven't set a personal preference."
+msgstr ""
+
+#, python-format
+msgid ""
+"Are you sure you want to set \"%s\" as the system default theme? This "
+"will apply to all users who haven't set a personal preference."
+msgstr ""
 
 #, fuzzy
 msgid "Area"
@@ -1789,11 +1897,20 @@ msgstr "自適配過濾條件"
 msgid "Autocomplete query predicate"
 msgstr "自動補全查詢谓詞"
 
-msgid "Automatic color"
-msgstr "自動配色"
+#, fuzzy
+msgid "Automatically sync columns"
+msgstr "自定義列"
+
+#, fuzzy
+msgid "Autosize All Columns"
+msgstr "自定義列"
 
 #, fuzzy
 msgid "Autosize Column"
+msgstr "自定義列"
+
+#, fuzzy
+msgid "Autosize This Column"
 msgstr "自定義列"
 
 #, fuzzy
@@ -1809,9 +1926,6 @@ msgstr "可用分類模式:"
 #, fuzzy
 msgid "Average"
 msgstr "平均值"
-
-msgid "Average (Mean)"
-msgstr ""
 
 #, fuzzy
 msgid "Average value"
@@ -1837,6 +1951,13 @@ msgstr "軸線升序"
 
 msgid "Axis descending"
 msgstr "軸線降序"
+
+msgid "Axis title margin"
+msgstr "軸標題邊距"
+
+#, fuzzy
+msgid "Axis title position"
+msgstr "軸標題的位置"
 
 #, fuzzy
 msgid "BCC recipients"
@@ -1921,6 +2042,10 @@ msgstr ""
 msgid "Basic"
 msgstr "基礎"
 
+#, fuzzy
+msgid "Basic conditional formatting"
+msgstr "條件格式設定"
+
 msgid "Basic information"
 msgstr "基本情况"
 
@@ -1937,9 +2062,6 @@ msgstr "之前"
 msgid "Big Number"
 msgstr "數字"
 
-msgid "Big Number Font Size"
-msgstr "數字的字體大小"
-
 msgid "Big Number with Time Period Comparison"
 msgstr ""
 
@@ -1949,6 +2071,14 @@ msgstr "带趋势線的數字"
 #, fuzzy
 msgid "Bins"
 msgstr "處於"
+
+#, fuzzy
+msgid "Blanks"
+msgstr "布林值"
+
+#, python-format
+msgid "Block %(block_num)s out of %(block_count)s"
+msgstr ""
 
 #, fuzzy
 msgid "Border color"
@@ -1979,12 +2109,22 @@ msgid "Bottom to Top"
 msgstr "自下而上"
 
 #, fuzzy
+msgid "Bounds"
+msgstr "Y 界限"
+
+#, fuzzy
 msgid ""
 "Bounds for numerical X axis. Not applicable for temporal or categorical "
 "axes. When left empty, the bounds are dynamically defined based on the "
 "min/max of the data. Note that this feature will only expand the axis "
 "range. It won't narrow the data's extent."
 msgstr "Y 軸的邊界。當空時，邊界是根据數據的最小/最大值動態定義的。請注意，此功能只會擴展軸範圍。它不會縮小數據範圍。"
+
+msgid ""
+"Bounds for the X-axis. Selected time merges with min/max date of the "
+"data. When left empty, bounds dynamically defined based on the min/max of"
+" the data."
+msgstr ""
 
 msgid ""
 "Bounds for the Y-axis. When left empty, the bounds are dynamically "
@@ -2009,11 +2149,11 @@ msgstr "Y 軸的邊界。當空時，邊界是根据數據的最小/最大值動
 
 #, fuzzy
 msgid ""
-"Bounds for the secondary Y-axis. Only works when Independent Y-axis\n"
+"Bounds for the secondary Y-axis. Only works when Independent Y-axis\r\n"
 "                bounds are enabled. When left empty, the bounds are "
-"dynamically defined\n"
+"dynamically defined\r\n"
 "                based on the min/max of the data. Note that this feature "
-"will only expand\n"
+"will only expand\r\n"
 "                the axis range. It won't narrow the data's extent."
 msgstr "Y 軸的邊界。當空時，邊界是根据數據的最小/最大值動態定義的。請注意，此功能只會擴展軸範圍。它不會縮小數據範圍。"
 
@@ -2024,7 +2164,7 @@ msgid "Breakdowns"
 msgstr "分解"
 
 msgid ""
-"Breaks down the series by the category specified in this control.\n"
+"Breaks down the series by the category specified in this control.\r\n"
 "      This can help viewers understand how each category affects the "
 "overall value."
 msgstr ""
@@ -2055,10 +2195,6 @@ msgstr "氣泡尺寸數字格式"
 
 msgid "Bucket break points"
 msgstr "桶分割點"
-
-#, fuzzy
-msgid "Build"
-msgstr "重構"
 
 msgid "Bulk select"
 msgstr "批量選擇"
@@ -2098,8 +2234,8 @@ msgid "CC recipients"
 msgstr "最近"
 
 #, fuzzy
-msgid "CREATE DATASET"
-msgstr "創建數據集"
+msgid "COPY QUERY"
+msgstr "複製查詢 URL"
 
 msgid "CREATE TABLE AS"
 msgstr "允許 CREATE TABLE AS"
@@ -2130,6 +2266,10 @@ msgstr "CSS 模板"
 msgid "CSS applied to the chart"
 msgstr ""
 
+#, fuzzy
+msgid "CSS editor"
+msgstr "即時 CSS 編輯器"
+
 msgid "CSS template"
 msgstr "CSS 模板"
 
@@ -2142,6 +2282,10 @@ msgstr "CSS 模板"
 #, fuzzy
 msgid "CSS templates could not be deleted."
 msgstr "CSS 模板不能被删除"
+
+#, fuzzy
+msgid "CSV Export"
+msgstr "導出"
 
 #, fuzzy
 msgid "CSV upload"
@@ -2235,6 +2379,16 @@ msgstr "無法訪問查詢"
 msgid "Cannot delete a database that has datasets attached"
 msgstr "無法删除附加了數據集的資料庫"
 
+#, fuzzy
+msgid "Cannot delete system themes"
+msgstr "無法訪問查詢"
+
+msgid "Cannot delete theme that is set as system default or dark theme"
+msgstr ""
+
+msgid "Cannot delete theme that is set as system default or dark theme."
+msgstr ""
+
 #, python-format
 msgid "Cannot find the table (%s) metadata."
 msgstr ""
@@ -2244,6 +2398,9 @@ msgstr ""
 
 msgid "Cannot load filter"
 msgstr "無法加载篩選器"
+
+msgid "Cannot modify system themes."
+msgstr ""
 
 #, python-format
 msgid "Cannot parse time string [%(human_readable)s]"
@@ -2263,6 +2420,10 @@ msgstr "分類"
 #, fuzzy
 msgid "Categorical Color"
 msgstr "分類颜色"
+
+#, fuzzy
+msgid "Categorical palette"
+msgstr "分類"
 
 msgid "Categories to group by on the x-axis."
 msgstr "要在 x 軸上分組的類别。"
@@ -2433,12 +2594,15 @@ msgstr "圖表 [%s] 已經保存"
 msgid "Chart [%s] was added to dashboard [%s]"
 msgstr "圖表 [%s] 已經增加到看板 [%s]"
 
+#, python-brace-format
 msgid "Chart [{}] has been overwritten"
 msgstr "圖表 [{}] 已經覆盖"
 
+#, python-brace-format
 msgid "Chart [{}] has been saved"
 msgstr "圖表 [{}] 已經保存"
 
+#, python-brace-format
 msgid "Chart [{}] was added to dashboard [{}]"
 msgstr "圖表 [{}] 已經增加到看板 [{}]"
 
@@ -2547,9 +2711,6 @@ msgstr "[標籤] 的選擇項必須出現在 [Group By]"
 msgid "Choice of [Point Radius] must be present in [Group By]"
 msgstr "[點半徑] 的選擇項必須出現在 [Group By]"
 
-msgid "Choose File"
-msgstr "選擇文件"
-
 #, fuzzy
 msgid "Choose a chart for displaying on the map"
 msgstr "選擇圖表或看板，不能都全部選擇"
@@ -2594,6 +2755,9 @@ msgstr "應作為日期解析的列的逗號分隔列表。"
 msgid "Choose columns to read"
 msgstr "要讀取的列"
 
+msgid "Choose how many X-Axis labels to show"
+msgstr ""
+
 #, fuzzy
 msgid "Choose index column"
 msgstr "索引欄位"
@@ -2601,6 +2765,10 @@ msgstr "索引欄位"
 #, fuzzy
 msgid "Choose notification method and recipients."
 msgstr "通知方式"
+
+#, fuzzy, python-format
+msgid "Choose numbers between %(min)s and %(max)s"
+msgstr "截圖寬度必須位於 %(min)spx - %(max)spx 之間"
 
 msgid "Choose one of the available databases from the panel on the left."
 msgstr "從左側的面板中選擇一個可用的資料庫"
@@ -2640,6 +2808,10 @@ msgid ""
 "color based on a categorical color palette"
 msgstr ""
 
+#, fuzzy
+msgid "Choose..."
+msgstr "選擇資料庫"
+
 msgid "Chord Diagram"
 msgstr "弦圖"
 
@@ -2672,6 +2844,10 @@ msgstr "條件"
 msgid "Clear"
 msgstr "清除"
 
+#, fuzzy
+msgid "Clear Sort"
+msgstr "清除表單"
+
 msgid "Clear all"
 msgstr "清除所有"
 
@@ -2682,6 +2858,13 @@ msgstr "清除所有"
 #, fuzzy
 msgid "Clear form"
 msgstr "清除表單"
+
+#, fuzzy
+msgid "Clear local theme"
+msgstr "線性颜色方案"
+
+msgid "Clear the selection to revert to the system default theme"
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -2711,6 +2894,10 @@ msgid ""
 msgstr "單擊此链接可切换到僅顯示連接此資料庫所需的必填欄位的备用表單。"
 
 msgid "Click to add a contour"
+msgstr "點擊增加等高線"
+
+#, fuzzy
+msgid "Click to add new breakpoint"
 msgstr "點擊增加等高線"
 
 #, fuzzy
@@ -2757,6 +2944,9 @@ msgstr "關闭"
 msgid "Close all other tabs"
 msgstr "關闭其他選項卡"
 
+msgid "Close color breakpoint editor"
+msgstr ""
+
 msgid "Close tab"
 msgstr "關闭選項卡"
 
@@ -2768,6 +2958,14 @@ msgstr "聚合半徑"
 
 msgid "Code"
 msgstr "代碼"
+
+#, fuzzy
+msgid "Code Copied!"
+msgstr "SQL 複製成功！"
+
+#, fuzzy
+msgid "Collapse All"
+msgstr "全部折叠"
 
 msgid "Collapse all"
 msgstr "全部折叠"
@@ -2784,9 +2982,6 @@ msgstr "折叠行"
 msgid "Collapse tab content"
 msgstr "折叠選項卡内容"
 
-msgid "Collapse table preview"
-msgstr "折叠表預覽"
-
 msgid "Color"
 msgstr "颜色"
 
@@ -2799,6 +2994,10 @@ msgstr "颜色指標"
 msgid "Color Scheme"
 msgstr "配色方案"
 
+#, fuzzy
+msgid "Color Scheme Type"
+msgstr "配色方案"
+
 msgid "Color Steps"
 msgstr "色階"
 
@@ -2807,11 +3006,23 @@ msgid "Color bounds"
 msgstr "色彩界限"
 
 #, fuzzy
+msgid "Color breakpoints"
+msgstr "桶分割點"
+
+#, fuzzy
 msgid "Color by"
 msgstr "颜色"
 
+#, fuzzy
+msgid "Color for breakpoint"
+msgstr "桶分割點"
+
 msgid "Color metric"
 msgstr "颜色指標"
+
+#, fuzzy
+msgid "Color of the source location"
+msgstr "目標位置的颜色"
 
 #, fuzzy
 msgid "Color of the target location"
@@ -2946,6 +3157,10 @@ msgstr "行上分組所依据的列"
 msgid "Columns to read"
 msgstr "要讀取的列"
 
+#, fuzzy
+msgid "Columns to show in the tooltip."
+msgstr "列標題提示"
+
 msgid "Combine metrics"
 msgstr "整合指標"
 
@@ -3057,6 +3272,10 @@ msgstr "顯示密碼"
 msgid "Confirm overwrite"
 msgstr "確認保存"
 
+#, fuzzy
+msgid "Confirm password"
+msgstr "顯示密碼"
+
 msgid "Confirm save"
 msgstr "確認保存"
 
@@ -3093,6 +3312,10 @@ msgstr "連接失敗，請檢查您的連接配置"
 #, fuzzy
 msgid "Connection failed, please check your connection settings."
 msgstr "連接失敗，請檢查您的連接配置"
+
+#, fuzzy
+msgid "Contains"
+msgstr "連續式"
 
 #, fuzzy
 msgid "Content format"
@@ -3147,6 +3370,10 @@ msgstr ""
 msgid "Copy and Paste JSON credentials"
 msgstr "複製和粘贴 JSON 憑證"
 
+#, fuzzy
+msgid "Copy code to clipboard"
+msgstr "複製到剪貼簿"
+
 msgid "Copy link"
 msgstr "複製链接"
 
@@ -3188,6 +3415,10 @@ msgid "Copy to clipboard"
 msgstr "複製到剪貼簿"
 
 #, fuzzy
+msgid "Copy with Headers"
+msgstr "子標題"
+
+#, fuzzy
 msgid "Corner Radius"
 msgstr "内半徑"
 
@@ -3213,6 +3444,7 @@ msgstr "找不到可視化對象"
 msgid "Could not load database driver"
 msgstr "無法加载資料庫驱動程序"
 
+#, python-brace-format
 msgid "Could not load database driver: {}"
 msgstr "無法加载資料庫驅動程序：{}"
 
@@ -3259,20 +3491,29 @@ msgid "Create"
 msgstr "創建"
 
 #, fuzzy
-msgid "Create chart"
-msgstr "創建圖表"
+msgid "Create Tag"
+msgstr "創建數據集"
 
 #, fuzzy
 msgid "Create a dataset"
 msgstr "創建數據集"
 
+#, fuzzy
 msgid ""
-"Create a dataset to begin visualizing your data as a chart or go to\n"
+"Create a dataset to begin visualizing your data as a chart or go to\r\n"
 "          SQL Lab to query your data."
 msgstr "創建一個數據集以開始將您的數據可視化為圖表，或者前往 SQL 工具箱查詢您的數據。"
 
+#, fuzzy
+msgid "Create a new Tag"
+msgstr "創建新圖表"
+
 msgid "Create a new chart"
 msgstr "創建新圖表"
+
+#, fuzzy
+msgid "Create and explore dataset"
+msgstr "創建數據集"
 
 #, fuzzy
 msgid "Create chart"
@@ -3288,10 +3529,6 @@ msgstr "Dataframe 索引"
 #, fuzzy
 msgid "Create dataset"
 msgstr "創建數據集"
-
-#, fuzzy
-msgid "Create dataset and create chart"
-msgstr "創建數據集和圖表"
 
 msgid "Create new chart"
 msgstr "創建新圖表"
@@ -3321,9 +3558,6 @@ msgstr "創建數據源，並弹出一個新的選項卡"
 
 msgid "Creator"
 msgstr "作者"
-
-msgid "Credentials uploaded"
-msgstr ""
 
 #, fuzzy
 msgid "Crimson"
@@ -3395,10 +3629,6 @@ msgstr "當前渲染為：%s"
 msgid "Custom"
 msgstr "自定義"
 
-#, fuzzy
-msgid "Custom conditional formatting"
-msgstr "條件格式設定"
-
 msgid "Custom Plugin"
 msgstr "自定義插件"
 
@@ -3420,6 +3650,10 @@ msgstr "自動補全"
 
 msgid "Custom column name (leave blank for default)"
 msgstr ""
+
+#, fuzzy
+msgid "Custom conditional formatting"
+msgstr "條件格式設定"
 
 #, fuzzy
 msgid "Custom date"
@@ -3509,10 +3743,15 @@ msgstr "黑暗模式"
 msgid "Dashboard"
 msgstr "看板"
 
+#, fuzzy
+msgid "Dashboard Id"
+msgstr "看板"
+
 #, fuzzy, python-format
 msgid "Dashboard [%s] just got created and chart [%s] was added to it"
 msgstr "看板 [%s] 刚刚被創建，並且圖表 [%s] 已被增加到其中"
 
+#, python-brace-format
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "看板 [{}] 刚刚被創建，並且圖表 [{}] 已被增加到其中"
 
@@ -3562,9 +3801,9 @@ msgid "Dashboard scheme"
 msgstr "看板模式"
 
 msgid ""
-"Dashboard time range filters apply to temporal columns defined in\n"
+"Dashboard time range filters apply to temporal columns defined in\r\n"
 "          the filter section of each chart. Add temporal columns to the "
-"chart\n"
+"chart\r\n"
 "          filters to have this dashboard filter impact those charts."
 msgstr ""
 
@@ -3685,9 +3924,6 @@ msgstr "警報需要資料庫"
 
 msgid "Database name"
 msgstr "資料庫名稱"
-
-msgid "Database not allowed to change"
-msgstr "數據集不允許被修改"
 
 msgid "Database not found."
 msgstr "資料庫没有找到"
@@ -3897,6 +4133,10 @@ msgid "Decrease"
 msgstr "減少"
 
 #, fuzzy
+msgid "Default"
+msgstr "預設"
+
+#, fuzzy
 msgid "Default Catalog"
 msgstr "預設值"
 
@@ -3908,12 +4148,15 @@ msgid "Default URL"
 msgstr "預設 URL"
 
 msgid ""
-"Default URL to redirect to when accessing from the dataset list page.\n"
-"            Accepts relative URLs such as <span style=„white-space: "
-"nowrap;”>/superset/dashboard/{id}/</span>"
+"Default URL to redirect to when accessing from the dataset list page. "
+"Accepts relative URLs such as"
 msgstr ""
 
 msgid "Default Value"
+msgstr "預設值"
+
+#, fuzzy
+msgid "Default color"
 msgstr "預設值"
 
 #, fuzzy
@@ -3959,6 +4202,9 @@ msgid ""
 "array."
 msgstr "定義一個 JavaScript 函數，該函數接收用於可視化的數據數組，並期望返回該數組的修改版本。這可以用來改變數據的属性、進行過濾或丰富數組。"
 
+msgid "Define color breakpoints for the data"
+msgstr ""
+
 msgid ""
 "Define contour layers. Isolines represent a collection of line segments "
 "that serparate the area above and below a given threshold. Isobands "
@@ -3971,6 +4217,10 @@ msgstr ""
 
 msgid "Define the database, SQL query, and triggering conditions for alert."
 msgstr ""
+
+#, fuzzy
+msgid "Defined through system configuration."
+msgstr "錯誤的經緯度配置。"
 
 msgid ""
 "Defines a rolling window function to apply, works along with the "
@@ -4022,6 +4272,10 @@ msgstr "確定删除資料庫？"
 msgid "Delete Dataset?"
 msgstr "確定删除數據集？"
 
+#, fuzzy
+msgid "Delete Group?"
+msgstr "删除"
+
 msgid "Delete Layer?"
 msgstr "確定删除圖層？"
 
@@ -4036,6 +4290,10 @@ msgid "Delete Role?"
 msgstr "删除"
 
 msgid "Delete Template?"
+msgstr "删除模板？"
+
+#, fuzzy
+msgid "Delete Theme?"
 msgstr "删除模板？"
 
 #, fuzzy
@@ -4057,6 +4315,10 @@ msgstr "删除資料庫"
 msgid "Delete email report"
 msgstr "删除郵件報告"
 
+#, fuzzy
+msgid "Delete group"
+msgstr "删除"
+
 msgid "Delete query"
 msgstr "删除查詢"
 
@@ -4067,12 +4329,24 @@ msgstr "删除"
 msgid "Delete template"
 msgstr "删除模板"
 
+#, fuzzy
+msgid "Delete theme"
+msgstr "删除模板"
+
 msgid "Delete this container and save to remove this message."
 msgstr "删除此容器並保存以移除此消息。"
 
 #, fuzzy
 msgid "Delete user"
 msgstr "删除查詢"
+
+#, fuzzy, python-format
+msgid "Delete user registration"
+msgstr "已删除：%s"
+
+#, fuzzy
+msgid "Delete user registration?"
+msgstr "删除注释？"
 
 #, fuzzy
 msgid "Deleted"
@@ -4124,7 +4398,20 @@ msgid_plural "Deleted %(num)d saved queries"
 msgstr[0] "删除 %(num)d 個保存的查詢"
 
 #, fuzzy, python-format
+msgid "Deleted %(num)d theme"
+msgid_plural "Deleted %(num)d themes"
+msgstr[0] "删除 %(num)d 個數據集"
+
+#, fuzzy, python-format
 msgid "Deleted %s"
+msgstr "已删除：%s"
+
+#, fuzzy, python-format
+msgid "Deleted group: %s"
+msgstr "已删除：%s"
+
+#, fuzzy, python-format
+msgid "Deleted groups: %s"
 msgstr "已删除：%s"
 
 #, fuzzy, python-format
@@ -4133,6 +4420,10 @@ msgstr "已删除：%s"
 
 #, fuzzy, python-format
 msgid "Deleted roles: %s"
+msgstr "已删除：%s"
+
+#, fuzzy, python-format
+msgid "Deleted user registration for user: %s"
 msgstr "已删除：%s"
 
 #, fuzzy, python-format
@@ -4183,6 +4474,10 @@ msgstr "在大數字下面顯示描述文本"
 
 msgid "Deselect all"
 msgstr "反選所有"
+
+#, fuzzy
+msgid "Design with"
+msgstr "最小寬度"
 
 #, fuzzy
 msgid "Details"
@@ -4330,6 +4625,11 @@ msgstr "分布"
 msgid "Divider"
 msgstr "分隔"
 
+msgid ""
+"Divides each category into subcategories based on the values in the "
+"dimension. It can be used to exclude intersections."
+msgstr ""
+
 msgid "Do you want a donut or a pie?"
 msgstr "是否用圆環圈替代餅圖？"
 
@@ -4448,6 +4748,10 @@ msgid "Drop columns/metrics here or click"
 msgstr "將列/指標拖放到此處或單擊"
 
 #, fuzzy
+msgid "Dttm"
+msgstr "時間"
+
+#, fuzzy
 msgid "Duplicate"
 msgstr "複製"
 
@@ -4503,6 +4807,10 @@ msgid ""
 "database. If left unset, the cache never expires. "
 msgstr "此資料庫表的元數據缓存超時時長（單位為秒）。如果不進行設定，缓存將永不過期。"
 
+#, fuzzy
+msgid "Duration Ms"
+msgstr "時長"
+
 msgid "Duration in ms (1.40008 => 1ms 400µs 80ns)"
 msgstr "時長(毫秒)(1.40008 => 1ms 400µs 80ns)"
 
@@ -4531,9 +4839,6 @@ msgstr "ECharts 圖表"
 msgid "EMAIL_REPORTS_CTA"
 msgstr "啟用郵件報告"
 
-msgid "END (EXCLUSIVE)"
-msgstr "结束"
-
 #, fuzzy
 msgid "ERROR"
 msgstr "錯誤"
@@ -4553,11 +4858,12 @@ msgstr "邊缘寬度"
 msgid "Edit"
 msgstr "編輯"
 
+#, fuzzy, python-format
+msgid "Edit %s in modal"
+msgstr "（在模型中）"
+
 msgid "Edit Alert"
 msgstr "編輯警報"
-
-msgid "Edit CSS"
-msgstr "編輯 CSS"
 
 msgid "Edit CSS template properties"
 msgstr "編輯 CSS 模板属性"
@@ -4571,6 +4877,10 @@ msgstr "編輯看板"
 
 msgid "Edit Dataset "
 msgstr "編輯數據集"
+
+#, fuzzy
+msgid "Edit Group"
+msgstr "編輯規則"
 
 msgid "Edit Log"
 msgstr "編輯日誌"
@@ -4628,6 +4938,10 @@ msgstr "編輯郵件報告"
 msgid "Edit formatter"
 msgstr "編輯格式化"
 
+#, fuzzy
+msgid "Edit group"
+msgstr "編輯規則"
+
 msgid "Edit properties"
 msgstr "編輯属性"
 
@@ -4638,6 +4952,10 @@ msgstr "編輯查詢"
 msgid "Edit role"
 msgstr "編輯模式"
 
+#, fuzzy
+msgid "Edit tag"
+msgstr "編輯標籤"
+
 msgid "Edit template"
 msgstr "編輯模板"
 
@@ -4647,6 +4965,14 @@ msgstr "編輯模板参數"
 #, fuzzy
 msgid "Edit the dashboard"
 msgstr "編輯看板"
+
+#, fuzzy
+msgid "Edit theme"
+msgstr "編輯模板"
+
+#, fuzzy
+msgid "Edit theme properties"
+msgstr "編輯属性"
 
 msgid "Edit time range"
 msgstr "編輯時間範圍"
@@ -4712,10 +5038,6 @@ msgstr "看板無法被删除。"
 
 msgid "Embedding deactivated."
 msgstr "解除嵌入。"
-
-#, fuzzy
-msgid "Emit Filter Events"
-msgstr "發送過濾器事件"
 
 msgid "Emphasis"
 msgstr "重點"
@@ -4789,8 +5111,16 @@ msgid "End (Longitude, Latitude): "
 msgstr "終點（經度/緯度）"
 
 #, fuzzy
+msgid "End (exclusive)"
+msgstr "结束"
+
+#, fuzzy
 msgid "End Longitude & Latitude"
 msgstr "終點的經度/緯度"
+
+#, fuzzy
+msgid "End Time"
+msgstr "结束時間"
 
 msgid "End angle"
 msgstr "结束角度"
@@ -4804,6 +5134,10 @@ msgstr "從時間範圍中排除的结束日期"
 
 msgid "End date must be after start date"
 msgstr "结束日期必須大於起始日期"
+
+#, fuzzy
+msgid "Ends With"
+msgstr "邊缘寬度"
 
 #, python-format
 msgid "Engine \"%(engine)s\" cannot be configured through parameters."
@@ -4844,6 +5178,18 @@ msgstr "全螢幕"
 msgid "Enter report name"
 msgstr "報告名稱"
 
+#, fuzzy
+msgid "Enter the group's description"
+msgstr "隐藏圖表說明"
+
+#, fuzzy
+msgid "Enter the group's label"
+msgstr "告警名稱"
+
+#, fuzzy
+msgid "Enter the group's name"
+msgstr "告警名稱"
+
 #, python-format
 msgid "Enter the required %(dbModelName)s credentials"
 msgstr "請输入必要的 %(dbModelName)s 的憑證"
@@ -4865,6 +5211,13 @@ msgstr "告警名稱"
 msgid "Enter the user's username"
 msgstr ""
 
+#, fuzzy
+msgid "Enter theme name"
+msgstr "告警名稱"
+
+msgid "Enter your login and password below:"
+msgstr ""
+
 msgid "Entity"
 msgstr "實體"
 
@@ -4873,6 +5226,10 @@ msgstr "相同的日期大小"
 
 msgid "Equal to (=)"
 msgstr "等於（=）"
+
+#, fuzzy
+msgid "Equals"
+msgstr "順序"
 
 msgid "Error"
 msgstr "錯誤"
@@ -4886,12 +5243,16 @@ msgid "Error deleting %s"
 msgstr "獲取數據時出錯：%s"
 
 #, fuzzy
+msgid "Error executing query. "
+msgstr "已執行查詢"
+
+#, fuzzy
 msgid "Error faving chart"
 msgstr "保存數據集時發生錯誤"
 
-#, python-format
-msgid "Error in jinja expression in HAVING clause: %(msg)s"
-msgstr "jinja 表達式中的 HAVING 子句出錯：%(msg)s"
+#, fuzzy
+msgid "Error importing theme."
+msgstr "錯誤（暗色）"
 
 #, python-format
 msgid "Error in jinja expression in RLS filters: %(msg)s"
@@ -4901,8 +5262,20 @@ msgstr "jinja 表達式中的 RLS filters 出錯：%(msg)s"
 msgid "Error in jinja expression in WHERE clause: %(msg)s"
 msgstr "jinja 表達式中的 WHERE 子句出錯：%(msg)s"
 
+#, fuzzy, python-format
+msgid "Error in jinja expression in column expression: %(msg)s"
+msgstr "jinja 表達式中的 WHERE 子句出錯：%(msg)s"
+
+#, fuzzy, python-format
+msgid "Error in jinja expression in datetime column: %(msg)s"
+msgstr "jinja 表達式中的 WHERE 子句出錯：%(msg)s"
+
 #, python-format
 msgid "Error in jinja expression in fetch values predicate: %(msg)s"
+msgstr "獲取 jinja 表達式中的谓詞的值出錯：%(msg)s"
+
+#, fuzzy, python-format
+msgid "Error in jinja expression in metric expression: %(msg)s"
 msgstr "獲取 jinja 表達式中的谓詞的值出錯：%(msg)s"
 
 msgid "Error loading chart datasources. Filters may not work correctly."
@@ -4935,18 +5308,6 @@ msgstr "保存數據集時發生錯誤"
 msgid "Error unfaving chart"
 msgstr "保存數據集時發生錯誤"
 
-#, fuzzy
-msgid "Error while adding role!"
-msgstr "獲取圖表時出錯"
-
-#, fuzzy
-msgid "Error while adding user!"
-msgstr "獲取圖表時出錯"
-
-#, fuzzy
-msgid "Error while duplicating role!"
-msgstr "獲取圖表時出錯"
-
 msgid "Error while fetching charts"
 msgstr "獲取圖表時出錯"
 
@@ -4955,28 +5316,16 @@ msgid "Error while fetching data: %s"
 msgstr "獲取數據時出錯：%s"
 
 #, fuzzy
-msgid "Error while fetching permissions"
+msgid "Error while fetching groups"
 msgstr "獲取圖表時出錯"
 
 #, fuzzy
 msgid "Error while fetching roles"
 msgstr "獲取圖表時出錯"
 
-#, fuzzy
-msgid "Error while fetching users"
-msgstr "獲取圖表時出錯"
-
 #, python-format
 msgid "Error while rendering virtual dataset query: %(msg)s"
 msgstr "保存查詢時出錯：%(msg)s"
-
-#, fuzzy
-msgid "Error while updating role!"
-msgstr "獲取圖表時出錯"
-
-#, fuzzy
-msgid "Error while updating user!"
-msgstr "獲取圖表時出錯"
 
 #, python-format
 msgid "Error: %(error)s"
@@ -5024,6 +5373,14 @@ msgstr "例子"
 msgid "Examples"
 msgstr "示例"
 
+#, fuzzy
+msgid "Excel Export"
+msgstr "週報"
+
+#, fuzzy
+msgid "Excel XML Export"
+msgstr "週報"
+
 msgid "Excel file format cannot be determined"
 msgstr ""
 
@@ -5061,6 +5418,10 @@ msgstr "退出全螢幕"
 msgid "Expand"
 msgstr "展開"
 
+#, fuzzy
+msgid "Expand All"
+msgstr "全部展開"
+
 msgid "Expand all"
 msgstr "全部展開"
 
@@ -5071,16 +5432,13 @@ msgstr "展開數據面板"
 msgid "Expand row"
 msgstr "標題行"
 
-msgid "Expand table preview"
-msgstr "展開表格預覽"
-
 msgid "Expand tool bar"
 msgstr "展開工具欄"
 
 msgid ""
-"Expects a formula with depending time parameter 'x'\n"
+"Expects a formula with depending time parameter 'x'\r\n"
 "        in milliseconds since epoch. mathjs is used to evaluate the "
-"formulas.\n"
+"formulas.\r\n"
 "        Example: '2x+5'"
 msgstr ""
 
@@ -5107,6 +5465,10 @@ msgid "Export query"
 msgstr "導出查詢"
 
 #, fuzzy
+msgid "Export theme"
+msgstr "導出為 Excel"
+
+#, fuzzy
 msgid "Export to .CSV"
 msgstr "導出為 CSV"
 
@@ -5124,6 +5486,10 @@ msgstr "導出為 PDF"
 
 #, fuzzy
 msgid "Export to Pivoted .CSV"
+msgstr "導出為透視表形式的 CSV"
+
+#, fuzzy
+msgid "Export to Pivoted Excel"
 msgstr "導出為透視表形式的 CSV"
 
 #, fuzzy
@@ -5162,6 +5528,7 @@ msgstr "額外参數"
 msgid "Extra data for JS"
 msgstr "給 JS 的額外數據"
 
+#, python-brace-format
 msgid ""
 "Extra data to specify table metadata. Currently supports metadata of the "
 "format: `{ \"certification\": { \"certified_by\": \"Data Platform Team\","
@@ -5212,6 +5579,9 @@ msgstr "失敗"
 msgid "Failed at retrieving results"
 msgstr "檢索结果失敗"
 
+msgid "Failed to apply theme: Invalid JSON"
+msgstr ""
+
 msgid "Failed to create report"
 msgstr "創建報告發生錯誤"
 
@@ -5228,9 +5598,6 @@ msgstr ""
 msgid "Failed to load chart data."
 msgstr ""
 
-msgid "Failed to load dimensions for drill by"
-msgstr ""
-
 #, fuzzy
 msgid "Failed to retrieve advanced type"
 msgstr "檢索高級類型失敗"
@@ -5239,12 +5606,18 @@ msgstr "檢索高級類型失敗"
 msgid "Failed to save cross-filter scoping"
 msgstr "保存交叉篩選作用域失敗"
 
+msgid "Failed to set local theme: Invalid JSON configuration"
+msgstr ""
+
 msgid "Failed to start remote query on a worker."
 msgstr "無法啟動遠程查詢"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Failed to stop query."
 msgstr "停止查詢失敗。 %s"
+
+msgid "Failed to store query results. Please try again."
+msgstr ""
 
 #, fuzzy
 msgid "Failed to tag items"
@@ -5256,6 +5629,10 @@ msgstr "更新報告失敗"
 #, python-format
 msgid "Failed to verify select options: %s"
 msgstr "驗證選擇選項失敗：%s"
+
+#, fuzzy
+msgid "False"
+msgstr "禁用"
 
 msgid "Favorite"
 msgstr "收藏"
@@ -5291,9 +5668,6 @@ msgstr "欄位不能由 JSON 解碼。%(msg)s"
 msgid "Field is required"
 msgstr "欄位是必需的"
 
-msgid "File"
-msgstr "文件"
-
 msgid "File extension is not allowed."
 msgstr ""
 
@@ -5315,6 +5689,9 @@ msgstr "填寫所有必填欄位以啟用預設值"
 msgid "Fill method"
 msgstr "填充方式"
 
+msgid "Fill out the registration form"
+msgstr ""
+
 #, fuzzy
 msgid "Filled"
 msgstr "填充"
@@ -5325,9 +5702,6 @@ msgstr "過濾器"
 #, fuzzy
 msgid "Filter Configuration"
 msgstr "過濾配置"
-
-msgid "Filter List"
-msgstr "過濾列表"
 
 #, fuzzy
 msgid "Filter Settings"
@@ -5424,6 +5798,10 @@ msgid "First"
 msgstr "第一個值"
 
 #, fuzzy
+msgid "First Name"
+msgstr "圖表名稱"
+
+#, fuzzy
 msgid "First name"
 msgstr "圖表名稱"
 
@@ -5491,6 +5869,9 @@ msgid ""
 "e.g. Admin if admin should see all data."
 msgstr "對於常規過濾，這些是此過濾將應用於的角色。對於基本過濾，這些是過濾不適用的角色，例如Admin代表admin應該查看所有數據。"
 
+msgid "Forbidden"
+msgstr ""
+
 msgid "Force"
 msgstr "力導向"
 
@@ -5544,9 +5925,14 @@ msgstr ""
 msgid "Format SQL"
 msgstr "格式化 SQL"
 
+#, fuzzy
+msgid "Format SQL query"
+msgstr "格式化 SQL"
+
+#, python-brace-format
 msgid ""
-"Format data labels. Use variables: {name}, {value}, {percent}. \\n "
-"represents a new line. ECharts compatibility:\n"
+"Format data labels. Use variables: {name}, {value}, {percent}. \n"
+" represents a new line. ECharts compatibility:\n"
 "{a} (series), {b} (name), {c} (value), {d} (percentage)"
 msgstr ""
 
@@ -5610,6 +5996,15 @@ msgstr "進一步定制如何顯示每個指標"
 #, fuzzy
 msgid "GROUP BY"
 msgstr "分組"
+
+#, fuzzy
+msgid "Gantt Chart"
+msgstr "圆點圖"
+
+msgid ""
+"Gantt chart visualizes important events over a time span. Every data "
+"point displayed as a separate event along a horizontal line."
+msgstr ""
 
 msgid "Gauge Chart"
 msgstr "仪表圖"
@@ -5677,6 +6072,14 @@ msgid "Gravity"
 msgstr "重力"
 
 #, fuzzy
+msgid "Greater Than"
+msgstr "大於（>）"
+
+#, fuzzy
+msgid "Greater Than or Equal"
+msgstr "大於等於 (>=)"
+
+#, fuzzy
 msgid "Greater or equal (>=)"
 msgstr "大於等於 (>=)"
 
@@ -5695,6 +6098,10 @@ msgstr "網格"
 msgid "Grid Size"
 msgstr "網格大小"
 
+#, fuzzy
+msgid "Group"
+msgstr "分組"
+
 msgid "Group By"
 msgstr "分組"
 
@@ -5707,6 +6114,18 @@ msgstr "分組"
 
 msgid "Group by"
 msgstr "分組"
+
+msgid "Group remaining as \"Others\""
+msgstr ""
+
+#, fuzzy
+msgid "Groups"
+msgstr "分組"
+
+msgid ""
+"Groups remaining series into an \"Others\" category when series limit is "
+"reached. This prevents incomplete time series data from being displayed."
+msgstr ""
 
 msgid "Guest user cannot modify chart payload"
 msgstr ""
@@ -5859,11 +6278,6 @@ msgid "If a metric is specified, sorting will be done based on the metric value"
 msgstr "如果指定了度量，则將根据該度量值進行排序"
 
 msgid ""
-"If changes are made to your SQL query, columns in your dataset will be "
-"synced when saving the dataset."
-msgstr ""
-
-msgid ""
 "If enabled, this control sorts the results/values descending, otherwise "
 "it sorts the results ascending."
 msgstr ""
@@ -5871,6 +6285,9 @@ msgstr ""
 #, fuzzy
 msgid "If table already exists"
 msgstr "標籤已存在"
+
+msgid "If you don't save, changes will be lost."
+msgstr ""
 
 #, fuzzy
 msgid "Ignore cache when generating report"
@@ -5898,8 +6315,9 @@ msgstr "導入"
 msgid "Import %s"
 msgstr "導入 %s"
 
-msgid "Import Dashboard(s)"
-msgstr "導入看板"
+#, fuzzy
+msgid "Import Error"
+msgstr "超時錯誤"
 
 msgid "Import chart failed for an unknown reason"
 msgstr "導入圖表失敗，原因未知"
@@ -5932,16 +6350,31 @@ msgid "Import saved query failed for an unknown reason."
 msgstr "由於未知原因，導入保存的查詢失敗。"
 
 #, fuzzy
+msgid "Import themes"
+msgstr "導入查詢"
+
+#, fuzzy
 msgid "In"
 msgstr ""
+
+#, fuzzy
+msgid "In Range"
+msgstr "時間範圍"
 
 msgid ""
 "In order to connect to non-public sheets you need to either provide a "
 "service account or configure an OAuth2 client."
 msgstr ""
 
+msgid "In this view you can preview the first 25 rows. "
+msgstr ""
+
 msgid "Include Series"
 msgstr "包含系列"
+
+#, fuzzy
+msgid "Include Template Parameters"
+msgstr "模板参數"
 
 msgid "Include a description that will be sent with your report"
 msgstr "描述要發送給你的報告"
@@ -6043,11 +6476,19 @@ msgid "Invalid JSON"
 msgstr "無效的JSON"
 
 #, fuzzy, python-format
+msgid "Invalid SQL: %(error)s"
+msgstr "無效的numpy函數：%(operator)s"
+
+#, fuzzy, python-format
 msgid "Invalid advanced data type: %(advanced_data_type)s"
 msgstr "無效的高級數據類型：%(advanced_data_type)s"
 
 msgid "Invalid certificate"
 msgstr "無效認證"
+
+#, fuzzy
+msgid "Invalid color"
+msgstr "間隔颜色"
 
 #, fuzzy
 msgid ""
@@ -6148,6 +6589,10 @@ msgid "Invert current page"
 msgstr "反轉當前頁"
 
 #, fuzzy
+msgid "Is Active?"
+msgstr "告警失敗"
+
+#, fuzzy
 msgid "Is active?"
 msgstr "告警失敗"
 
@@ -6211,6 +6656,10 @@ msgstr "一月"
 
 msgid "JSON"
 msgstr "JSON"
+
+#, fuzzy
+msgid "JSON Configuration"
+msgstr "列配置"
 
 msgid "JSON Metadata"
 msgstr "JSON 元數據"
@@ -6334,11 +6783,19 @@ msgstr "標記的標籤"
 msgid "Labels for the ranges"
 msgstr "範圍的標籤"
 
+#, fuzzy
+msgid "Languages"
+msgstr "範圍"
+
 msgid "Large"
 msgstr "大"
 
 msgid "Last"
 msgstr "最後一個"
+
+#, fuzzy
+msgid "Last Name"
+msgstr "數據集名稱"
 
 #, python-format
 msgid "Last Updated %s"
@@ -6347,10 +6804,6 @@ msgstr "最後更新 %s"
 #, fuzzy, python-format
 msgid "Last Updated %s by %s"
 msgstr "最後由 %s 更新 %s"
-
-#, fuzzy
-msgid "Last Value"
-msgstr "目標值"
 
 #, python-format
 msgid "Last available value seen on %s"
@@ -6486,6 +6939,14 @@ msgid "Legend type"
 msgstr "圖例類型"
 
 #, fuzzy
+msgid "Less Than"
+msgstr "小於（<）"
+
+#, fuzzy
+msgid "Less Than or Equal"
+msgstr "小於等於 (<=)"
+
+#, fuzzy
 msgid "Less or equal (<=)"
 msgstr "小於等於 (<=)"
 
@@ -6573,6 +7034,10 @@ msgid "Linear interpolation"
 msgstr "線性插值"
 
 #, fuzzy
+msgid "Linear palette"
+msgstr "清除所有"
+
+#, fuzzy
 msgid "Lines column"
 msgstr "線段列"
 
@@ -6582,6 +7047,14 @@ msgstr "線段编碼"
 
 msgid "Link Copied!"
 msgstr "链接已複製！"
+
+#, fuzzy
+msgid "List"
+msgstr "最後一個"
+
+#, fuzzy
+msgid "List Groups"
+msgstr "數字"
 
 msgid "List Roles"
 msgstr ""
@@ -6614,13 +7087,11 @@ msgstr "要用三角形標記的值列表"
 msgid "List updated"
 msgstr "列表已更新"
 
-msgid "Live CSS editor"
-msgstr "即時 CSS 編輯器"
-
 msgid "Live render"
 msgstr "實時渲染"
 
-msgid "Load a CSS template"
+#, fuzzy
+msgid "Load CSS template"
 msgstr "加载一個 CSS 模板"
 
 msgid "Loaded data cached"
@@ -6637,8 +7108,23 @@ msgid "Loading..."
 msgstr "加载中..."
 
 #, fuzzy
+msgid "Local"
+msgstr "對數尺度"
+
+msgid "Local theme set for preview"
+msgstr ""
+
+#, python-format
+msgid "Local theme set to \"%s\""
+msgstr ""
+
+#, fuzzy
 msgid "Locate the chart"
 msgstr "定位到圖表"
+
+#, fuzzy
+msgid "Log"
+msgstr "日誌"
 
 msgid "Log Scale"
 msgstr "對數尺度"
@@ -6808,6 +7294,9 @@ msgstr "標記"
 msgid "Markup type"
 msgstr "Markup 類型"
 
+msgid "Match system"
+msgstr ""
+
 msgid "Match time shift color with original series"
 msgstr ""
 
@@ -6816,6 +7305,10 @@ msgstr "最大值"
 
 msgid "Max Bubble Size"
 msgstr "最大氣泡的尺寸"
+
+#, fuzzy
+msgid "Max value"
+msgstr "最大值"
 
 msgid "Max. features"
 msgstr ""
@@ -6904,6 +7397,13 @@ msgstr "元數據已同步"
 msgid "Method"
 msgstr "方法"
 
+msgid ""
+"Method to compute the displayed value. \"Overall value\" calculates a "
+"single metric across the entire filtered time period, ideal for non-"
+"additive metrics like ratios, averages, or distinct counts. Other methods"
+" operate over the time series data points."
+msgstr ""
+
 msgid "Metric"
 msgstr "指標"
 
@@ -6986,6 +7486,10 @@ msgid "Metrics"
 msgstr "指標"
 
 #, fuzzy
+msgid "Metrics to show in the tooltip."
+msgstr "是否在單元格内顯示數值"
+
+#, fuzzy
 msgid "Middle"
 msgstr "中間"
 
@@ -7007,6 +7511,18 @@ msgstr "最小寬度"
 
 msgid "Min periods"
 msgstr "最小週期"
+
+#, fuzzy
+msgid "Min value"
+msgstr "最小值"
+
+#, fuzzy
+msgid "Min value cannot be greater than max value"
+msgstr "起始日期不能晚於结束日期"
+
+#, fuzzy
+msgid "Min value should be smaller or equal to max value"
+msgstr "這個值應該小於正確的目標值"
 
 msgid "Min/max (no outliers)"
 msgstr "最大最小值（忽略離群值）"
@@ -7038,10 +7554,6 @@ msgstr "標籤顯示百分比最小閥值"
 #, fuzzy
 msgid "Minimum value"
 msgstr "最小值"
-
-#, fuzzy
-msgid "Minimum value cannot be higher than maximum value"
-msgstr "起始日期不能晚於结束日期"
 
 msgid "Minimum value for label to be displayed on graph."
 msgstr "在圖形上顯示標籤的最小值。"
@@ -7141,10 +7653,6 @@ msgstr "多元"
 
 msgid "Multiple"
 msgstr "多選"
-
-#, fuzzy
-msgid "Multiple filtering"
-msgstr "多重過濾"
 
 msgid ""
 "Multiple formats accepted, look the geopy.points Python library for more "
@@ -7291,6 +7799,10 @@ msgstr "還没有 %s"
 msgid "No Data"
 msgstr "没有數據"
 
+#, fuzzy, python-format
+msgid "No Logs yet"
+msgstr "還没有 %s"
+
 msgid "No Results"
 msgstr "無结果"
 
@@ -7389,6 +7901,18 @@ msgid "No global filters are currently added"
 msgstr "當前没有已增加的全局過濾器"
 
 #, fuzzy
+msgid "No groups"
+msgstr "需要進行分組的一列或多列"
+
+#, fuzzy
+msgid "No groups yet"
+msgstr "還没有規則"
+
+#, fuzzy
+msgid "No items"
+msgstr "無篩選"
+
+#, fuzzy
 msgid "No matching records found"
 msgstr "没有找到任何紀錄"
 
@@ -7413,6 +7937,10 @@ msgid ""
 "returned, ensure any filters are configured properly and the datasource "
 "contains data for the selected time range."
 msgstr "此查詢没有返回任何结果。如果希望返回结果，請確保所有過濾選擇的配置正確，並且數據源包含所選時間範圍的數據。"
+
+#, fuzzy
+msgid "No roles"
+msgstr "還没有規則"
 
 #, fuzzy
 msgid "No roles yet"
@@ -7449,6 +7977,10 @@ msgstr "没有找到時間列"
 
 msgid "No time columns"
 msgstr "没有時間列"
+
+#, fuzzy
+msgid "No user registrations yet"
+msgstr "還没有規則"
 
 #, fuzzy
 msgid "No users yet"
@@ -7497,6 +8029,14 @@ msgstr "標準化列名稱"
 
 msgid "Normalized"
 msgstr "標準化"
+
+#, fuzzy
+msgid "Not Contains"
+msgstr "已發送報告"
+
+#, fuzzy
+msgid "Not Equal"
+msgstr "不等於（≠）"
 
 msgid "Not Time Series"
 msgstr "没有時間系列"
@@ -7572,9 +8112,9 @@ msgid "Number Format"
 msgstr "數字格式"
 
 msgid ""
-"Number bounds used for color encoding from red to blue.\n"
+"Number bounds used for color encoding from red to blue.\r\n"
 "               Reverse the numbers for blue to red. To get pure red or "
-"blue,\n"
+"blue,\r\n"
 "               you can enter either only min or max."
 msgstr ""
 
@@ -7626,6 +8166,10 @@ msgstr "顯示 X 刻度時，在刻度之間表示的步骤數"
 msgid "Number of steps to take between ticks when displaying the Y scale"
 msgstr "顯示 Y 刻度時，在刻度之間表示的步骤數"
 
+#, fuzzy, python-format
+msgid "Numbers must be within %(min)s and %(max)s"
+msgstr "截圖寬度必須位於 %(min)spx - %(max)spx 之間"
+
 #, fuzzy
 msgid "Numeric column used to calculate the histogram."
 msgstr "選擇數值列來繪制直方圖"
@@ -7638,6 +8182,10 @@ msgstr "十月"
 
 msgid "OK"
 msgstr "確認"
+
+#, fuzzy
+msgid "OR"
+msgstr "或者"
 
 msgid "OVERWRITE"
 msgstr "覆盖"
@@ -7724,6 +8272,9 @@ msgstr "僅在堆叠圖上顯示合計值，而不在所選類别上顯示"
 msgid "Only single queries supported"
 msgstr "僅支持單個查詢"
 
+msgid "Only the default catalog is supported for this connection"
+msgstr ""
+
 #, fuzzy
 msgid "Oops! An error occurred!"
 msgstr "發生了一個錯誤"
@@ -7749,7 +8300,15 @@ msgstr ""
 msgid "Open Datasource tab"
 msgstr "打開數據源 tab"
 
+#, fuzzy
+msgid "Open SQL Lab in a new tab"
+msgstr "在新選項卡中運行查詢"
+
 msgid "Open in SQL Lab"
+msgstr "在 SQL 工具箱中打開"
+
+#, fuzzy
+msgid "Open in SQL lab"
 msgstr "在 SQL 工具箱中打開"
 
 msgid "Open query in SQL Lab"
@@ -7932,6 +8491,14 @@ msgstr "所有者是一個用戶列表，這些用戶有權限修改仪表板。
 msgid "PDF download failed, please refresh and try again."
 msgstr "圖片發送失敗，請刷新或重試"
 
+#, fuzzy
+msgid "Page"
+msgstr "用途"
+
+#, fuzzy
+msgid "Page Size:"
+msgstr "選擇標籤"
+
 msgid "Page length"
 msgstr "頁長"
 
@@ -7994,8 +8561,16 @@ msgid "Password is required"
 msgstr "類型是必需的"
 
 #, fuzzy
+msgid "Password:"
+msgstr "密碼"
+
+#, fuzzy
 msgid "Passwords do not match!"
 msgstr "看板不存在"
+
+#, fuzzy
+msgid "Paste"
+msgstr "更新"
 
 msgid "Paste Private Key here"
 msgstr ""
@@ -8035,6 +8610,10 @@ msgstr "百分比變化"
 
 msgid "Percentage difference between the time periods"
 msgstr ""
+
+#, fuzzy
+msgid "Percentage metric calculation"
+msgstr "百分比指標"
 
 msgid "Percentage metrics"
 msgstr "百分比指標"
@@ -8130,12 +8709,20 @@ msgid "Pin"
 msgstr "標記"
 
 #, fuzzy
+msgid "Pin Column"
+msgstr "線段列"
+
+#, fuzzy
 msgid "Pin Left"
 msgstr "上左"
 
 #, fuzzy
 msgid "Pin Right"
 msgstr "上右"
+
+#, fuzzy
+msgid "Pivot Mode"
+msgstr "編輯模式"
 
 msgid "Pivot Table"
 msgstr "透視表"
@@ -8147,6 +8734,10 @@ msgid "Pivot operation requires at least one index"
 msgstr "透視操作至少需要一個索引"
 
 msgid "Pivoted"
+msgstr "旋轉"
+
+#, fuzzy
+msgid "Pivots"
 msgstr "旋轉"
 
 msgid "Pixel height of each series"
@@ -8206,16 +8797,37 @@ msgstr "請確認"
 msgid "Please enter a SQLAlchemy URI to test"
 msgstr "請输入要测試的 SQLAlchemy URI"
 
+#, fuzzy
+msgid "Please enter a valid email"
+msgstr "請输入要测試的 SQLAlchemy URI"
+
 msgid "Please enter a valid email address"
 msgstr ""
 
 msgid "Please enter valid text. Spaces alone are not permitted."
 msgstr ""
 
-msgid "Please provide a valid range"
-msgstr ""
+#, fuzzy
+msgid "Please enter your email"
+msgstr "請確認"
 
-msgid "Please provide a value within range"
+#, fuzzy
+msgid "Please enter your first name"
+msgstr "告警名稱"
+
+#, fuzzy
+msgid "Please enter your last name"
+msgstr "告警名稱"
+
+#, fuzzy
+msgid "Please enter your password"
+msgstr "請確認"
+
+#, fuzzy
+msgid "Please enter your username"
+msgstr "為您的查詢設定標籤"
+
+msgid "Please provide a valid min or max value"
 msgstr ""
 
 msgid "Please re-enter the password."
@@ -8234,6 +8846,10 @@ msgstr "請先保存您的圖表，然後嘗試創建一個新的電子郵件報
 
 msgid "Please save your dashboard first, then try creating a new email report."
 msgstr "請先保存您的看板，然後嘗試創建一個新的電子郵件報告。"
+
+#, fuzzy
+msgid "Please select at least one role or group"
+msgstr "請至少選擇一個分組欄位 "
 
 msgid "Please select both a Dataset and a Chart type to proceed"
 msgstr "請同時選擇數據集和圖表類型以繼續"
@@ -8449,9 +9065,6 @@ msgstr "把您的代碼放在這里"
 msgid "Python datetime string pattern"
 msgstr "Python 日期格式模板"
 
-msgid "QUERY DATA IN SQL LAB"
-msgstr "在 SQL 工具箱中查詢數據"
-
 msgid "Quarter"
 msgstr "季度"
 
@@ -8478,6 +9091,14 @@ msgstr "查詢 B"
 
 msgid "Query History"
 msgstr "歷史查詢"
+
+#, fuzzy
+msgid "Query cannot be loaded."
+msgstr "這個查詢無法被加载"
+
+#, fuzzy
+msgid "Query data in SQL Lab"
+msgstr "在 SQL 工具箱中查詢數據"
 
 #, fuzzy
 msgid "Query does not exist"
@@ -8510,9 +9131,6 @@ msgstr "查詢被終止。"
 
 msgid "Query was stopped."
 msgstr "查詢被終止。"
-
-msgid "RANGE TYPE"
-msgstr "範圍類型"
 
 msgid "RGB Color"
 msgstr "RGB 颜色"
@@ -8554,6 +9172,14 @@ msgstr "半徑（英里）"
 msgid "Range"
 msgstr "範圍"
 
+#, fuzzy
+msgid "Range Inputs"
+msgstr "範圍"
+
+#, fuzzy
+msgid "Range Type"
+msgstr "範圍類型"
+
 msgid "Range filter"
 msgstr "範圍過濾"
 
@@ -8562,6 +9188,10 @@ msgstr "使用AntD的範圍過濾器插件"
 
 msgid "Range labels"
 msgstr "範圍標籤"
+
+#, fuzzy
+msgid "Range type"
+msgstr "範圍類型"
 
 msgid "Ranges"
 msgstr "範圍"
@@ -8586,9 +9216,6 @@ msgstr "最近"
 
 msgid "Recipients are separated by \",\" or \";\""
 msgstr "收件人之間用 \",\" 或者 \";\" 隔開"
-
-msgid "Record Count"
-msgstr "紀錄數"
 
 msgid "Rectangle"
 msgstr "長方形"
@@ -8620,11 +9247,12 @@ msgstr "参考 "
 msgid "Referenced columns not available in DataFrame."
 msgstr "引用的列在數據帧（DataFrame）中不可用。"
 
+#, fuzzy
+msgid "Referrer"
+msgstr "刷新"
+
 msgid "Refetch results"
 msgstr "重新獲取结果"
-
-msgid "Refresh"
-msgstr "刷新"
 
 msgid "Refresh dashboard"
 msgstr "刷新看板"
@@ -8653,6 +9281,17 @@ msgstr "刷新圖表"
 #, fuzzy
 msgid "Refreshing columns"
 msgstr "刷新列"
+
+#, fuzzy
+msgid "Register"
+msgstr "預過濾"
+
+#, fuzzy
+msgid "Registration date"
+msgstr "開始時間"
+
+msgid "Registration hash"
+msgstr ""
 
 #, fuzzy
 msgid "Regular"
@@ -8689,6 +9328,20 @@ msgstr "重新加载"
 
 msgid "Remove"
 msgstr "删除"
+
+msgid "Remove System Dark Theme"
+msgstr ""
+
+#, fuzzy
+msgid "Remove System Default Theme"
+msgstr "刷新預設值"
+
+msgid "Remove as system dark theme"
+msgstr ""
+
+#, fuzzy
+msgid "Remove as system default theme"
+msgstr "刷新預設值"
 
 #, fuzzy
 msgid "Remove cross-filter"
@@ -8862,8 +9515,20 @@ msgid "Reset"
 msgstr "重置"
 
 #, fuzzy
+msgid "Reset Columns"
+msgstr "選擇列"
+
+#, fuzzy
 msgid "Reset columns"
 msgstr "選擇列"
+
+#, fuzzy, python-format
+msgid "Reset my password"
+msgstr "%s 密碼"
+
+#, fuzzy, python-format
+msgid "Reset password"
+msgstr "%s 密碼"
 
 msgid "Reset state"
 msgstr "狀態重置"
@@ -8940,32 +9605,11 @@ msgid "Role Name"
 msgstr "告警名稱"
 
 #, fuzzy
-msgid "Role is required"
-msgstr "需要值"
-
-#, fuzzy
 msgid "Role name is required"
 msgstr "需要名稱"
 
-#, fuzzy
-msgid "Role successfully updated!"
-msgstr "修改數據集成功！"
-
-msgid "Role was successfully created!"
-msgstr ""
-
-msgid "Role was successfully duplicated!"
-msgstr ""
-
 msgid "Roles"
 msgstr "角色"
-
-#, fuzzy
-msgid ""
-"Roles is a list which defines access to the dashboard. Granting a role "
-"access to a dashboard will bypass dataset level checks. If no roles are "
-"defined, regular access permissions apply."
-msgstr "角色是一個定義對看板訪問權限的列表。授予角色對看板的訪問權限將绕過數據集級别的檢查。如果未定義角色，则看板對所有角色都可用。"
 
 #, fuzzy
 msgid ""
@@ -9014,6 +9658,12 @@ msgstr "行"
 
 msgid "Row Level Security"
 msgstr "行級安全"
+
+msgid ""
+"Row Limit: percentages are calculated based on the subset of data "
+"retrieved, respecting the row limit. All Records: Percentages are "
+"calculated based on the total dataset, ignoring the row limit."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -9081,7 +9731,7 @@ msgid "Running"
 msgstr "正在執行"
 
 #, python-format
-msgid "Running statement %(statement_num)s out of %(statement_count)s"
+msgid "Running block %(block_num)s out of %(block_count)s"
 msgstr ""
 
 msgid "SAT"
@@ -9094,14 +9744,8 @@ msgstr "秒"
 msgid "SEP"
 msgstr "九月"
 
-msgid "SHA"
-msgstr ""
-
 msgid "SQL"
 msgstr "SQL"
-
-msgid "SQL Copied!"
-msgstr "SQL 複製成功！"
 
 msgid "SQL Lab"
 msgstr "SQL 工具箱"
@@ -9133,6 +9777,10 @@ msgstr "SQL 表達式"
 
 msgid "SQL query"
 msgstr "SQL 查詢"
+
+#, fuzzy
+msgid "SQL was formatted"
+msgstr "Y 軸格式化"
 
 msgid "SQLAlchemy URI"
 msgstr "SQLAlchemy URI"
@@ -9174,9 +9822,6 @@ msgstr "SSH 隧道未啟用"
 
 msgid "SSL Mode \"require\" will be used."
 msgstr "SSL 模式 \"require\" 將被使用。"
-
-msgid "START (INCLUSIVE)"
-msgstr "開始 (包含)"
 
 #, python-format
 msgid "STEP %(stepCurr)s OF %(stepLast)s"
@@ -9259,8 +9904,19 @@ msgstr "另存為："
 msgid "Save changes"
 msgstr "保存更改"
 
+#, fuzzy
+msgid "Save changes to your chart?"
+msgstr "保存更改"
+
+#, fuzzy
+msgid "Save changes to your dashboard?"
+msgstr "保存並轉到看板"
+
 msgid "Save chart"
 msgstr "圖表保存"
+
+msgid "Save color breakpoint values"
+msgstr ""
 
 msgid "Save dashboard"
 msgstr "保存看板"
@@ -9334,9 +9990,6 @@ msgstr "調度"
 #, fuzzy
 msgid "Schedule a new email report"
 msgstr "計劃一個新的電子郵件報告"
-
-msgid "Schedule email report"
-msgstr "計劃電子郵件報告"
 
 msgid "Schedule query"
 msgstr "計劃查詢"
@@ -9481,15 +10134,16 @@ msgstr "選擇"
 msgid "Select ..."
 msgstr "選擇 ..."
 
+#, fuzzy
+msgid "Select All"
+msgstr "反選所有"
+
 msgid "Select Delivery Method"
 msgstr "增加通知方法"
 
 #, fuzzy
 msgid "Select Tags"
 msgstr "選擇標籤"
-
-msgid "Select chart type"
-msgstr "選擇一個可視化類型"
 
 msgid "Select a column"
 msgstr "選擇列"
@@ -9532,6 +10186,10 @@ msgid "Select a dimension"
 msgstr "選擇维度"
 
 #, fuzzy
+msgid "Select a linear color scheme"
+msgstr "選擇颜色方案"
+
+#, fuzzy
 msgid "Select a metric to display on the right axis"
 msgstr "為右軸選擇一個指標"
 
@@ -9556,6 +10214,10 @@ msgstr "選擇將要上傳文件的資料庫"
 msgid "Select a tab"
 msgstr "選擇數據集"
 
+#, fuzzy
+msgid "Select a theme"
+msgstr "選擇方案"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9575,9 +10237,6 @@ msgstr "選擇所有數據"
 msgid "Select all items"
 msgstr "選擇所有項"
 
-msgid "Select an aggregation method to apply to the metric."
-msgstr ""
-
 #, fuzzy
 msgid "Select catalog or type to search catalogs"
 msgstr "選擇表或输入表名來搜索"
@@ -9594,6 +10253,9 @@ msgstr "選擇圖表"
 msgid "Select chart to use"
 msgstr "選擇圖表"
 
+msgid "Select chart type"
+msgstr "選擇一個可視化類型"
+
 msgid "Select charts"
 msgstr "選擇圖表"
 
@@ -9602,10 +10264,6 @@ msgstr "選擇颜色方案"
 
 msgid "Select column"
 msgstr "選擇列"
-
-#, fuzzy
-msgid "Select column names from a dropdown list that should be parsed as dates."
-msgstr "從下拉列表中選擇要分析的日期列名稱。"
 
 msgid ""
 "Select columns that will be displayed in the table. You can multiselect "
@@ -9667,6 +10325,10 @@ msgstr "預設選擇首個過濾器值"
 msgid "Select format"
 msgstr "選擇操作符"
 
+#, fuzzy
+msgid "Select groups"
+msgstr "選擇所有者"
+
 msgid ""
 "Select one or many metrics to display, that will be displayed in the "
 "percentages of total. Percentage metrics will be calculated only from "
@@ -9684,9 +10346,6 @@ msgstr "選擇操作符"
 
 #, fuzzy
 msgid "Select or type a custom value..."
-msgstr "選擇或输入一個值"
-
-msgid "Select or type a value"
 msgstr "選擇或输入一個值"
 
 #, fuzzy
@@ -9759,8 +10418,20 @@ msgid ""
 msgstr "選擇您希望在與此圖表交互時應用交叉篩選的圖表。您可以選擇“所有圖表”，以對使用相同數據集或在仪表板中包含相同列名的所有圖表應用篩選器。"
 
 #, fuzzy
+msgid "Select the fixed color"
+msgstr "選擇GeoJSON列"
+
+#, fuzzy
 msgid "Select the geojson column"
 msgstr "選擇GeoJSON列"
+
+#, fuzzy
+msgid "Select the type of color scheme to use."
+msgstr "選擇颜色方案"
+
+#, fuzzy
+msgid "Select users"
+msgstr "選擇所有者"
 
 #, python-format
 msgid ""
@@ -9823,6 +10494,10 @@ msgstr "頁面長度"
 msgid "Server pagination"
 msgstr "服務端分頁"
 
+#, python-format
+msgid "Server pagination needs to be enabled for values over %s"
+msgstr ""
+
 msgid "Service Account"
 msgstr "服務帳戶"
 
@@ -9830,13 +10505,33 @@ msgstr "服務帳戶"
 msgid "Service version"
 msgstr "服務帳戶"
 
+#, fuzzy, python-format
+msgid "Set %s as default datetime column"
+msgstr "預設時間"
+
+msgid "Set System Dark Theme"
+msgstr ""
+
+#, fuzzy
+msgid "Set System Default Theme"
+msgstr "預設時間"
+
+msgid "Set as system dark theme"
+msgstr ""
+
+msgid "Set as system default theme"
+msgstr ""
+
 msgid "Set auto-refresh interval"
 msgstr "設定自動刷新"
 
 msgid "Set filter mapping"
 msgstr "設定過濾映射"
 
-msgid "Set header rows and the number of rows to read or skip."
+msgid "Set local theme for testing (preview only)"
+msgstr ""
+
+msgid "Set local theme. Will be applied to your session until unset."
 msgstr ""
 
 #, fuzzy
@@ -9847,7 +10542,7 @@ msgid "Set up basic details, such as name and description."
 msgstr ""
 
 msgid ""
-"Sets the hierarchy levels of the chart. Each level is\n"
+"Sets the hierarchy levels of the chart. Each level is\r\n"
 "        represented by one ring with the innermost circle as the top of "
 "the hierarchy."
 msgstr ""
@@ -9921,10 +10616,6 @@ msgstr "顯示氣泡"
 msgid "Show CREATE VIEW statement"
 msgstr "顯示 CREATE VIEW 語句"
 
-#, fuzzy
-msgid "Show cell bars"
-msgstr "顯示單元格的柱"
-
 msgid "Show Dashboard"
 msgstr "顯示看板"
 
@@ -9936,6 +10627,10 @@ msgstr "顯示日誌"
 
 msgid "Show Markers"
 msgstr "顯示標記"
+
+#, fuzzy
+msgid "Show Metric Name"
+msgstr "顯示指標名"
 
 msgid "Show Metric Names"
 msgstr "顯示指標名"
@@ -9980,6 +10675,7 @@ msgstr "顯示所有列"
 msgid "Show axis line ticks"
 msgstr "顯示軸線刻度"
 
+#, fuzzy
 msgid "Show cell bars"
 msgstr "顯示單元格的柱"
 
@@ -10001,7 +10697,7 @@ msgstr "將數據點顯示為線條上的圆形標記"
 msgid "Show empty columns"
 msgstr "顯示空列"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Show entries per page"
 msgstr "顯示指標"
 
@@ -10045,6 +10741,10 @@ msgstr "顯示指示器"
 
 msgid "Show progress"
 msgstr "顯示進度"
+
+#, fuzzy
+msgid "Show query identifiers"
+msgstr "查看查詢詳情"
 
 #, fuzzy
 msgid "Show rows subtotal"
@@ -10113,6 +10813,14 @@ msgstr "顯示那個時間點可用的所有系列的列表。"
 msgid "Shows or hides markers for the time series"
 msgstr "顯示或隐藏時間序列的標記點。"
 
+#, fuzzy
+msgid "Sign in"
+msgstr "Not In"
+
+#, fuzzy
+msgid "Sign in with"
+msgstr "登入方式"
+
 msgid "Significance Level"
 msgstr "顯著性"
 
@@ -10159,6 +10867,21 @@ msgstr "跳過行"
 msgid "Skip spaces after delimiter"
 msgstr "在分隔符之後跳過空格。"
 
+#, python-format
+msgid "Skipped %d system themes that cannot be deleted"
+msgstr ""
+
+#, fuzzy
+msgid "Slice Id"
+msgstr "線寬"
+
+#, fuzzy
+msgid "Slider"
+msgstr "線性"
+
+msgid "Slider and range input"
+msgstr ""
+
 msgid "Slug"
 msgstr "Slug"
 
@@ -10182,6 +10905,10 @@ msgstr ""
 
 msgid "Some roles do not exist"
 msgstr "看板"
+
+#, fuzzy
+msgid "Something went wrong while saving the user info"
+msgstr "抱歉，出了點問題。請稍後再試。"
 
 msgid ""
 "Something went wrong with embedded authentication. Check the dev console "
@@ -10241,6 +10968,10 @@ msgstr "抱歉，您的瀏覽器不支持複製操作。使用 Ctrl / Cmd + C！
 
 msgid "Sort"
 msgstr "排序:"
+
+#, fuzzy
+msgid "Sort Ascending"
+msgstr "升序排序"
 
 msgid "Sort Descending"
 msgstr "降序"
@@ -10306,6 +11037,10 @@ msgstr "排序類型"
 msgid "Source"
 msgstr "來源"
 
+#, fuzzy
+msgid "Source Color"
+msgstr "邊線颜色"
+
 msgid "Source SQL"
 msgstr "源 SQL"
 
@@ -10337,6 +11072,9 @@ msgstr "指定資料庫版本。這在Presto中用於查詢成本估算，在Dre
 msgid "Split number"
 msgstr "數字"
 
+msgid "Split stack by"
+msgstr ""
+
 #, fuzzy
 msgid "Square kilometers"
 msgstr "平方千米"
@@ -10352,6 +11090,9 @@ msgstr "平方英里"
 #, fuzzy
 msgid "Stack"
 msgstr "堆叠"
+
+msgid "Stack in groups, where each group corresponds to a dimension"
+msgstr ""
 
 msgid "Stack series"
 msgstr "堆叠系列"
@@ -10379,8 +11120,16 @@ msgid "Start (Longitude, Latitude): "
 msgstr "起始經度/緯度"
 
 #, fuzzy
+msgid "Start (inclusive)"
+msgstr "開始 (包含)"
+
+#, fuzzy
 msgid "Start Longitude & Latitude"
 msgstr "起始經度/緯度"
+
+#, fuzzy
+msgid "Start Time"
+msgstr "開始時間"
 
 msgid "Start angle"
 msgstr "開始角度"
@@ -10407,12 +11156,12 @@ msgstr "從零開始 Y 軸。取消選中以從數據中的最小值開始 Y 軸
 msgid "Started"
 msgstr "開始了"
 
+#, fuzzy
+msgid "Starts With"
+msgstr "圖表寬度"
+
 msgid "State"
 msgstr "狀態"
-
-#, python-format
-msgid "Statement %(statement_num)s out of %(statement_count)s"
-msgstr ""
 
 msgid "Statistical"
 msgstr "统計"
@@ -10492,11 +11241,12 @@ msgstr "風格"
 msgid "Style the ends of the progress bar with a round cap"
 msgstr "用圆帽設定進度條末端的樣式"
 
+#, fuzzy
+msgid "Subcategories"
+msgstr "分類"
+
 msgid "Subdomain"
 msgstr "子域"
-
-msgid "Subheader Font Size"
-msgstr "子標題的字體大小"
 
 msgid "Submit"
 msgstr "提交"
@@ -10504,10 +11254,6 @@ msgstr "提交"
 #, fuzzy
 msgid "Subtitle"
 msgstr "選項卡標題"
-
-#, fuzzy
-msgid "Subtitle Font Size"
-msgstr "氣泡尺寸"
 
 msgid "Subtotal"
 msgstr ""
@@ -10622,6 +11368,19 @@ msgstr "語法"
 msgid "Syntax Error: %(qualifier)s input \"%(input)s\" expecting \"%(expected)s"
 msgstr ""
 
+#, fuzzy
+msgid "System"
+msgstr "流式"
+
+msgid "System Theme - Read Only"
+msgstr ""
+
+msgid "System dark theme removed"
+msgstr ""
+
+msgid "System default theme removed"
+msgstr ""
+
 msgid "TABLES"
 msgstr "表"
 
@@ -10655,15 +11414,15 @@ msgstr "在資料庫 %(db)s 中找不到表 %(table)s"
 msgid "Table Name"
 msgstr "表名"
 
+#, fuzzy
+msgid "Table V2"
+msgstr "表"
+
 #, fuzzy, python-format
 msgid ""
 "Table [%(table)s] could not be found, please double check your database "
 "connection, schema, and table name"
 msgstr "找不到 [%(table)s] 資料表，請仔細檢查您的資料庫連接、Schema 和 資料表名稱"
-
-#, fuzzy
-msgid "Table actions"
-msgstr "表的列"
 
 msgid ""
 "Table already exists. You can change your 'if table already exists' "
@@ -10771,6 +11530,10 @@ msgstr "css 模板"
 msgid "Template parameters"
 msgstr "模板参數"
 
+#, fuzzy, python-format
+msgid "Template processing error: %(error)s"
+msgstr "錯誤：%(error)s"
+
 msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
 "coming from the controls."
@@ -10785,9 +11548,6 @@ msgid ""
 "another page. Available for Presto, Hive, MySQL, Postgres and Snowflake "
 "databases."
 msgstr "當瀏覽器窗口關闭或導航到其他頁面時，終止正在運行的查詢。適用於 Presto、Hive、MySQL、Postgres 和 Snowflake 資料庫"
-
-msgid "Test Connection"
-msgstr "测試連接"
 
 msgid "Test connection"
 msgstr "测試連接"
@@ -10828,11 +11588,11 @@ msgstr ""
 
 msgid ""
 "The Sankey chart visually tracks the movement and transformation of "
-"values across\n"
+"values across\r\n"
 "          system stages. Nodes represent stages, connected by links "
-"depicting value flow. Node\n"
+"depicting value flow. Node\r\n"
 "          height corresponds to the visualized metric, providing a clear "
-"representation of\n"
+"representation of\r\n"
 "          value distribution and transformation."
 msgstr ""
 
@@ -10844,7 +11604,7 @@ msgstr ""
 
 msgid ""
 "The X-axis is not on the filters list which will prevent it from being "
-"used in\n"
+"used in\r\n"
 "            time range filters in dashboards. Would you like to add it to"
 " the filters list?"
 msgstr ""
@@ -10865,21 +11625,11 @@ msgid ""
 msgstr "用於分配颜色的源節點類别。如果一個節點與多個類别關聯，则只使用第一個類别"
 
 #, fuzzy
-msgid "The chart datasource does not exist"
-msgstr "圖表不存在"
-
-msgid "The chart does not exist"
-msgstr "圖表不存在"
-
-#, fuzzy
-msgid "The chart query context does not exist"
-msgstr "圖表不存在"
-
 msgid ""
 "The classic. Great for showing how much of a company each investor gets, "
 "what demographics follow your blog, or what portion of the budget goes to"
-" the military industrial complex.\n"
-"\n"
+" the military industrial complex.\r\n"
+"\r\n"
 "        Pie charts can be difficult to interpret precisely. If clarity of"
 " relative proportion is important, consider using a bar or other chart "
 "type instead."
@@ -10905,14 +11655,17 @@ msgstr "繪制圖表的配色方案"
 
 #, fuzzy
 msgid ""
-"The color scheme is determined by the related dashboard.\n"
+"The color scheme is determined by the related dashboard.\r\n"
 "        Edit the color scheme in the dashboard properties."
 msgstr "配色方案由相關的看板决定。在看板属性中編輯配色方案"
+
+msgid "The color used when a value doesn't match any defined breakpoints."
+msgstr ""
 
 #, fuzzy
 msgid ""
 "The colors of this chart might be overridden by custom label colors of "
-"the related dashboard.\n"
+"the related dashboard.\r\n"
 "    Check the JSON metadata in the Advanced settings."
 msgstr ""
 "此配色方案正被自定義標籤颜色覆盖。\n"
@@ -10998,10 +11751,19 @@ msgid "The dataset column/metric that returns the values on your chart's y-axis.
 msgstr ""
 
 msgid ""
-"The dataset configuration exposed here\n"
-"                affects all the charts using this dataset.\n"
-"                Be mindful that changing settings\n"
-"                here may affect other charts\n"
+"The dataset columns will be automatically synced\r\n"
+"              based on the changes in your SQL query. If your changes "
+"don't\r\n"
+"              impact the column definitions, you might want to skip this "
+"step."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"The dataset configuration exposed here\r\n"
+"                affects all the charts using this dataset.\r\n"
+"                Be mindful that changing settings\r\n"
+"                here may affect other charts\r\n"
 "                in undesirable ways."
 msgstr "這里公開的數據集配置會影響使用此數據集的所有圖表。請注意，更改此處的設定可能會以未預想的方式影響其他圖表。"
 
@@ -11065,24 +11827,32 @@ msgstr " `series_columns`中的下列條目在 `columns` 中缺失: %(columns)s.
 
 #, python-format
 msgid ""
-"The following filters have the 'Select first filter value by default'\n"
+"The following filters have the 'Select first filter value by default'\r\n"
 "                    option checked and could not be loaded, which is "
-"preventing the dashboard\n"
+"preventing the dashboard\r\n"
 "                    from rendering: %s"
 msgstr ""
 
 msgid "The function to use when aggregating points into groups"
 msgstr ""
 
+#, fuzzy
+msgid "The group has been created successfully."
+msgstr "報告已創建"
+
+#, fuzzy
+msgid "The group has been updated successfully."
+msgstr "注释已更新。"
+
 msgid "The height of the current zoom level to compute all heights from"
 msgstr ""
 
 msgid ""
-"The histogram chart displays the distribution of a dataset by\n"
+"The histogram chart displays the distribution of a dataset by\r\n"
 "          representing the frequency or count of values within different "
-"ranges or bins.\n"
+"ranges or bins.\r\n"
 "          It helps visualize patterns, clusters, and outliers in the data"
-" and provides\n"
+" and provides\r\n"
 "          insights into its shape, central tendency, and spread."
 msgstr ""
 
@@ -11130,6 +11900,7 @@ msgid ""
 "%(key)s is invalid."
 msgstr "額外欄位中的元數據参數配置不正確。鍵 %(key)s 無效。"
 
+#, python-brace-format
 msgid ""
 "The metadata_params in Extra field is not configured correctly. The key "
 "%{key}s is invalid."
@@ -11233,6 +12004,10 @@ msgstr "用戶名 \"%(username)s\" 提供的密碼不正確。"
 msgid "The password provided when connecting to a database is not valid."
 msgstr "連接資料庫時提供的密碼無效。"
 
+#, fuzzy
+msgid "The password reset was successful"
+msgstr "該看板已成功保存。"
+
 msgid ""
 "The passwords for the databases below are needed in order to import them "
 "together with the charts. Please note that the \"Secure Extra\" and "
@@ -11286,9 +12061,10 @@ msgstr ""
 msgid "The pattern of timestamp format. For strings use "
 msgstr "時間戳格式的模式。供字符串使用 "
 
+#, fuzzy
 msgid ""
-"The periodicity over which to pivot time. Users can provide\n"
-"            \"Pandas\" offset alias.\n"
+"The periodicity over which to pivot time. Users can provide\r\n"
+"            \"Pandas\" offset alias.\r\n"
 "            Click on the info bubble for more details on accepted "
 "\"freq\" expressions."
 msgstr "旋轉時間的週期性。"
@@ -11385,6 +12161,18 @@ msgstr "後端儲存的结果以不同的格式儲存，而且不再可以反序
 
 msgid "The rich tooltip shows a list of all series for that point in time"
 msgstr "詳細提示顯示了該時間點的所有序列的列表。"
+
+#, fuzzy
+msgid "The role has been created successfully."
+msgstr "報告已創建"
+
+#, fuzzy
+msgid "The role has been duplicated successfully."
+msgstr "報告已創建"
+
+#, fuzzy
+msgid "The role has been updated successfully."
+msgstr "注释已更新。"
 
 msgid ""
 "The row limit set for the chart was reached. The chart may show partial "
@@ -11503,6 +12291,10 @@ msgid "The time unit used for the grouping of blocks"
 msgstr "用於块分組的時間單位"
 
 #, fuzzy
+msgid "The two passwords that you entered do not match!"
+msgstr "看板不存在"
+
+#, fuzzy
 msgid "The type of the layer"
 msgstr "給圖表增加名稱"
 
@@ -11515,8 +12307,16 @@ msgstr "指定點半徑的度量單位"
 msgid "The upper limit of the threshold range of the Isoband"
 msgstr ""
 
+#, fuzzy
+msgid "The user has been updated successfully."
+msgstr "該看板已成功保存。"
+
 msgid "The user seems to have been deleted"
 msgstr "用戶已經被删除"
+
+#, fuzzy
+msgid "The user was updated successfully"
+msgstr "該看板已成功保存。"
 
 msgid "The user/password combination is not valid (Incorrect password for user)."
 msgstr ""
@@ -11527,6 +12327,9 @@ msgstr "指標 '%(username)s' 不存在"
 
 msgid "The username provided when connecting to a database is not valid."
 msgstr "連接到資料庫時提供的用戶名無效。"
+
+msgid "The values overlap other breakpoint values"
+msgstr ""
 
 #, fuzzy
 msgid "The version of the service"
@@ -11553,6 +12356,29 @@ msgstr "線條的寬度"
 #, fuzzy
 msgid "The width of the lines"
 msgstr "線條的寬度"
+
+#, fuzzy
+msgid "Theme"
+msgstr "時間"
+
+msgid "Theme & CSS"
+msgstr ""
+
+#, fuzzy
+msgid "Theme imported"
+msgstr "數據集已導入"
+
+#, fuzzy
+msgid "Theme not found."
+msgstr "CSS 模板未找到"
+
+#, fuzzy
+msgid "Themes"
+msgstr "時間"
+
+#, fuzzy
+msgid "Themes could not be deleted."
+msgstr "無法删除標籤"
 
 msgid "There are associated alerts or reports"
 msgstr "存在關聯的警報或報告"
@@ -11594,6 +12420,22 @@ msgid ""
 msgstr "此組件没有足够的空間。請嘗試減小其寬度，或增加目標寬度。"
 
 #, fuzzy
+msgid "There was an error creating the group. Please, try again."
+msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
+
+#, fuzzy
+msgid "There was an error creating the role. Please, try again."
+msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
+
+#, fuzzy
+msgid "There was an error creating the user. Please, try again."
+msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
+
+#, fuzzy
+msgid "There was an error duplicating the role. Please, try again."
+msgstr "删除選定的數據集時出現問題：%s"
+
+#, fuzzy
 msgid "There was an error fetching dataset"
 msgstr "抱歉，獲取資料庫訊息時出錯：%s"
 
@@ -11621,23 +12463,39 @@ msgstr "您的請求有錯誤"
 msgid "There was an error loading the chart data"
 msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
 
-#, fuzzy
-msgid "There was an error loading the dataset metadata"
-msgstr "您的請求有錯誤"
-
 msgid "There was an error loading the schemas"
 msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
 
 msgid "There was an error loading the tables"
 msgstr "您的請求有錯誤"
 
-#, fuzzy, python-format
+#, fuzzy
+msgid "There was an error loading users."
+msgstr "您的請求有錯誤"
+
+#, fuzzy
 msgid "There was an error retrieving dashboard tabs."
 msgstr "抱歉，這個看板在保存時發生錯誤：%s"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
 msgstr "獲取此看板的收藏夹狀態時出現問題: %s"
+
+#, fuzzy
+msgid "There was an error updating the group. Please, try again."
+msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
+
+#, fuzzy
+msgid "There was an error updating the role. Please, try again."
+msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
+
+#, fuzzy
+msgid "There was an error updating the user. Please, try again."
+msgstr "抱歉，這個看板在獲取圖表時發生錯誤："
+
+#, fuzzy
+msgid "There was an error while fetching users"
+msgstr "抱歉，獲取資料庫訊息時出錯：%s"
 
 msgid "There was an error with your request"
 msgstr "您的請求有錯誤"
@@ -11649,6 +12507,10 @@ msgstr "删除時出現問題：%s"
 #, python-format
 msgid "There was an issue deleting %s: %s"
 msgstr "删除 %s 時出現問題：%s"
+
+#, fuzzy, python-format
+msgid "There was an issue deleting registration for user: %s"
+msgstr "删除規則時出現問題：%s"
 
 #, fuzzy, python-format
 msgid "There was an issue deleting rules: %s"
@@ -11683,6 +12545,10 @@ msgstr "删除所選查詢時出現問題：%s"
 
 #, python-format
 msgid "There was an issue deleting the selected templates: %s"
+msgstr "删除所選模板時出現問題：%s"
+
+#, fuzzy, python-format
+msgid "There was an issue deleting the selected themes: %s"
 msgstr "删除所選模板時出現問題：%s"
 
 #, python-format
@@ -11744,6 +12610,10 @@ msgstr "這個JSON對象描述了部件在看板中的位置。它是動態生�
 msgid "This action will permanently delete %s."
 msgstr "此操作將永久删除 %s 。"
 
+#, fuzzy
+msgid "This action will permanently delete the group."
+msgstr "此操作將永久删除圖層。"
+
 msgid "This action will permanently delete the layer."
 msgstr "此操作將永久删除圖層。"
 
@@ -11756,6 +12626,14 @@ msgstr "此操作將永久删除保存的查詢。"
 
 msgid "This action will permanently delete the template."
 msgstr "此操作將永久删除模板。"
+
+#, fuzzy
+msgid "This action will permanently delete the theme."
+msgstr "此操作將永久删除模板。"
+
+#, fuzzy
+msgid "This action will permanently delete the user registration."
+msgstr "此操作將永久删除圖層。"
 
 #, fuzzy
 msgid "This action will permanently delete the user."
@@ -11803,13 +12681,13 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This controls whether the \"time_range\" field from the current\n"
+"This controls whether the \"time_range\" field from the current\r\n"
 "                  view should be passed down to the chart containing the "
 "annotation data."
 msgstr ""
 
 msgid ""
-"This controls whether the time grain field from the current\n"
+"This controls whether the time grain field from the current\r\n"
 "                  view should be passed down to the chart containing the "
 "annotation data."
 msgstr ""
@@ -11851,11 +12729,11 @@ msgstr "此仪表板已准备好嵌入。在您的應用程序中，將以下 ID
 msgid "This dashboard was saved successfully."
 msgstr "該看板已成功保存。"
 
+#, fuzzy
 msgid ""
-"This database does not allow for DDL/DML, and the query could not be "
-"parsed to confirm it is a read-only query. Please contact your "
-"administrator for more assistance."
-msgstr ""
+"This database does not allow for DDL/DML, but the query mutates data. "
+"Please contact your administrator for more assistance."
+msgstr "找不到此查詢中引用的資料庫。請與管理員聯繫以獲得進一步帮助，或重試。"
 
 msgid "This database is managed externally, and can't be edited in Superset"
 msgstr ""
@@ -11874,7 +12752,9 @@ msgstr ""
 msgid "This defines the element to be plotted on the chart"
 msgstr "這定義了要在圖表上繪制的元素"
 
-msgid "This email is already associated with an account."
+msgid ""
+"This email is already associated with an account. Please choose another "
+"one."
 msgstr ""
 
 msgid ""
@@ -11904,6 +12784,12 @@ msgstr ""
 "這是將會增加到 WHERE 子句的條件。例如，要僅返回特定客戶端的行，可以使用子句 `client_id = 9` 定義常規過濾。若要在用戶不属於"
 " RLS 過濾角色的情况下不顯示行，可以使用子句 `1 = 0`（始終為 false）創建基本過濾。"
 
+msgid "This is the system dark theme"
+msgstr ""
+
+msgid "This is the system default theme"
+msgstr ""
+
 msgid ""
 "This json object describes the positioning of the widgets in the "
 "dashboard. It is dynamically generated when adjusting the widgets size "
@@ -11923,6 +12809,9 @@ msgstr "這可能由以下因素觸發："
 msgid "This metric might be incompatible with current dataset"
 msgstr "此圖表可能與過濾器不兼容(數據集不匹配)"
 
+msgid "This name is already taken. Please choose another one."
+msgstr ""
+
 msgid "This option has been disabled by the administrator."
 msgstr ""
 
@@ -11933,7 +12822,7 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"This section allows you to configure how to use the slice\n"
+"This section allows you to configure how to use the slice\r\n"
 "              to generate annotations."
 msgstr "此部分允許您配置如何使用切片生成注释。"
 
@@ -11958,6 +12847,12 @@ msgid ""
 "This table already has a dataset associated with it. You can only "
 "associate one dataset with a table.\n"
 msgstr "此表已經關聯了一個數據集。一個表只能關聯一個數據集。"
+
+msgid "This theme is set locally"
+msgstr ""
+
+msgid "This theme is set locally for your session"
+msgstr ""
 
 msgid "This username is already taken. Please choose another one."
 msgstr ""
@@ -11995,6 +12890,10 @@ msgstr "閥值"
 
 msgid "Threshold alpha level for determining significance"
 msgstr "確定重要性的閥值 α 水平"
+
+#, fuzzy
+msgid "Threshold for Other"
+msgstr "閥值"
 
 #, fuzzy
 msgid "Threshold: "
@@ -12086,7 +12985,7 @@ msgid "Time comparison"
 msgstr "時間比較"
 
 msgid ""
-"Time delta in natural language\n"
+"Time delta in natural language\r\n"
 "                  (example:  24 hours, 7 days, 56 weeks, 365 days)"
 msgstr ""
 
@@ -12156,6 +13055,10 @@ msgstr "時間序列 - 週期軸"
 msgid "Time-series Table"
 msgstr "時間序列 - 表格"
 
+#, fuzzy
+msgid "Timeline"
+msgstr "時區"
+
 msgid "Timeout error"
 msgstr "超時錯誤"
 
@@ -12194,8 +13097,20 @@ msgstr "若要在計量值上篩選，請使用自定義 SQL 選項卡。"
 msgid "To get a readable URL for your dashboard"
 msgstr "為看板生成一個可讀的 URL"
 
+#, fuzzy
+msgid "Tool Panel"
+msgstr "應用於所有面板"
+
 msgid "Tooltip"
 msgstr "提示"
+
+#, fuzzy
+msgid "Tooltip (columns)"
+msgstr "提示内容"
+
+#, fuzzy
+msgid "Tooltip (metrics)"
+msgstr "按指標排序提示"
 
 #, fuzzy
 msgid "Tooltip Contents"
@@ -12232,10 +13147,6 @@ msgstr ""
 #, python-format
 msgid "Total (%(aggregatorName)s)"
 msgstr ""
-
-#, fuzzy, python-format
-msgid "Total (Sum)"
-msgstr "總計: %s"
 
 #, fuzzy
 msgid "Total value"
@@ -12280,6 +13191,10 @@ msgstr "三角形"
 
 msgid "Trigger Alert If..."
 msgstr "達到以下條件觸發警報："
+
+#, fuzzy
+msgid "True"
+msgstr "星期二"
 
 #, fuzzy
 msgid "Truncate Axis"
@@ -12354,6 +13269,9 @@ msgstr "比較類型，值差異或百分比"
 msgid "UI Configuration"
 msgstr "UI 配置"
 
+msgid "UI theme administration is not enabled."
+msgstr ""
+
 msgid "URL"
 msgstr "URL 地址"
 
@@ -12398,6 +13316,11 @@ msgid "Unable to find such a holiday: [%(holiday)s]"
 msgstr "找不到這樣的假期：[%(holiday)s]"
 
 msgid ""
+"Unable to identify temporal column for date range time comparison.Please "
+"ensure your dataset has a properly configured time column."
+msgstr ""
+
+msgid ""
 "Unable to load columns for the selected table. Please select a different "
 "table."
 msgstr ""
@@ -12423,6 +13346,10 @@ msgstr "無法將表結構狀態遷移到後端。系统將稍後重試。如果
 
 msgid "Unable to parse SQL"
 msgstr ""
+
+#, fuzzy
+msgid "Unable to read the file, please refresh and try again."
+msgstr "圖片發送失敗，請刷新或重試"
 
 msgid "Unable to retrieve dashboard colors"
 msgstr ""
@@ -12459,6 +13386,10 @@ msgstr "没有已保存的表達式"
 #, fuzzy, python-format
 msgid "Unexpected time range: %(error)s"
 msgstr "意外時間範圍：%(error)s"
+
+#, fuzzy
+msgid "Ungroup By"
+msgstr "分組"
 
 #, fuzzy
 msgid "Unhide"
@@ -12586,10 +13517,6 @@ msgstr "上傳 Excel"
 msgid "Upload JSON file"
 msgstr "上傳 JSON 文件"
 
-#, fuzzy
-msgid "Upload a file to a database."
-msgstr "上傳文件到資料庫"
-
 #, python-format
 msgid "Upload a file with a valid extension. Valid: [%s]"
 msgstr ""
@@ -12648,11 +13575,15 @@ msgstr "使用到資料庫的加密連接"
 msgid "Use an ssh tunnel connection to the database"
 msgstr "使用 SSH 隧道連接到資料庫"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Use another existing chart as a source for annotations and overlays.\n"
+"Use another existing chart as a source for annotations and overlays.\r\n"
 "          Your chart must be one of these visualization types: [%s]"
 msgstr "使用另一個現有的圖表作為注释和標記的數據源。您的圖表必須是以下可視化類型之一：[%s]"
+
+#, fuzzy
+msgid "Use automatic color"
+msgstr "自動配色"
 
 #, fuzzy
 msgid "Use current extent"
@@ -12669,10 +13600,6 @@ msgstr "只使用一個值"
 
 msgid "Use the Advanced Analytics options below"
 msgstr "使用下面的高級分析選項"
-
-#, fuzzy
-msgid "Use the edit button to change this field"
-msgstr "使用編輯按钮更改此欄位"
 
 msgid "Use this section if you want a query that aggregates"
 msgstr ""
@@ -12698,6 +13625,14 @@ msgstr "用於通過將多個统計訊息分組在一起來彙總一組數據"
 msgid "User"
 msgstr "用戶"
 
+#, fuzzy
+msgid "User Name"
+msgstr "用戶名"
+
+#, fuzzy
+msgid "User Registrations"
+msgstr "使用面積比例"
+
 msgid "User doesn't have the proper permissions."
 msgstr "您没有授權 "
 
@@ -12707,11 +13642,9 @@ msgstr "用戶必須給過濾器選擇一個值"
 msgid "User query"
 msgstr "用戶查詢"
 
-msgid "User was successfully created!"
-msgstr ""
-
-msgid "User was successfully updated!"
-msgstr ""
+#, fuzzy
+msgid "User registrations"
+msgstr "使用面積比例"
 
 msgid "Username"
 msgstr "用戶名"
@@ -12719,6 +13652,10 @@ msgstr "用戶名"
 #, fuzzy
 msgid "Username is required"
 msgstr "需要名稱"
+
+#, fuzzy
+msgid "Username:"
+msgstr "用戶名"
 
 #, fuzzy
 msgid "Users"
@@ -12752,6 +13689,14 @@ msgstr ""
 
 msgid "Value"
 msgstr "值"
+
+#, fuzzy
+msgid "Value Aggregation"
+msgstr "合計"
+
+#, fuzzy
+msgid "Value Columns"
+msgstr "表的列"
 
 msgid "Value Domain"
 msgstr "值域"
@@ -12793,12 +13738,19 @@ msgstr "`行偏移量` 必須 大於 或 等於 0"
 msgid "Value must be greater than 0"
 msgstr "`行偏移量` 必須 大於 或 等於 0"
 
+#, fuzzy
+msgid "Values"
+msgstr "值"
+
 msgid "Values are dependent on other filters"
 msgstr "這些值依賴於其他過濾器"
 
 #, fuzzy
 msgid "Values dependent on"
 msgstr "值依賴於"
+
+msgid "Values less than this percentage will be grouped into the Other category."
+msgstr ""
 
 msgid ""
 "Values selected in other filters will affect the filter options to only "
@@ -12846,6 +13798,14 @@ msgstr "查看鍵和索引（%s）"
 
 msgid "View query"
 msgstr "查看查詢語句"
+
+#, fuzzy
+msgid "View theme"
+msgstr "查看數據集"
+
+#, fuzzy
+msgid "View theme properties"
+msgstr "編輯属性"
 
 msgid "Viewed"
 msgstr "已查看"
@@ -12996,10 +13956,13 @@ msgstr "無法檢查你的查詢語句"
 msgid "Waterfall Chart"
 msgstr "瀑布圖"
 
-msgid ""
-"We are unable to connect to your database. Click \"See more\" for "
-"database-provided information that may help troubleshoot the issue."
-msgstr "無法連接到資料庫。點擊 “查看更多” 來獲取資料庫提供的訊息以解决問題。"
+#, fuzzy, python-format
+msgid "We are unable to connect to your database."
+msgstr "不能連接到資料庫\"%(database)s\""
+
+#, fuzzy
+msgid "We are working on your query"
+msgstr "為您的查詢設定標籤"
 
 #, python-format
 msgid "We can't seem to resolve column \"%(column)s\" at line %(location)s."
@@ -13124,10 +14087,12 @@ msgstr "啟用後，用戶可以在 Explore 中可視化 SQL 實驗室结果。"
 msgid "When only a primary metric is provided, a categorical color scale is used."
 msgstr "如果只提供了一個主計量指標，则使用分類色階。"
 
+#, fuzzy
 msgid ""
 "When specifying SQL, the datasource acts as a view. Superset will use "
 "this statement as a subquery while grouping and filtering on the "
-"generated parent queries."
+"generated parent queries.If changes are made to your SQL query, columns "
+"in your dataset will be synced when saving the dataset."
 msgstr "指定 SQL 時，數據源會充當視圖。在對生成的父查詢進行分組和篩選時，系统將使用此語句作為子查詢。"
 
 msgid ""
@@ -13181,10 +14146,6 @@ msgstr "是以動画形式顯示進度和值，還是僅顯示它們"
 msgid "Whether to apply a normal distribution based on rank on the color scale"
 msgstr "是否應用基於色標等級的正態分布"
 
-#, fuzzy
-msgid "Whether to apply filter when items are clicked"
-msgstr "數據項被點擊的時候是否應用過濾器"
-
 msgid "Whether to colorize numeric values by if they are positive or negative"
 msgstr "根据數值是正數還是負數來為其上色"
 
@@ -13219,6 +14180,10 @@ msgstr "是否顯示標籤。"
 
 msgid "Whether to display the legend (toggles)"
 msgstr "是否顯示圖例（切换）"
+
+#, fuzzy
+msgid "Whether to display the metric name"
+msgstr "是否將指標名顯示為標題"
 
 msgid "Whether to display the metric name as a title"
 msgstr "是否將指標名顯示為標題"
@@ -13339,9 +14304,6 @@ msgstr "在懸停時突出顯示哪些關係"
 msgid "Whisker/outlier options"
 msgstr "異常值/離群值選項"
 
-msgid "White"
-msgstr "白色"
-
 msgid "Width"
 msgstr "寬度"
 
@@ -13378,9 +14340,6 @@ msgstr "為您的查詢寫一段描述"
 msgid "Write a handlebars template to render the data"
 msgstr ""
 
-msgid "X axis title margin"
-msgstr "X 軸標題邊距"
-
 msgid "X Axis"
 msgstr "X 軸"
 
@@ -13392,6 +14351,10 @@ msgid "X Axis Format"
 msgstr "X 軸格式化"
 
 msgid "X Axis Label"
+msgstr "X 軸標籤"
+
+#, fuzzy
+msgid "X Axis Label Interval"
 msgstr "X 軸標籤"
 
 msgid "X Axis Title"
@@ -13406,6 +14369,9 @@ msgstr "X 對數尺度"
 
 msgid "X Tick Layout"
 msgstr "X 軸刻度圖層"
+
+msgid "X axis title margin"
+msgstr "X 軸標題邊距"
 
 msgid "X bounds"
 msgstr "X 界限"
@@ -13429,9 +14395,6 @@ msgstr ""
 
 msgid "Y 2 bounds"
 msgstr "Y 界限"
-
-msgid "Y axis title margin"
-msgstr "Y 軸標題邊距"
 
 msgid "Y Axis"
 msgstr "Y 軸"
@@ -13460,6 +14423,9 @@ msgstr "Y 軸標題位置"
 
 msgid "Y Log Scale"
 msgstr "Y 對數尺度"
+
+msgid "Y axis title margin"
+msgstr "Y 軸標題邊距"
 
 msgid "Y bounds"
 msgstr "Y 界限"
@@ -13513,6 +14479,10 @@ msgstr "是的，覆盖"
 msgid "You are adding tags to %s %ss"
 msgstr "你給 %s %ss 增加了標籤"
 
+#, fuzzy, python-format
+msgid "You are edting a query from the virtual dataset "
+msgstr ""
+
 msgid ""
 "You are importing one or more charts that already exist. Overwriting "
 "might cause you to lose some of your work. Are you sure you want to "
@@ -13543,15 +14513,22 @@ msgid ""
 "want to overwrite?"
 msgstr "您正在導入一個或多個已存在的查詢。覆盖可能會導致您丢失一些工作。您確定要覆盖嗎？"
 
+#, fuzzy
+msgid ""
+"You are importing one or more themes that already exist. Overwriting "
+"might cause you to lose some of your work. Are you sure you want to "
+"overwrite?"
+msgstr "您正在導入一個或多個已存在的數據集。覆盖可能會導致您丢失一些工作。確定要覆盖嗎？"
+
 msgid ""
 "You are viewing this chart in a dashboard context with labels shared "
-"across multiple charts.\n"
+"across multiple charts.\r\n"
 "        The color scheme selection is disabled."
 msgstr ""
 
 msgid ""
 "You are viewing this chart in the context of a dashboard that is directly"
-" affecting its colors.\n"
+" affecting its colors.\r\n"
 "        To edit the color scheme, open this chart outside of the "
 "dashboard."
 msgstr ""
@@ -13569,9 +14546,10 @@ msgstr ""
 msgid "You can also just click on the chart to apply cross-filter."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "You can choose to display all charts that you have access to or only the "
-"ones you own.\n"
+"ones you own.\r\n"
 "              Your filter selection will be saved and remain active until"
 " you choose to change it."
 msgstr "您可以選擇顯示所有您有權限訪問的圖表，或者僅顯示您拥有的圖表。您的過濾器選擇將被保存，並保持啟用狀態，直到您選擇更改它。"
@@ -13674,9 +14652,6 @@ msgid ""
 "the history."
 msgstr ""
 
-msgid "You may have an error in your SQL statement. {message}"
-msgstr ""
-
 msgid ""
 "You must be a dataset owner in order to edit. Please reach out to a "
 "dataset owner to request modifications or edit access."
@@ -13738,9 +14713,6 @@ msgstr "您的查詢已保存"
 
 msgid "Your query was updated"
 msgstr "您的查詢已更新"
-
-msgid "Your range is not within the dataset range"
-msgstr ""
 
 msgid "Your report could not be deleted"
 msgstr "這個報告無法被删除"
@@ -13834,9 +14806,6 @@ msgstr "`行偏移量` 必須大於或等於 0"
 msgid "`width` must be greater or equal to 0"
 msgstr "`寬度` 必須大於或等於 0"
 
-msgid "Add colors to cell bars for +/-"
-msgstr ""
-
 msgid "aggregate"
 msgstr "合計"
 
@@ -13846,10 +14815,6 @@ msgstr "警報"
 #, fuzzy
 msgid "alert condition"
 msgstr "告警條件"
-
-#, fuzzy
-msgid "alert dark"
-msgstr "警報（暗色）"
 
 msgid "alerts"
 msgstr "警報"
@@ -13884,16 +14849,13 @@ msgid "background"
 msgstr "背景"
 
 #, fuzzy
-msgid "Basic conditional formatting"
-msgstr "條件格式設定"
-
-#, fuzzy
 msgid "basis"
 msgstr "基礎"
 
 msgid "below (example:"
 msgstr "格式，比如："
 
+#, python-brace-format
 msgid "between {down} and {up} {name}"
 msgstr ""
 
@@ -13927,6 +14889,10 @@ msgid "change"
 msgstr "範圍"
 
 msgid "chart"
+msgstr "圖表"
+
+#, fuzzy
+msgid "charts"
 msgstr "圖表"
 
 msgid "choose WHERE or HAVING..."
@@ -14000,6 +14966,10 @@ msgid "cumsum"
 msgstr "累積求和"
 
 msgid "dashboard"
+msgstr "看板"
+
+#, fuzzy
+msgid "dashboards"
 msgstr "看板"
 
 msgid "database"
@@ -14092,6 +15062,10 @@ msgstr "偏離"
 msgid "dialect+driver://username:password@host:port/database"
 msgstr ""
 
+#, fuzzy
+msgid "documentation"
+msgstr "文檔"
+
 msgid "dttm"
 msgstr "時間"
 
@@ -14152,9 +15126,6 @@ msgstr "序列"
 msgid "error"
 msgstr "錯誤"
 
-msgid "error dark"
-msgstr "錯誤（暗色）"
-
 #, fuzzy
 msgid "error_message"
 msgstr "錯誤訊息"
@@ -14182,10 +15153,6 @@ msgid "expand"
 msgstr "展開"
 
 #, fuzzy
-msgid "explore"
-msgstr "探索"
-
-#, fuzzy
 msgid "failed"
 msgstr "失敗"
 
@@ -14201,6 +15168,10 @@ msgstr "扁平"
 
 msgid "for more information on how to structure your URI."
 msgstr "來查詢有關如何構造 URI 的更多訊息。"
+
+#, fuzzy
+msgid "formatted"
+msgstr "格式日期"
 
 msgid "function type icon"
 msgstr ""
@@ -14225,9 +15196,6 @@ msgstr "小時"
 msgid "in"
 msgstr "處於"
 
-msgid "in modal"
-msgstr "（在模型中）"
-
 #, fuzzy
 msgid "invalid email"
 msgstr "無效狀態。"
@@ -14236,9 +15204,10 @@ msgstr "無效狀態。"
 msgid "is"
 msgstr "處於"
 
-#, fuzzy
-msgid "is expected to be a Mapbox URL"
-msgstr "應該為 MapBox 的 URL"
+msgid ""
+"is expected to be a Mapbox/OSM URL (eg. mapbox://styles/...) or a tile "
+"server URL (eg. tile://http...)"
+msgstr ""
 
 msgid "is expected to be a number"
 msgstr "應該為數字"
@@ -14251,9 +15220,7 @@ msgid ""
 "is linked to %s charts that appear on %s dashboards and users have %s SQL"
 " Lab tabs using this database open. Are you sure you want to continue? "
 "Deleting the database will break those objects."
-msgstr ""
-"已經關聯了 %s 圖表和 %s 看板，並且用戶在該資料庫上打開了 %s 個 SQL "
-"編輯器選項卡。確定要繼續嗎？删除資料庫將破壞這些對象。"
+msgstr "已經關聯了 %s 圖表和 %s 看板，並且用戶在該資料庫上打開了 %s 個 SQL 編輯器選項卡。確定要繼續嗎？删除資料庫將破壞這些對象。"
 
 #, fuzzy, python-format
 msgid ""
@@ -14279,6 +15246,7 @@ msgstr "最新分區："
 msgid "left"
 msgstr "左"
 
+#, python-brace-format
 msgid "less than {min} {name}"
 msgstr ""
 
@@ -14330,6 +15298,7 @@ msgstr "單調性"
 msgid "month"
 msgstr "月"
 
+#, python-brace-format
 msgid "more than {max} {name}"
 msgstr ""
 
@@ -14354,6 +15323,9 @@ msgstr ""
 msgid "nvd3"
 msgstr "nvd3"
 
+msgid "of"
+msgstr ""
+
 #, fuzzy
 msgid "offline"
 msgstr "離線"
@@ -14370,6 +15342,10 @@ msgstr "或從右側面板中使用已存在的對象"
 
 msgid "orderby column must be populated"
 msgstr "必須填充用於排序的列"
+
+#, fuzzy
+msgid "original"
+msgstr "起點"
 
 #, fuzzy
 msgid "overall"
@@ -14394,9 +15370,6 @@ msgstr ""
 msgid "p99"
 msgstr ""
 
-msgid "page_size.all"
-msgstr ""
-
 #, fuzzy
 msgid "pending"
 msgstr "正在處理"
@@ -14409,6 +15382,10 @@ msgstr "百分位數必須是具有兩個數值的列表或元組，其中第一
 #, fuzzy
 msgid "permalink state not found"
 msgstr "未找到持久链接狀態"
+
+#, fuzzy
+msgid "pivoted_xlsx"
+msgstr "旋轉"
 
 msgid "pixels"
 msgstr "像素"
@@ -14530,10 +15507,6 @@ msgstr "字符類圖標"
 msgid "success"
 msgstr "成功"
 
-#, fuzzy
-msgid "success dark"
-msgstr "成功（暗色）"
-
 msgid "sum"
 msgstr "求和"
 
@@ -14555,6 +15528,14 @@ msgid "textarea"
 msgstr "文本區域"
 
 #, fuzzy
+msgid "theme"
+msgstr "時間"
+
+#, fuzzy
+msgid "to"
+msgstr "頂部"
+
+#, fuzzy
 msgid "top"
 msgstr "頂部"
 
@@ -14570,7 +15551,7 @@ msgstr "未知類型圖標"
 msgid "unset"
 msgstr "六月"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "updated"
 msgstr "上次更新 %s"
 

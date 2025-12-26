@@ -13,57 +13,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  superset-ds\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-29 12:34+0330\n"
+"POT-Creation-Date: 2025-12-26 20:28+0330\n"
 "PO-Revision-Date: 2024-05-08 14:41+0000\n"
 "Last-Translator: \n"
 "Language: nl\n"
 "Language-Team: Dutch\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
-
-msgid ""
-"\n"
-"                The cumulative option allows you to see how your data "
-"accumulates over different\n"
-"                values. When enabled, the histogram bars represent the "
-"running total of frequencies\n"
-"                up to each bin. This helps you understand how likely it "
-"is to encounter values\n"
-"                below a certain point. Keep in mind that enabling "
-"cumulative doesn't change your\n"
-"                original data, it just changes the way the histogram is "
-"displayed."
-msgstr ""
-
-msgid ""
-"\n"
-"                The normalize option transforms the histogram values into"
-" proportions or\n"
-"                probabilities by dividing each bin's count by the total "
-"count of data points.\n"
-"                This normalization process ensures that the resulting "
-"values sum up to 1,\n"
-"                enabling a relative comparison of the data's distribution"
-" and providing a\n"
-"                clearer understanding of the proportion of data points "
-"within each bin."
-msgstr ""
-
-msgid ""
-"\n"
-"                This filter was inherited from the dashboard's context.\n"
-"                It won't be saved when saving the chart.\n"
-"              "
-msgstr ""
-"\n"
-"                Deze filter werd geërfd van de context van het dashboard."
-"\n"
-"                Dit wordt niet opgeslagen bij het opslaan van de grafiek."
-"\n"
-"              "
+"Generated-By: Babel 2.17.0\n"
 
 #, python-format
 msgid ""
@@ -74,6 +33,49 @@ msgid ""
 "            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n"
 "            "
 msgstr ""
+
+msgid ""
+"\r\n"
+"                The cumulative option allows you to see how your data "
+"accumulates over different\r\n"
+"                values. When enabled, the histogram bars represent the "
+"running total of frequencies\r\n"
+"                up to each bin. This helps you understand how likely it "
+"is to encounter values\r\n"
+"                below a certain point. Keep in mind that enabling "
+"cumulative doesn't change your\r\n"
+"                original data, it just changes the way the histogram is "
+"displayed."
+msgstr ""
+
+msgid ""
+"\r\n"
+"                The normalize option transforms the histogram values into"
+" proportions or\r\n"
+"                probabilities by dividing each bin's count by the total "
+"count of data points.\r\n"
+"                This normalization process ensures that the resulting "
+"values sum up to 1,\r\n"
+"                enabling a relative comparison of the data's distribution"
+" and providing a\r\n"
+"                clearer understanding of the proportion of data points "
+"within each bin."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"\r\n"
+"                This filter was inherited from the dashboard's context."
+"\r\n"
+"                It won't be saved when saving the chart.\r\n"
+"              "
+msgstr ""
+"\n"
+"                Deze filter werd geërfd van de context van het dashboard."
+"\n"
+"                Dit wordt niet opgeslagen bij het opslaan van de grafiek."
+"\n"
+"              "
 
 msgid " (excluded)"
 msgstr " (uitgesloten)"
@@ -98,6 +100,10 @@ msgstr ""
 msgid " expression which needs to adhere to the "
 msgstr " uitdrukking die moet voldoen aan de "
 
+#, fuzzy
+msgid " for details."
+msgstr "Details"
+
 #, python-format
 msgid " near '%(highlight)s'"
 msgstr ""
@@ -105,20 +111,23 @@ msgstr ""
 msgid " source code of Superset's sandboxed parser"
 msgstr " broncode van Superset's sandboxed parser"
 
+#, fuzzy
 msgid ""
-" standard to ensure that the lexicographical ordering\n"
-"                      coincides with the chronological ordering. If the\n"
+" standard to ensure that the lexicographical ordering\r\n"
+"                      coincides with the chronological ordering. If the"
+"\r\n"
 "                      timestamp format does not adhere to the ISO 8601 "
-"standard\n"
-"                      you will need to define an expression and type for\n"
+"standard\r\n"
+"                      you will need to define an expression and type for"
+"\r\n"
 "                      transforming the string into a date or timestamp. "
-"Note\n"
+"Note\r\n"
 "                      currently time zones are not supported. If time is "
-"stored\n"
+"stored\r\n"
 "                      in epoch format, put `epoch_s` or `epoch_ms`. If no"
-" pattern\n"
+" pattern\r\n"
 "                      is specified we fall back to using the optional "
-"defaults on a per\n"
+"defaults on a per\r\n"
 "                      database/column name level via the extra parameter."
 msgstr ""
 " standaard om ervoor te zorgen dat de lexicografische volgorde\n"
@@ -142,6 +151,9 @@ msgstr " berekende kolommen toevoegen"
 msgid " to add metrics"
 msgstr " om meetwaarden toe te voegen"
 
+msgid " to check for details."
+msgstr ""
+
 msgid " to edit or add columns and metrics."
 msgstr " om kolommen en metrieken toe te voegen of bewerken."
 
@@ -151,11 +163,23 @@ msgstr " om een kolom als tijdkolom te markeren"
 msgid " to open SQL Lab. From there you can save the query as a dataset."
 msgstr " om SQL Lab te openen. Vanaf daar kunt u de query opslaan als dataset."
 
+#, fuzzy
+msgid " to see details."
+msgstr "Bekijk query details"
+
 msgid " to visualize your data."
 msgstr " om uw gegevens te visualiseren."
 
 msgid "!= (Is not equal)"
 msgstr "!= (Is niet gelijk)"
+
+#, python-format
+msgid "\"%s\" is now the system dark theme"
+msgstr ""
+
+#, python-format
+msgid "\"%s\" is now the system default theme"
+msgstr ""
 
 #, python-format
 msgid "% calculation"
@@ -295,6 +319,12 @@ msgid "%s recipients"
 msgstr "recente"
 
 #, fuzzy, python-format
+msgid "%s record"
+msgid_plural "%s records..."
+msgstr[0] "%s Fout"
+msgstr[1] ""
+
+#, fuzzy, python-format
 msgid "%s row"
 msgid_plural "%s rows"
 msgstr[0] "%s rij"
@@ -304,6 +334,10 @@ msgstr[1] ""
 msgid "%s saved metric(s)"
 msgstr "%s opgeslagen metriek(en)"
 
+#, fuzzy, python-format
+msgid "%s tab selected"
+msgstr "%s Geselecteerd"
+
 #, python-format
 msgid "%s updated"
 msgstr "laatst bijgewerkt %s"
@@ -311,10 +345,6 @@ msgstr "laatst bijgewerkt %s"
 #, python-format
 msgid "%s%s"
 msgstr "%s%s"
-
-#, python-format
-msgid "%s-%s of %s"
-msgstr "%s-%s van %s"
 
 msgid "(Removed)"
 msgstr "(Verwijderd)"
@@ -364,6 +394,9 @@ msgstr ""
 #, python-format
 msgid "+ %s more"
 msgstr "+ %s meer"
+
+msgid ", then paste the JSON below. See our"
+msgstr ""
 
 msgid ""
 "-- Note: Unless you save your query, these tabs will NOT persist if you "
@@ -612,6 +645,10 @@ msgstr ">= (Groter of gelijk)"
 msgid "A Big Number"
 msgstr "Een groot getal"
 
+#, fuzzy
+msgid "A comma separated list of columns that should be parsed as dates"
+msgstr "Kolommen die als datums worden geparsed"
+
 msgid "A comma-separated list of schemas that files are allowed to upload to."
 msgstr ""
 "Een komma gescheiden lijst van schema's waar bestanden naar mogen "
@@ -626,7 +663,7 @@ msgstr "Een database met dezelfde naam bestaat al."
 msgid "A date is required when using custom date shift"
 msgstr ""
 
-#, fuzzy
+#, fuzzy, python-brace-format
 msgid ""
 "A dictionary with column names and their data types if you need to change"
 " the defaults. Example: {\"user_id\":\"int\"}. Check Python's Pandas "
@@ -731,11 +768,12 @@ msgstr "Er is een time-out opgetreden tijdens het maken van een screenshot."
 msgid "A valid color scheme is required"
 msgstr "Een geldig kleurenschema is vereist"
 
+#, fuzzy
 msgid ""
 "A waterfall chart is a form of data visualization that helps in "
-"understanding\n"
+"understanding\r\n"
 "          the cumulative effect of sequentially introduced positive or "
-"negative values.\n"
+"negative values.\r\n"
 "          These intermediate values can either be time based or category "
 "based."
 msgstr ""
@@ -744,6 +782,10 @@ msgstr ""
 " waarden te begrijpen.\n"
 "          Deze intermediate waarden kunnen gebaseerd zijn op tijd of "
 "categorie."
+
+#, fuzzy
+msgid "AND"
+msgstr "willekeurig"
 
 msgid "APPLY"
 msgstr "TOEPASSEN"
@@ -756,12 +798,6 @@ msgstr "AQE"
 
 msgid "AUG"
 msgstr "AUG"
-
-msgid "Axis title margin"
-msgstr "AXIS TITEL MARGIN"
-
-msgid "Axis title position"
-msgstr "AXIS TITEL POSITIE"
 
 msgid "About"
 msgstr "Over"
@@ -776,6 +812,10 @@ msgid "Action"
 msgstr "Actie"
 
 msgid "Action Log"
+msgstr "Actie Log"
+
+#, fuzzy
+msgid "Action Logs"
 msgstr "Actie Log"
 
 msgid "Actions"
@@ -824,12 +864,8 @@ msgid "Add Dashboard"
 msgstr "Voeg Dashboard toe"
 
 #, fuzzy
-msgid "Add divider"
-msgstr "Verdeler"
-
-#, fuzzy
-msgid "Add filter"
-msgstr "Filter toevoegen"
+msgid "Add Group"
+msgstr "Regel toevoegen"
 
 #, fuzzy
 msgid "Add Layer"
@@ -837,6 +873,11 @@ msgstr "Laag verbergen"
 
 msgid "Add Log"
 msgstr "Voeg Log toe"
+
+msgid ""
+"Add Query A and Query B identifiers to tooltips to help differentiate "
+"series"
+msgstr ""
 
 msgid "Add Report"
 msgstr "Rapport toevoegen"
@@ -900,6 +941,9 @@ msgstr ""
 msgid "Add color for positive/negative change"
 msgstr "Kleur toevoegen voor positieve/negatieve wijziging"
 
+msgid "Add colors to cell bars for +/-"
+msgstr ""
+
 msgid "Add cross-filter"
 msgstr "Cross-filter toevoegen"
 
@@ -915,20 +959,26 @@ msgstr "Leveringswijze toevoegen"
 msgid "Add description of your tag"
 msgstr "Voeg een beschrijving van je tag toe"
 
+#, fuzzy
+msgid "Add divider"
+msgstr "Verdeler"
+
 msgid "Add extra connection information."
 msgstr "Extra verbindingsinformatie toevoegen."
 
+#, fuzzy
 msgid "Add filter"
 msgstr "Filter toevoegen"
 
+#, fuzzy
 msgid ""
-"Add filter clauses to control the filter's source query,\n"
+"Add filter clauses to control the filter's source query,\r\n"
 "                    though only in the context of the autocomplete i.e., "
-"these conditions\n"
+"these conditions\r\n"
 "                    do not impact how the filter is applied to the "
-"dashboard. This is useful\n"
+"dashboard. This is useful\r\n"
 "                    when you want to improve the query's performance by "
-"only scanning a subset\n"
+"only scanning a subset\r\n"
 "                    of the underlying data or limit the available values "
 "displayed in the filter."
 msgstr ""
@@ -979,6 +1029,10 @@ msgstr "Voeg de naam van de grafiek toe"
 msgid "Add the name of the dashboard"
 msgstr "Naam van het dashboard toevoegen"
 
+#, fuzzy
+msgid "Add theme"
+msgstr "Voeg item toe"
+
 msgid "Add to dashboard"
 msgstr "Toevoegen aan het dashboard"
 
@@ -1026,16 +1080,6 @@ msgid ""
 "from the comparison value."
 msgstr ""
 
-msgid ""
-"Adjust column settings such as specifying the columns to read, how "
-"duplicates are handled, column data types, and more."
-msgstr ""
-
-msgid ""
-"Adjust how spaces, blank lines, null values are handled and other file "
-"wide settings."
-msgstr ""
-
 msgid "Adjust how this database will interact with SQL Lab."
 msgstr "Pas aan hoe deze database communiceert met SQL Lab."
 
@@ -1080,6 +1124,11 @@ msgstr "Selecteer dashboards"
 
 msgid "After"
 msgstr "Na"
+
+msgid ""
+"After making the changes, copy the query and paste in the virtual dataset"
+" SQL snippet settings."
+msgstr ""
 
 msgid "Aggregate"
 msgstr "Aggregate"
@@ -1220,6 +1269,10 @@ msgstr "Alle filters"
 msgid "All panels"
 msgstr "Alle panelen"
 
+#, fuzzy
+msgid "All records"
+msgstr "Ruwe records"
+
 msgid "Allow CREATE TABLE AS"
 msgstr "Sta CREATE TABLE AS toe"
 
@@ -1268,9 +1321,6 @@ msgstr "Sta bestandsuploads naar database toe"
 
 msgid "Allow node selections"
 msgstr "Sta node selecties toe"
-
-msgid "Allow sending multiple polygons as a filter event"
-msgstr "Versturen van meerdere veelhoeken als filtergebeurtenis toestaan"
 
 msgid ""
 "Allow the execution of DDL (Data Definition Language: CREATE, DROP, "
@@ -1332,10 +1382,6 @@ msgstr ""
 msgid "An error has occurred"
 msgstr "Er is een fout opgetreden"
 
-#, fuzzy, python-format
-msgid "An error has occurred while syncing virtual dataset columns"
-msgstr "Er is een fout opgetreden bij het ophalen van datasets: %s"
-
 msgid "An error occurred"
 msgstr "Er is een fout opgetreden"
 
@@ -1392,6 +1438,12 @@ msgid "An error occurred while fetching %ss: %s"
 msgstr "Er is een fout opgetreden bij het ophalen van %s: %s"
 
 msgid "An error occurred while fetching available CSS templates"
+msgstr ""
+"Er is een fout opgetreden tijdens het ophalen van beschikbare CSS "
+"templates"
+
+#, fuzzy
+msgid "An error occurred while fetching available themes"
 msgstr ""
 "Er is een fout opgetreden tijdens het ophalen van beschikbare CSS "
 "templates"
@@ -1478,9 +1530,19 @@ msgstr ""
 "Er is een fout opgetreden tijdens het ophalen van de metagegevens van de "
 "tabel. Neem contact op met uw beheerder."
 
+#, fuzzy, python-format
+msgid "An error occurred while fetching theme datasource values: %s"
+msgstr ""
+"Er is een fout opgetreden bij het ophalen van dataset gegevensbron "
+"waarden: %s"
+
 #, python-format
 msgid "An error occurred while fetching user values: %s"
 msgstr "Er is een fout opgetreden bij het ophalen van gebruikers waarden: %s"
+
+#, fuzzy
+msgid "An error occurred while formatting SQL"
+msgstr "Er is een fout opgetreden bij het laden van de SQL"
 
 #, python-format
 msgid "An error occurred while importing %s: %s"
@@ -1494,6 +1556,10 @@ msgstr "Er is een fout opgetreden bij het laden van de SQL"
 
 msgid "An error occurred while opening Explore"
 msgstr "Er is een fout opgetreden tijdens het openen van Verkennen"
+
+#, fuzzy
+msgid "An error occurred while overwriting the dataset"
+msgstr "Er is een fout opgetreden bij het aanmaken van de gegevensbron"
 
 msgid "An error occurred while parsing the key."
 msgstr "Er is een fout opgetreden tijdens het parsen van de sleutel."
@@ -1654,6 +1720,9 @@ msgstr "Aantekeningen en lagen"
 msgid "Annotations could not be deleted."
 msgstr "Aantekeningen konden niet worden verwijderd."
 
+msgid "Ant Design Theme Editor"
+msgstr ""
+
 msgid "Any"
 msgstr "Elke"
 
@@ -1666,6 +1735,14 @@ msgid ""
 msgstr ""
 "Elk kleurenpalet dat hier wordt geselecteerd zal de kleuren overschrijven"
 " die worden toegepast op de individuele grafieken van dit dashboard"
+
+msgid ""
+"Any dashboards using these themes will be automatically dissociated from "
+"them."
+msgstr ""
+
+msgid "Any dashboards using this theme will be automatically dissociated from it."
+msgstr ""
 
 msgid "Any databases that allow connections via SQL Alchemy URIs can be added. "
 msgstr ""
@@ -1706,6 +1783,13 @@ msgstr ""
 
 msgid "Apply"
 msgstr "Toepassen"
+
+msgid "Apply & Save"
+msgstr ""
+
+#, fuzzy
+msgid "Apply Filter"
+msgstr "Filters toepassen"
 
 msgid "Apply conditional color formatting to metric"
 msgstr "Pas voorwaardelijke kleuropmaak toe op metriek"
@@ -1757,6 +1841,10 @@ msgstr "Weet je zeker dat je de geselecteerde dashboards wilt verwijderen?"
 msgid "Are you sure you want to delete the selected datasets?"
 msgstr "Weet je zeker dat je de geselecteerde datasets wilt verwijderen?"
 
+#, fuzzy
+msgid "Are you sure you want to delete the selected groups?"
+msgstr "Weet u zeker dat u de geselecteerde regels wilt verwijderen?"
+
 msgid "Are you sure you want to delete the selected layers?"
 msgstr "Weet je zeker dat je de geselecteerde lagen wilt verwijderen?"
 
@@ -1777,6 +1865,10 @@ msgid "Are you sure you want to delete the selected templates?"
 msgstr "Weet je zeker dat je de geselecteerde sjablonen wilt verwijderen?"
 
 #, fuzzy
+msgid "Are you sure you want to delete the selected themes?"
+msgstr "Weet je zeker dat je de geselecteerde sjablonen wilt verwijderen?"
+
+#, fuzzy
 msgid "Are you sure you want to delete the selected users?"
 msgstr "Weet je zeker dat je de geselecteerde query’s wilt verwijderen?"
 
@@ -1786,8 +1878,30 @@ msgstr "Weet je zeker dat je deze data wilt overschrijven?"
 msgid "Are you sure you want to proceed?"
 msgstr "Weet je zeker dat je door wilt gaan?"
 
+msgid ""
+"Are you sure you want to remove the system dark theme? The application "
+"will fall back to the configuration file dark theme."
+msgstr ""
+
+msgid ""
+"Are you sure you want to remove the system default theme? The application"
+" will fall back to the configuration file default."
+msgstr ""
+
 msgid "Are you sure you want to save and apply changes?"
 msgstr "Weet u zeker dat u de wijzigingen wilt opslaan en toepassen?"
+
+#, python-format
+msgid ""
+"Are you sure you want to set \"%s\" as the system dark theme? This will "
+"apply to all users who haven't set a personal preference."
+msgstr ""
+
+#, python-format
+msgid ""
+"Are you sure you want to set \"%s\" as the system default theme? This "
+"will apply to all users who haven't set a personal preference."
+msgstr ""
 
 #, fuzzy
 msgid "Area"
@@ -1848,11 +1962,20 @@ msgstr "Filters automatisch aanvullen"
 msgid "Autocomplete query predicate"
 msgstr "Autocomplete query predicaat"
 
-msgid "Automatic color"
-msgstr "Automatische kleur"
+#, fuzzy
+msgid "Automatically sync columns"
+msgstr "Kolommen aanpassen"
+
+#, fuzzy
+msgid "Autosize All Columns"
+msgstr "Kolommen aanpassen"
 
 #, fuzzy
 msgid "Autosize Column"
+msgstr "Kolommen aanpassen"
+
+#, fuzzy
+msgid "Autosize This Column"
 msgstr "Kolommen aanpassen"
 
 #, fuzzy
@@ -1867,9 +1990,6 @@ msgstr "Beschikbare sorteer modi:"
 
 msgid "Average"
 msgstr "Gemiddeld"
-
-msgid "Average (Mean)"
-msgstr ""
 
 msgid "Average value"
 msgstr "Gemiddelde waarde"
@@ -1891,6 +2011,12 @@ msgstr "As oplopend"
 
 msgid "Axis descending"
 msgstr "As aflopend"
+
+msgid "Axis title margin"
+msgstr "AXIS TITEL MARGIN"
+
+msgid "Axis title position"
+msgstr "AXIS TITEL POSITIE"
 
 #, fuzzy
 msgid "BCC recipients"
@@ -1972,6 +2098,10 @@ msgstr "Gebaseerd op hoe series moet worden gesorteerd op de grafiek en legende"
 msgid "Basic"
 msgstr "Berekende kolom [%s] vereist een uitdrukking"
 
+#, fuzzy
+msgid "Basic conditional formatting"
+msgstr "Voorwaardelijke opmaak"
+
 msgid "Basic information"
 msgstr "Basis informatie"
 
@@ -1988,9 +2118,6 @@ msgstr "Voor"
 msgid "Big Number"
 msgstr "Groot Getal"
 
-msgid "Big Number Font Size"
-msgstr "Groot getal lettertype"
-
 msgid "Big Number with Time Period Comparison"
 msgstr "Groot getal met vergelijking van tijdsperiode"
 
@@ -2000,6 +2127,14 @@ msgstr "Groot getal met trendlijn"
 #, fuzzy
 msgid "Bins"
 msgstr "in"
+
+#, fuzzy
+msgid "Blanks"
+msgstr "BOOLEAN"
+
+#, python-format
+msgid "Block %(block_num)s out of %(block_count)s"
+msgstr ""
 
 #, fuzzy
 msgid "Border color"
@@ -2027,6 +2162,10 @@ msgstr "Onder rechts"
 msgid "Bottom to Top"
 msgstr "Onderaan naar boven"
 
+#, fuzzy
+msgid "Bounds"
+msgstr "Y Grenzen"
+
 msgid ""
 "Bounds for numerical X axis. Not applicable for temporal or categorical "
 "axes. When left empty, the bounds are dynamically defined based on the "
@@ -2038,6 +2177,12 @@ msgstr ""
 "gedefinieerd op basis van de min/max van de gegevens. Merk op dat deze "
 "functie alleen de as groter maakt. Het zal de grootte van de gegevens "
 "niet verkleinen."
+
+msgid ""
+"Bounds for the X-axis. Selected time merges with min/max date of the "
+"data. When left empty, bounds dynamically defined based on the min/max of"
+" the data."
+msgstr ""
 
 msgid ""
 "Bounds for the Y-axis. When left empty, the bounds are dynamically "
@@ -2070,12 +2215,13 @@ msgstr ""
 "deze functie alleen de as groter maakt. Het zal de grootte van de "
 "gegevens niet verkleinen."
 
+#, fuzzy
 msgid ""
-"Bounds for the secondary Y-axis. Only works when Independent Y-axis\n"
+"Bounds for the secondary Y-axis. Only works when Independent Y-axis\r\n"
 "                bounds are enabled. When left empty, the bounds are "
-"dynamically defined\n"
+"dynamically defined\r\n"
 "                based on the min/max of the data. Note that this feature "
-"will only expand\n"
+"will only expand\r\n"
 "                the axis range. It won't narrow the data's extent."
 msgstr ""
 "Grenzen voor de secundaire Y-as. Werkt alleen als Onafhankelijke Y-as\n"
@@ -2092,8 +2238,9 @@ msgstr "Box Plot"
 msgid "Breakdowns"
 msgstr "Uitsplitsing"
 
+#, fuzzy
 msgid ""
-"Breaks down the series by the category specified in this control.\n"
+"Breaks down the series by the category specified in this control.\r\n"
 "      This can help viewers understand how each category affects the "
 "overall value."
 msgstr ""
@@ -2125,9 +2272,6 @@ msgstr "Bubbel grootte nummer opmaak"
 
 msgid "Bucket break points"
 msgstr "Bucket breakpoints"
-
-msgid "Build"
-msgstr "Bouwen"
 
 msgid "Bulk select"
 msgstr "Selecteer in bulk"
@@ -2168,8 +2312,9 @@ msgstr "ANNULEER"
 msgid "CC recipients"
 msgstr "recente"
 
-msgid "CREATE DATASET"
-msgstr "DATASET AANMAKEN"
+#, fuzzy
+msgid "COPY QUERY"
+msgstr "Kopieer query URL"
 
 msgid "CREATE TABLE AS"
 msgstr "CREATE TABLE AS"
@@ -2198,6 +2343,10 @@ msgstr "CSS-sjablonen"
 msgid "CSS applied to the chart"
 msgstr "CSS toegepast op de grafiek"
 
+#, fuzzy
+msgid "CSS editor"
+msgstr "Live CSS editor"
+
 msgid "CSS template"
 msgstr "CSS template"
 
@@ -2209,6 +2358,10 @@ msgstr "CSS templates"
 
 msgid "CSS templates could not be deleted."
 msgstr "CSS-sjablonen konden niet worden verwijderd."
+
+#, fuzzy
+msgid "CSV Export"
+msgstr "Exporteer"
 
 #, fuzzy
 msgid "CSV upload"
@@ -2303,6 +2456,16 @@ msgstr "Kan geen toegang krijgen tot de query"
 msgid "Cannot delete a database that has datasets attached"
 msgstr "Een database gekoppeld aan datasets kan niet worden verwijderd"
 
+#, fuzzy
+msgid "Cannot delete system themes"
+msgstr "Kan geen toegang krijgen tot de query"
+
+msgid "Cannot delete theme that is set as system default or dark theme"
+msgstr ""
+
+msgid "Cannot delete theme that is set as system default or dark theme."
+msgstr ""
+
 #, python-format
 msgid "Cannot find the table (%s) metadata."
 msgstr ""
@@ -2312,6 +2475,9 @@ msgstr "Kan niet meerdere inloggegevens hebben voor de SSH tunnel"
 
 msgid "Cannot load filter"
 msgstr "Kan filter niet laden"
+
+msgid "Cannot modify system themes."
+msgstr ""
 
 #, python-format
 msgid "Cannot parse time string [%(human_readable)s]"
@@ -2330,6 +2496,10 @@ msgstr "Categorisch"
 
 msgid "Categorical Color"
 msgstr "Categorische Kleur"
+
+#, fuzzy
+msgid "Categorical palette"
+msgstr "Categorisch"
 
 msgid "Categories to group by on the x-axis."
 msgstr "Categorieën om te groeperen op de x-as."
@@ -2494,12 +2664,15 @@ msgstr "Grafiek [%s] is opgeslagen"
 msgid "Chart [%s] was added to dashboard [%s]"
 msgstr "Grafiek [%s] is toegevoegd aan dashboard [%s]"
 
+#, python-brace-format
 msgid "Chart [{}] has been overwritten"
 msgstr "Grafiek [{}] is overschreven"
 
+#, python-brace-format
 msgid "Chart [{}] has been saved"
 msgstr "Grafiek [{}] is opgeslagen"
 
+#, python-brace-format
 msgid "Chart [{}] was added to dashboard [{}]"
 msgstr "Grafiek [{}] werd toegevoegd aan dashboard [{}]"
 
@@ -2601,9 +2774,6 @@ msgstr "Keuze van [Label] moet aanwezig zijn in [Groep door]"
 msgid "Choice of [Point Radius] must be present in [Group By]"
 msgstr "Keuze van [Punt radius] moet aanwezig zijn in [Groep door]"
 
-msgid "Choose File"
-msgstr "Kies Bestand"
-
 #, fuzzy
 msgid "Choose a chart for displaying on the map"
 msgstr "Kies een grafiek of een dashboard, niet beide"
@@ -2648,6 +2818,9 @@ msgstr "Kolommen die als datums worden geparsed"
 msgid "Choose columns to read"
 msgstr "Kolommen om te Lezen"
 
+msgid "Choose how many X-Axis labels to show"
+msgstr ""
+
 #, fuzzy
 msgid "Choose index column"
 msgstr "Index Kolom"
@@ -2655,6 +2828,10 @@ msgstr "Index Kolom"
 #, fuzzy
 msgid "Choose notification method and recipients."
 msgstr "Meldingsmethode toevoegen"
+
+#, fuzzy, python-format
+msgid "Choose numbers between %(min)s and %(max)s"
+msgstr "Schermafbeelding breedte moet liggen tussen %(min)spx en %(max)spx"
 
 msgid "Choose one of the available databases from the panel on the left."
 msgstr "Kies een van de beschikbare databases uit het paneel aan de linkerkant."
@@ -2695,6 +2872,10 @@ msgstr ""
 "Kies of een land moet worden schaduwd door de metriek of een kleur moet "
 "worden toegewezen gebaseerd op een categorisch kleurenpalet"
 
+#, fuzzy
+msgid "Choose..."
+msgstr "Kies een database..."
+
 msgid "Chord Diagram"
 msgstr "Koorden Diagram"
 
@@ -2730,6 +2911,10 @@ msgstr "Clausule"
 msgid "Clear"
 msgstr "Verwijder"
 
+#, fuzzy
+msgid "Clear Sort"
+msgstr "Formulier wissen"
+
 msgid "Clear all"
 msgstr "Wis alles"
 
@@ -2738,6 +2923,13 @@ msgstr "Wis alle gegevens"
 
 msgid "Clear form"
 msgstr "Formulier wissen"
+
+#, fuzzy
+msgid "Clear local theme"
+msgstr "Lineair kleurenpalet"
+
+msgid "Clear the selection to revert to the system default theme"
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -2775,6 +2967,10 @@ msgstr ""
 " alleen de vereiste velden laat zien om deze database te verbinden."
 
 msgid "Click to add a contour"
+msgstr "Klik om een contour toe te voegen"
+
+#, fuzzy
+msgid "Click to add new breakpoint"
 msgstr "Klik om een contour toe te voegen"
 
 #, fuzzy
@@ -2818,6 +3014,9 @@ msgstr "Sluit"
 msgid "Close all other tabs"
 msgstr "Sluit alle andere tabbladen"
 
+msgid "Close color breakpoint editor"
+msgstr ""
+
 msgid "Close tab"
 msgstr "Tabblad sluiten"
 
@@ -2829,6 +3028,14 @@ msgstr "Clusteringsradius"
 
 msgid "Code"
 msgstr "Code"
+
+#, fuzzy
+msgid "Code Copied!"
+msgstr "SQL gekopieerd!"
+
+#, fuzzy
+msgid "Collapse All"
+msgstr "Alles inklappen"
 
 msgid "Collapse all"
 msgstr "Alles inklappen"
@@ -2842,9 +3049,6 @@ msgstr "Rij inklappen"
 msgid "Collapse tab content"
 msgstr "Tabbladinhoud inklappen"
 
-msgid "Collapse table preview"
-msgstr "Tabel voorbeeld inklappen"
-
 msgid "Color"
 msgstr "Kleur"
 
@@ -2857,17 +3061,33 @@ msgstr "Kleur Metriek"
 msgid "Color Scheme"
 msgstr "Kleurenschema"
 
+#, fuzzy
+msgid "Color Scheme Type"
+msgstr "Kleurenschema"
+
 msgid "Color Steps"
 msgstr "Kleur Stappen"
 
 msgid "Color bounds"
 msgstr "Kleur grenzen"
 
+#, fuzzy
+msgid "Color breakpoints"
+msgstr "Bucket breakpoints"
+
 msgid "Color by"
 msgstr "Kleur op"
 
+#, fuzzy
+msgid "Color for breakpoint"
+msgstr "Bucket breakpoints"
+
 msgid "Color metric"
 msgstr "Kleur metriek"
+
+#, fuzzy
+msgid "Color of the source location"
+msgstr "Kleur van de doellocatie"
 
 msgid "Color of the target location"
 msgstr "Kleur van de doellocatie"
@@ -3002,6 +3222,10 @@ msgstr "Kolommen om te groeperen op de rijen"
 msgid "Columns to read"
 msgstr "Kolommen om te Lezen"
 
+#, fuzzy
+msgid "Columns to show in the tooltip."
+msgstr "Kolomkop tooltip"
+
 msgid "Combine metrics"
 msgstr "Combineer metrieken"
 
@@ -3123,6 +3347,10 @@ msgstr "Toon wachtwoord."
 msgid "Confirm overwrite"
 msgstr "Overschrijven bevestigen"
 
+#, fuzzy
+msgid "Confirm password"
+msgstr "Toon wachtwoord."
+
 msgid "Confirm save"
 msgstr "Opslaan bevestigen"
 
@@ -3159,6 +3387,10 @@ msgstr "Verbinding mislukt, controleer uw verbindingsinstellingen"
 #, fuzzy
 msgid "Connection failed, please check your connection settings."
 msgstr "Verbinding mislukt, controleer uw verbindingsinstellingen"
+
+#, fuzzy
+msgid "Contains"
+msgstr "Doorlopend"
 
 #, fuzzy
 msgid "Content format"
@@ -3210,6 +3442,10 @@ msgstr ""
 msgid "Copy and Paste JSON credentials"
 msgstr "Kopieer en plak JSON aanmeldgegevens"
 
+#, fuzzy
+msgid "Copy code to clipboard"
+msgstr "Kopieer naar klembord"
+
 msgid "Copy link"
 msgstr "Kopieer link"
 
@@ -3250,6 +3486,10 @@ msgid "Copy to clipboard"
 msgstr "Kopieer naar klembord"
 
 #, fuzzy
+msgid "Copy with Headers"
+msgstr "Met een ondertitel"
+
+#, fuzzy
 msgid "Corner Radius"
 msgstr "Inner Radius"
 
@@ -3275,6 +3515,7 @@ msgstr "Kon het viz object niet vinden"
 msgid "Could not load database driver"
 msgstr "Kon het database driver niet laden"
 
+#, python-brace-format
 msgid "Could not load database driver: {}"
 msgstr "Kon het database driver niet laden: {}"
 
@@ -3318,22 +3559,32 @@ msgstr "Landenkaart"
 msgid "Create"
 msgstr "Maak"
 
-msgid "Create chart"
-msgstr "Grafiek aanmaken"
+#, fuzzy
+msgid "Create Tag"
+msgstr "Dataset aanmaken"
 
 msgid "Create a dataset"
 msgstr "Een dataset aanmaken"
 
+#, fuzzy
 msgid ""
-"Create a dataset to begin visualizing your data as a chart or go to\n"
+"Create a dataset to begin visualizing your data as a chart or go to\r\n"
 "          SQL Lab to query your data."
 msgstr ""
 "Maak een dataset aan om uw gegevens te visualiseren als grafiek of ga "
 "naar\n"
 "          SQL Lab om uw gegevens op te vragen."
 
+#, fuzzy
+msgid "Create a new Tag"
+msgstr "maak een nieuwe grafiek"
+
 msgid "Create a new chart"
 msgstr "Maak een nieuwe grafiek"
+
+#, fuzzy
+msgid "Create and explore dataset"
+msgstr "Een dataset aanmaken"
 
 msgid "Create chart"
 msgstr "Grafiek aanmaken"
@@ -3347,9 +3598,6 @@ msgstr "Dataframe Index"
 
 msgid "Create dataset"
 msgstr "Dataset aanmaken"
-
-msgid "Create dataset and create chart"
-msgstr "Maak dataset aan en maak grafiek"
 
 msgid "Create new chart"
 msgstr "Maak een nieuwe grafiek"
@@ -3377,9 +3625,6 @@ msgstr "Een gegevensbron maken en een nieuw tabblad maken"
 
 msgid "Creator"
 msgstr "Maker"
-
-msgid "Credentials uploaded"
-msgstr ""
 
 msgid "Crimson"
 msgstr "Donkerrood"
@@ -3441,10 +3686,6 @@ msgstr "Momenteel weergegeven: %s"
 msgid "Custom"
 msgstr "Aangepast"
 
-#, fuzzy
-msgid "Custom conditional formatting"
-msgstr "Voorwaardelijke opmaak"
-
 msgid "Custom Plugin"
 msgstr "Aangepaste Plugin"
 
@@ -3468,6 +3709,10 @@ msgstr "Automatisch aanvullen"
 
 msgid "Custom column name (leave blank for default)"
 msgstr ""
+
+#, fuzzy
+msgid "Custom conditional formatting"
+msgstr "Voorwaardelijke opmaak"
 
 #, fuzzy
 msgid "Custom date"
@@ -3560,10 +3805,15 @@ msgstr "Donkere modus"
 msgid "Dashboard"
 msgstr "Dashboard"
 
+#, fuzzy
+msgid "Dashboard Id"
+msgstr "dashboard"
+
 #, python-format
 msgid "Dashboard [%s] just got created and chart [%s] was added to it"
 msgstr "Dashboard [%s] is zojuist aangemaakt en grafiek [%s] is eraan toegevoegd"
 
+#, python-brace-format
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "Dashboard [{}] is zojuist aangemaakt en grafiek [{}] is eraan toegevoegd"
 
@@ -3610,10 +3860,11 @@ msgstr "Dashboard eigenschappen bijgewerkt"
 msgid "Dashboard scheme"
 msgstr "Dashboard schema"
 
+#, fuzzy
 msgid ""
-"Dashboard time range filters apply to temporal columns defined in\n"
+"Dashboard time range filters apply to temporal columns defined in\r\n"
 "          the filter section of each chart. Add temporal columns to the "
-"chart\n"
+"chart\r\n"
 "          filters to have this dashboard filter impact those charts."
 msgstr ""
 "Filter voor tijdbereik van het dashboard is van toepassing op tijdelijke "
@@ -3740,9 +3991,6 @@ msgstr "Database is nodig voor waarschuwingen"
 
 msgid "Database name"
 msgstr "Database naam"
-
-msgid "Database not allowed to change"
-msgstr "Database mag niet wijzigen"
 
 msgid "Database not found."
 msgstr "Database niet gevonden."
@@ -3944,6 +4192,10 @@ msgid "Decrease"
 msgstr "Verlaag"
 
 #, fuzzy
+msgid "Default"
+msgstr "standaard"
+
+#, fuzzy
 msgid "Default Catalog"
 msgstr "Standaard waarde"
 
@@ -3955,12 +4207,15 @@ msgid "Default URL"
 msgstr "Standaard URL"
 
 msgid ""
-"Default URL to redirect to when accessing from the dataset list page.\n"
-"            Accepts relative URLs such as <span style=„white-space: "
-"nowrap;”>/superset/dashboard/{id}/</span>"
+"Default URL to redirect to when accessing from the dataset list page. "
+"Accepts relative URLs such as"
 msgstr ""
 
 msgid "Default Value"
+msgstr "Standaard waarde"
+
+#, fuzzy
+msgid "Default color"
 msgstr "Standaard waarde"
 
 msgid "Default datetime"
@@ -4020,6 +4275,9 @@ msgstr ""
 "retourneren. Dit kan worden gebruikt om de eigenschappen van de gegevens,"
 " het filteren of de array te verrijken."
 
+msgid "Define color breakpoints for the data"
+msgstr ""
+
 msgid ""
 "Define contour layers. Isolines represent a collection of line segments "
 "that serparate the area above and below a given threshold. Isobands "
@@ -4036,6 +4294,10 @@ msgstr ""
 
 msgid "Define the database, SQL query, and triggering conditions for alert."
 msgstr ""
+
+#, fuzzy
+msgid "Defined through system configuration."
+msgstr "Ongeldige breedtegraad/lengtegraad configuratie."
 
 msgid ""
 "Defines a rolling window function to apply, works along with the "
@@ -4098,6 +4360,10 @@ msgstr "Database verwijderen?"
 msgid "Delete Dataset?"
 msgstr "Dataset verwijderen?"
 
+#, fuzzy
+msgid "Delete Group?"
+msgstr "verwijder"
+
 msgid "Delete Layer?"
 msgstr "Laag verwijderen?"
 
@@ -4112,6 +4378,10 @@ msgid "Delete Role?"
 msgstr "verwijder"
 
 msgid "Delete Template?"
+msgstr "Template verwijderen?"
+
+#, fuzzy
+msgid "Delete Theme?"
 msgstr "Template verwijderen?"
 
 #, fuzzy
@@ -4133,6 +4403,10 @@ msgstr "Verwijder database"
 msgid "Delete email report"
 msgstr "E-mailrapport verwijderen"
 
+#, fuzzy
+msgid "Delete group"
+msgstr "verwijder"
+
 msgid "Delete query"
 msgstr "Verwijder query"
 
@@ -4143,12 +4417,24 @@ msgstr "verwijder"
 msgid "Delete template"
 msgstr "Verwijder template"
 
+#, fuzzy
+msgid "Delete theme"
+msgstr "Verwijder template"
+
 msgid "Delete this container and save to remove this message."
 msgstr "Verwijder deze container en sla op om dit bericht te verwijderen."
 
 #, fuzzy
 msgid "Delete user"
 msgstr "Verwijder query"
+
+#, fuzzy, python-format
+msgid "Delete user registration"
+msgstr "Verwijderd: %s"
+
+#, fuzzy
+msgid "Delete user registration?"
+msgstr "Aantekening verwijderen?"
 
 msgid "Deleted"
 msgstr "Verwijderd"
@@ -4207,9 +4493,23 @@ msgid_plural "Deleted %(num)d saved queries"
 msgstr[0] "%(num)d opgeslagen query verwijderd"
 msgstr[1] "%(num)d opgeslagen zoekopdrachten verwijderd"
 
+#, fuzzy, python-format
+msgid "Deleted %(num)d theme"
+msgid_plural "Deleted %(num)d themes"
+msgstr[0] "Verwijderde %(num)d dataset"
+msgstr[1] "Verwijderde %(num)d datasets"
+
 #, python-format
 msgid "Deleted %s"
 msgstr "Verwijderd %s"
+
+#, fuzzy, python-format
+msgid "Deleted group: %s"
+msgstr "Verwijderd: %s"
+
+#, fuzzy, python-format
+msgid "Deleted groups: %s"
+msgstr "Verwijderd: %s"
 
 #, fuzzy, python-format
 msgid "Deleted role: %s"
@@ -4217,6 +4517,10 @@ msgstr "Verwijderd: %s"
 
 #, fuzzy, python-format
 msgid "Deleted roles: %s"
+msgstr "Verwijderd: %s"
+
+#, fuzzy, python-format
+msgid "Deleted user registration for user: %s"
 msgstr "Verwijderd: %s"
 
 #, fuzzy, python-format
@@ -4268,6 +4572,10 @@ msgstr "Beschrijvingstekst die onder uw Grote Nummer verschijnt"
 
 msgid "Deselect all"
 msgstr "Alles deselecteren"
+
+#, fuzzy
+msgid "Design with"
+msgstr "Min Dikte"
 
 msgid "Details"
 msgstr "Details"
@@ -4425,6 +4733,11 @@ msgstr "Verspreiding"
 msgid "Divider"
 msgstr "Verdeler"
 
+msgid ""
+"Divides each category into subcategories based on the values in the "
+"dimension. It can be used to exclude intersections."
+msgstr ""
+
 msgid "Do you want a donut or a pie?"
 msgstr "Wil je een donut of een taart?"
 
@@ -4543,6 +4856,10 @@ msgstr "Sleep hier een tijdelijke kolom of klik"
 msgid "Drop columns/metrics here or click"
 msgstr "Sleep hier kolommen/metrieken of klik"
 
+#, fuzzy
+msgid "Dttm"
+msgstr "dttm"
+
 msgid "Duplicate"
 msgstr "Dupliceer"
 
@@ -4608,6 +4925,10 @@ msgstr ""
 "Duur (in seconden) van de metadata caching timeout voor de tabellen van "
 "deze database. Indien dit niet ingesteld is, verloopt de cache niet. "
 
+#, fuzzy
+msgid "Duration Ms"
+msgstr "Duur"
+
 msgid "Duration in ms (1.40008 => 1ms 400µs 80ns)"
 msgstr "Duur in ms (1,40008 => 1ms 400μs 80ns)"
 
@@ -4633,9 +4954,6 @@ msgstr "EGrafieken"
 msgid "EMAIL_REPORTS_CTA"
 msgstr "EMAIL_REPORTS_CTA"
 
-msgid "END (EXCLUSIVE)"
-msgstr "EINDE (EXCLUSIEF)"
-
 msgid "ERROR"
 msgstr "FOUT"
 
@@ -4654,11 +4972,12 @@ msgstr "Rand dikte"
 msgid "Edit"
 msgstr "Bewerk"
 
+#, fuzzy, python-format
+msgid "Edit %s in modal"
+msgstr "in modal"
+
 msgid "Edit Alert"
 msgstr "Waarschuwing bewerken"
-
-msgid "Edit CSS"
-msgstr "Bewerk CSS"
 
 msgid "Edit CSS template properties"
 msgstr "Bewerk CSS template eigenschappen"
@@ -4671,6 +4990,10 @@ msgstr "Bewerk Dashboard"
 
 msgid "Edit Dataset "
 msgstr "Bewerk Dataset "
+
+#, fuzzy
+msgid "Edit Group"
+msgstr "Bewerk Regel"
 
 msgid "Edit Log"
 msgstr "Bewerk Log"
@@ -4725,6 +5048,10 @@ msgstr "Bewerk e-mailrapport"
 msgid "Edit formatter"
 msgstr "Bewerk formatter"
 
+#, fuzzy
+msgid "Edit group"
+msgstr "Bewerk Regel"
+
 msgid "Edit properties"
 msgstr "Eigenschappen bewerken"
 
@@ -4735,6 +5062,10 @@ msgstr "Bewerk query"
 msgid "Edit role"
 msgstr "bewerk modus"
 
+#, fuzzy
+msgid "Edit tag"
+msgstr "Bewerk Tag"
+
 msgid "Edit template"
 msgstr "Bewerk template"
 
@@ -4743,6 +5074,14 @@ msgstr "Bewerk template parameters"
 
 msgid "Edit the dashboard"
 msgstr "Bewerk het dashboard"
+
+#, fuzzy
+msgid "Edit theme"
+msgstr "Bewerk template"
+
+#, fuzzy
+msgid "Edit theme properties"
+msgstr "Eigenschappen bewerken"
 
 msgid "Edit time range"
 msgstr "Tijdsbereik bewerken"
@@ -4807,9 +5146,6 @@ msgstr "Dashboard kon niet worden verwijderd."
 
 msgid "Embedding deactivated."
 msgstr "Embedden gedeactiveerd."
-
-msgid "Emit Filter Events"
-msgstr "Filtergebeurtenissen aflaten"
 
 msgid "Emphasis"
 msgstr "Nadruk"
@@ -4879,8 +5215,16 @@ msgstr "Einde"
 msgid "End (Longitude, Latitude): "
 msgstr "Einde (lengtegraad, breedtegraad): "
 
+#, fuzzy
+msgid "End (exclusive)"
+msgstr "EINDE (EXCLUSIEF)"
+
 msgid "End Longitude & Latitude"
 msgstr "Eind Lengtegraad & Breedtegraad"
+
+#, fuzzy
+msgid "End Time"
+msgstr "Eind datum"
 
 msgid "End angle"
 msgstr "Einde hoek"
@@ -4893,6 +5237,10 @@ msgstr "Einddatum uitgesloten van tijdsbereik"
 
 msgid "End date must be after start date"
 msgstr "Einddatum moet na begindatum liggen"
+
+#, fuzzy
+msgid "Ends With"
+msgstr "Rand dikte"
 
 #, python-format
 msgid "Engine \"%(engine)s\" cannot be configured through parameters."
@@ -4936,6 +5284,18 @@ msgstr "Open volledig scherm"
 msgid "Enter report name"
 msgstr "Naam rapport"
 
+#, fuzzy
+msgid "Enter the group's description"
+msgstr "Grafiek beschrijving verbergen"
+
+#, fuzzy
+msgid "Enter the group's label"
+msgstr "Naam van de waarschuwing"
+
+#, fuzzy
+msgid "Enter the group's name"
+msgstr "Naam van de waarschuwing"
+
 #, python-format
 msgid "Enter the required %(dbModelName)s credentials"
 msgstr "Voer de vereiste %(dbModelName)s aanmeldgegevens in"
@@ -4957,6 +5317,13 @@ msgstr "Naam van de waarschuwing"
 msgid "Enter the user's username"
 msgstr ""
 
+#, fuzzy
+msgid "Enter theme name"
+msgstr "Naam van de waarschuwing"
+
+msgid "Enter your login and password below:"
+msgstr ""
+
 msgid "Entity"
 msgstr "Entiteit"
 
@@ -4965,6 +5332,10 @@ msgstr "Gelijke datumgrootte"
 
 msgid "Equal to (=)"
 msgstr "Gelijk aan (=)"
+
+#, fuzzy
+msgid "Equals"
+msgstr "Sequentieel"
 
 msgid "Error"
 msgstr "Fout"
@@ -4977,12 +5348,16 @@ msgid "Error deleting %s"
 msgstr "Fout bij het ophalen van gegevens: %s"
 
 #, fuzzy
+msgid "Error executing query. "
+msgstr "Uitgevoerde query"
+
+#, fuzzy
 msgid "Error faving chart"
 msgstr "Fout bij opslaan dataset"
 
-#, python-format
-msgid "Error in jinja expression in HAVING clause: %(msg)s"
-msgstr "Fout in jinja expressie in HAVING clausule: %(msg)s"
+#, fuzzy
+msgid "Error importing theme."
+msgstr "fout donker"
 
 #, python-format
 msgid "Error in jinja expression in RLS filters: %(msg)s"
@@ -4992,8 +5367,20 @@ msgstr "Fout in jinja expressie in RLB filters: %(msg)s"
 msgid "Error in jinja expression in WHERE clause: %(msg)s"
 msgstr "Fout in jinja expressie in WHERE clause: %(msg)s"
 
+#, fuzzy, python-format
+msgid "Error in jinja expression in column expression: %(msg)s"
+msgstr "Fout in jinja expressie in WHERE clause: %(msg)s"
+
+#, fuzzy, python-format
+msgid "Error in jinja expression in datetime column: %(msg)s"
+msgstr "Fout in jinja expressie in WHERE clause: %(msg)s"
+
 #, python-format
 msgid "Error in jinja expression in fetch values predicate: %(msg)s"
+msgstr "Fout in jinja expressie in fetch values predicate: %(msg)s"
+
+#, fuzzy, python-format
+msgid "Error in jinja expression in metric expression: %(msg)s"
 msgstr "Fout in jinja expressie in fetch values predicate: %(msg)s"
 
 msgid "Error loading chart datasources. Filters may not work correctly."
@@ -5027,18 +5414,6 @@ msgstr "Fout bij opslaan dataset"
 msgid "Error unfaving chart"
 msgstr "Fout bij opslaan dataset"
 
-#, fuzzy
-msgid "Error while adding role!"
-msgstr "Fout bij het ophalen van grafieken"
-
-#, fuzzy
-msgid "Error while adding user!"
-msgstr "Fout bij het ophalen van grafieken"
-
-#, fuzzy
-msgid "Error while duplicating role!"
-msgstr "Fout bij het ophalen van grafieken"
-
 msgid "Error while fetching charts"
 msgstr "Fout bij het ophalen van grafieken"
 
@@ -5047,28 +5422,16 @@ msgid "Error while fetching data: %s"
 msgstr "Fout bij het ophalen van gegevens: %s"
 
 #, fuzzy
-msgid "Error while fetching permissions"
+msgid "Error while fetching groups"
 msgstr "Fout bij het ophalen van grafieken"
 
 #, fuzzy
 msgid "Error while fetching roles"
 msgstr "Fout bij het ophalen van grafieken"
 
-#, fuzzy
-msgid "Error while fetching users"
-msgstr "Fout bij het ophalen van grafieken"
-
 #, python-format
 msgid "Error while rendering virtual dataset query: %(msg)s"
 msgstr "Fout bij het renderen van de query van de virtuele dataset: %(msg)s"
-
-#, fuzzy
-msgid "Error while updating role!"
-msgstr "Fout bij het ophalen van grafieken"
-
-#, fuzzy
-msgid "Error while updating user!"
-msgstr "Fout bij het ophalen van grafieken"
 
 #, python-format
 msgid "Error: %(error)s"
@@ -5114,6 +5477,14 @@ msgstr "Voorbeeld"
 msgid "Examples"
 msgstr "Voorbeelden"
 
+#, fuzzy
+msgid "Excel Export"
+msgstr "Wekelijks Rapport"
+
+#, fuzzy
+msgid "Excel XML Export"
+msgstr "Wekelijks Rapport"
+
 msgid "Excel file format cannot be determined"
 msgstr ""
 
@@ -5148,6 +5519,10 @@ msgstr "Volledig scherm afsluiten"
 msgid "Expand"
 msgstr "Uitklappen"
 
+#, fuzzy
+msgid "Expand All"
+msgstr "Alles uitklappen"
+
 msgid "Expand all"
 msgstr "Alles uitklappen"
 
@@ -5157,16 +5532,14 @@ msgstr "Gegevenspaneel vergroten"
 msgid "Expand row"
 msgstr "Rij uitklappen"
 
-msgid "Expand table preview"
-msgstr "Tabel voorbeeld uitklappen"
-
 msgid "Expand tool bar"
 msgstr "Werkbalk uitbreiden"
 
+#, fuzzy
 msgid ""
-"Expects a formula with depending time parameter 'x'\n"
+"Expects a formula with depending time parameter 'x'\r\n"
 "        in milliseconds since epoch. mathjs is used to evaluate the "
-"formulas.\n"
+"formulas.\r\n"
 "        Example: '2x+5'"
 msgstr ""
 "Verwacht een formule met afhankelijk tijdsparameter 'x'\n"
@@ -5196,6 +5569,10 @@ msgstr "Dashboards exporteren?"
 msgid "Export query"
 msgstr "Exporteer query"
 
+#, fuzzy
+msgid "Export theme"
+msgstr "Exporteer naar Excel"
+
 msgid "Export to .CSV"
 msgstr "Exporteer naar .CSV"
 
@@ -5210,6 +5587,10 @@ msgstr "Exporteer naar PDF"
 
 #, fuzzy
 msgid "Export to Pivoted .CSV"
+msgstr "Exporteren naar pivoted .CSV"
+
+#, fuzzy
+msgid "Export to Pivoted Excel"
 msgstr "Exporteren naar pivoted .CSV"
 
 msgid "Export to full .CSV"
@@ -5246,6 +5627,7 @@ msgstr "Extra Parameters"
 msgid "Extra data for JS"
 msgstr "Extra data voor JS"
 
+#, python-brace-format
 msgid ""
 "Extra data to specify table metadata. Currently supports metadata of the "
 "format: `{ \"certification\": { \"certified_by\": \"Data Platform Team\","
@@ -5299,6 +5681,9 @@ msgstr "Mislukt"
 msgid "Failed at retrieving results"
 msgstr "Fout bij het ophalen van resultaten"
 
+msgid "Failed to apply theme: Invalid JSON"
+msgstr ""
+
 msgid "Failed to create report"
 msgstr "Aanmaken rapport mislukt"
 
@@ -5315,21 +5700,24 @@ msgstr "Laden van grafiekgegevens mislukt"
 msgid "Failed to load chart data."
 msgstr "Laden van grafiekgegevens mislukt."
 
-msgid "Failed to load dimensions for drill by"
-msgstr "Fout bij het laden van dimensies voor filteren op"
-
 msgid "Failed to retrieve advanced type"
 msgstr "Geavanceerd type ophalen mislukt"
 
 msgid "Failed to save cross-filter scoping"
 msgstr "Opslaan van cross-filter scope mislukt"
 
+msgid "Failed to set local theme: Invalid JSON configuration"
+msgstr ""
+
 msgid "Failed to start remote query on a worker."
 msgstr "Het starten van externe query op een werker is mislukt."
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Failed to stop query."
 msgstr "Opschorten van query mislukt. %s"
+
+msgid "Failed to store query results. Please try again."
+msgstr ""
 
 msgid "Failed to tag items"
 msgstr "Fout bij het taggen van items"
@@ -5340,6 +5728,10 @@ msgstr "Bijwerken van rapport mislukt"
 #, python-format
 msgid "Failed to verify select options: %s"
 msgstr "Mislukt bij het verifiëren van geselecteerde opties: %s"
+
+#, fuzzy
+msgid "False"
+msgstr "Is onwaar"
 
 msgid "Favorite"
 msgstr "Favoriet"
@@ -5375,9 +5767,6 @@ msgstr "Veld kan niet gedecodeerd worden door JSON. %(msg)s"
 msgid "Field is required"
 msgstr "Veld is verplicht"
 
-msgid "File"
-msgstr "Bestand"
-
 #, fuzzy
 msgid "File extension is not allowed."
 msgstr "Data-URI is niet toegestaan."
@@ -5399,6 +5788,9 @@ msgstr "Vul alle verplichte velden in om \"Standaardwaarde\" in te schakelen"
 msgid "Fill method"
 msgstr "Vul methode"
 
+msgid "Fill out the registration form"
+msgstr ""
+
 msgid "Filled"
 msgstr "Gevuld"
 
@@ -5407,9 +5799,6 @@ msgstr "Filter"
 
 msgid "Filter Configuration"
 msgstr "Filter configuratie"
-
-msgid "Filter List"
-msgstr "Filter Lijst"
 
 msgid "Filter Settings"
 msgstr "Filter Instellingen"
@@ -5508,6 +5897,10 @@ msgid "First"
 msgstr "Eerste"
 
 #, fuzzy
+msgid "First Name"
+msgstr "Grafiek naam"
+
+#, fuzzy
 msgid "First name"
 msgstr "Grafiek naam"
 
@@ -5586,6 +5979,9 @@ msgstr ""
 " van toepassing is, bijv. Admin als de beheerder alle gegevens zou moeten"
 " zien."
 
+msgid "Forbidden"
+msgstr ""
+
 msgid "Force"
 msgstr "Forceer"
 
@@ -5641,9 +6037,14 @@ msgstr ""
 msgid "Format SQL"
 msgstr "Formatteer SQL"
 
+#, fuzzy
+msgid "Format SQL query"
+msgstr "Formatteer SQL"
+
+#, python-brace-format
 msgid ""
-"Format data labels. Use variables: {name}, {value}, {percent}. \\n "
-"represents a new line. ECharts compatibility:\n"
+"Format data labels. Use variables: {name}, {value}, {percent}. \n"
+" represents a new line. ECharts compatibility:\n"
 "{a} (series), {b} (name), {c} (value), {d} (percentage)"
 msgstr ""
 
@@ -5700,6 +6101,15 @@ msgstr "Verder aanpassen hoe elke metriek weer te geven"
 
 msgid "GROUP BY"
 msgstr "GROUP BY"
+
+#, fuzzy
+msgid "Gantt Chart"
+msgstr "Grafiek diagram"
+
+msgid ""
+"Gantt chart visualizes important events over a time span. Every data "
+"point displayed as a separate event along a horizontal line."
+msgstr ""
 
 msgid "Gauge Chart"
 msgstr "Gauge Grafiek"
@@ -5765,6 +6175,14 @@ msgstr "Grafiek indeling"
 msgid "Gravity"
 msgstr "Zwaartekracht"
 
+#, fuzzy
+msgid "Greater Than"
+msgstr "Groter dan (>)"
+
+#, fuzzy
+msgid "Greater Than or Equal"
+msgstr "Groter of gelijk aan (>=)"
+
 msgid "Greater or equal (>=)"
 msgstr "Groter of gelijk aan (>=)"
 
@@ -5780,6 +6198,10 @@ msgstr "Raster"
 msgid "Grid Size"
 msgstr "Raster grootte"
 
+#, fuzzy
+msgid "Group"
+msgstr "Groep per"
+
 msgid "Group By"
 msgstr "Groeperen op"
 
@@ -5791,6 +6213,18 @@ msgstr "Groep Sleutel"
 
 msgid "Group by"
 msgstr "Groep per"
+
+msgid "Group remaining as \"Others\""
+msgstr ""
+
+#, fuzzy
+msgid "Groups"
+msgstr "Groep per"
+
+msgid ""
+"Groups remaining series into an \"Others\" category when series limit is "
+"reached. This prevents incomplete time series data from being displayed."
+msgstr ""
 
 msgid "Guest user cannot modify chart payload"
 msgstr "Gastgebruiker kan de grafiek-payload niet wijzigen"
@@ -5942,11 +6376,6 @@ msgstr ""
 " metrische waarde"
 
 msgid ""
-"If changes are made to your SQL query, columns in your dataset will be "
-"synced when saving the dataset."
-msgstr ""
-
-msgid ""
 "If enabled, this control sorts the results/values descending, otherwise "
 "it sorts the results ascending."
 msgstr ""
@@ -5956,6 +6385,9 @@ msgstr ""
 #, fuzzy
 msgid "If table already exists"
 msgstr "Label bestaat al"
+
+msgid "If you don't save, changes will be lost."
+msgstr ""
 
 msgid "Ignore cache when generating report"
 msgstr "Negeer cache bij genereren van rapport"
@@ -5984,8 +6416,9 @@ msgstr "Importeer"
 msgid "Import %s"
 msgstr "Importeer %s"
 
-msgid "Import Dashboard(s)"
-msgstr "Importeer Dashboard(s)"
+#, fuzzy
+msgid "Import Error"
+msgstr "Timeout fout"
 
 msgid "Import chart failed for an unknown reason"
 msgstr "Import grafiek mislukt om een onbekende reden"
@@ -6017,16 +6450,31 @@ msgstr "Importeer queries"
 msgid "Import saved query failed for an unknown reason."
 msgstr "Import opgeslagen query mislukt om een onbekende reden."
 
+#, fuzzy
+msgid "Import themes"
+msgstr "Importeer queries"
+
 msgid "In"
 msgstr "In"
+
+#, fuzzy
+msgid "In Range"
+msgstr "Tijdbereik"
 
 msgid ""
 "In order to connect to non-public sheets you need to either provide a "
 "service account or configure an OAuth2 client."
 msgstr ""
 
+msgid "In this view you can preview the first 25 rows. "
+msgstr ""
+
 msgid "Include Series"
 msgstr "Includeer Serie"
+
+#, fuzzy
+msgid "Include Template Parameters"
+msgstr "Sjabloon parameters"
 
 msgid "Include a description that will be sent with your report"
 msgstr "Voeg een beschrijving toe die zal worden verzonden met uw rapport"
@@ -6126,12 +6574,20 @@ msgstr ""
 msgid "Invalid JSON"
 msgstr "Ongeldige JSON"
 
+#, fuzzy, python-format
+msgid "Invalid SQL: %(error)s"
+msgstr "Ongeldige numpy functie: %(operator)s"
+
 #, python-format
 msgid "Invalid advanced data type: %(advanced_data_type)s"
 msgstr "Ongeldig geavanceerd gegevenstype: %(advanced_data_type)s"
 
 msgid "Invalid certificate"
 msgstr "Ongeldig certificaat"
+
+#, fuzzy
+msgid "Invalid color"
+msgstr "Interval kleuren"
 
 msgid ""
 "Invalid connection string, a valid string usually follows: "
@@ -6230,6 +6686,10 @@ msgid "Invert current page"
 msgstr "Huidige pagina omkeren"
 
 #, fuzzy
+msgid "Is Active?"
+msgstr "E-mailrapporten actief"
+
+#, fuzzy
 msgid "Is active?"
 msgstr "E-mailrapporten actief"
 
@@ -6286,6 +6746,10 @@ msgstr "JAN"
 
 msgid "JSON"
 msgstr "JSON"
+
+#, fuzzy
+msgid "JSON Configuration"
+msgstr "Kolom Configuratie"
 
 msgid "JSON Metadata"
 msgstr "JSON Metadata"
@@ -6404,11 +6868,19 @@ msgstr "Labels voor de markeringen"
 msgid "Labels for the ranges"
 msgstr "Labels voor de bereiken"
 
+#, fuzzy
+msgid "Languages"
+msgstr "Bereiken"
+
 msgid "Large"
 msgstr "Groot"
 
 msgid "Last"
 msgstr "Laatste"
+
+#, fuzzy
+msgid "Last Name"
+msgstr "dataset naam"
 
 #, python-format
 msgid "Last Updated %s"
@@ -6417,10 +6889,6 @@ msgstr "Laatst bijgewerkt %s"
 #, python-format
 msgid "Last Updated %s by %s"
 msgstr "Laatst bijgewerkt %s door %s"
-
-#, fuzzy
-msgid "Last Value"
-msgstr "Doel waarde"
 
 #, python-format
 msgid "Last available value seen on %s"
@@ -6547,6 +7015,14 @@ msgstr "Legenda type"
 msgid "Legend type"
 msgstr "Legenda type"
 
+#, fuzzy
+msgid "Less Than"
+msgstr "Minder dan (<)"
+
+#, fuzzy
+msgid "Less Than or Equal"
+msgstr "Minder of gelijk aan (<=)"
+
 msgid "Less or equal (<=)"
 msgstr "Minder of gelijk aan (<=)"
 
@@ -6639,6 +7115,10 @@ msgstr "Lineair kleurenpalet"
 msgid "Linear interpolation"
 msgstr "Lineaire interpolatie"
 
+#, fuzzy
+msgid "Linear palette"
+msgstr "Wis alles"
+
 msgid "Lines column"
 msgstr "Lijnen kolom"
 
@@ -6647,6 +7127,14 @@ msgstr "Lijnen codering"
 
 msgid "Link Copied!"
 msgstr "Link gekopieerd!"
+
+#, fuzzy
+msgid "List"
+msgstr "Laatste"
+
+#, fuzzy
+msgid "List Groups"
+msgstr "Splits nummer"
 
 msgid "List Roles"
 msgstr ""
@@ -6677,13 +7165,11 @@ msgstr "Lijst van waarden te markeren met driehoeken"
 msgid "List updated"
 msgstr "Lijst bijgewerkt"
 
-msgid "Live CSS editor"
-msgstr "Live CSS editor"
-
 msgid "Live render"
 msgstr "Live render"
 
-msgid "Load a CSS template"
+#, fuzzy
+msgid "Load CSS template"
 msgstr "Laad een CSS sjabloon"
 
 msgid "Loaded data cached"
@@ -6698,8 +7184,23 @@ msgstr "Laden"
 msgid "Loading..."
 msgstr "Bezig met laden…"
 
+#, fuzzy
+msgid "Local"
+msgstr "Log Schaal"
+
+msgid "Local theme set for preview"
+msgstr ""
+
+#, python-format
+msgid "Local theme set to \"%s\""
+msgstr ""
+
 msgid "Locate the chart"
 msgstr "Zoek de grafiek"
+
+#, fuzzy
+msgid "Log"
+msgstr "log"
 
 msgid "Log Scale"
 msgstr "Log Schaal"
@@ -6864,6 +7365,9 @@ msgstr "Markeringen"
 msgid "Markup type"
 msgstr "Opmaaktype(Markup type)"
 
+msgid "Match system"
+msgstr ""
+
 msgid "Match time shift color with original series"
 msgstr ""
 
@@ -6872,6 +7376,10 @@ msgstr "Max"
 
 msgid "Max Bubble Size"
 msgstr "Max Bubbel Grootte"
+
+#, fuzzy
+msgid "Max value"
+msgstr "Maximale waarde"
 
 msgid "Max. features"
 msgstr ""
@@ -6962,6 +7470,13 @@ msgstr "Metadata zijn gesynchroniseerd"
 msgid "Method"
 msgstr "Methode"
 
+msgid ""
+"Method to compute the displayed value. \"Overall value\" calculates a "
+"single metric across the entire filtered time period, ideal for non-"
+"additive metrics like ratios, averages, or distinct counts. Other methods"
+" operate over the time series data points."
+msgstr ""
+
 msgid "Metric"
 msgstr "Metriek"
 
@@ -7046,6 +7561,10 @@ msgstr ""
 msgid "Metrics"
 msgstr "Metrieken"
 
+#, fuzzy
+msgid "Metrics to show in the tooltip."
+msgstr "Of de numerieke waarden binnen de cellen moeten worden weergegeven"
+
 msgid "Middle"
 msgstr "Midden"
 
@@ -7066,6 +7585,18 @@ msgstr "Min Dikte"
 
 msgid "Min periods"
 msgstr "Min periodes"
+
+#, fuzzy
+msgid "Min value"
+msgstr "Minimale waarde"
+
+#, fuzzy
+msgid "Min value cannot be greater than max value"
+msgstr "Van datum kan niet groter zijn dan tot datum"
+
+#, fuzzy
+msgid "Min value should be smaller or equal to max value"
+msgstr "Deze waarde moet kleiner zijn dan de rechter doelwaarde"
 
 msgid "Min/max (no outliers)"
 msgstr "Min/max (geen outliers)"
@@ -7097,10 +7628,6 @@ msgstr "Minimale drempelwaarde in percentage voor het tonen van labels."
 
 msgid "Minimum value"
 msgstr "Minimale waarde"
-
-#, fuzzy
-msgid "Minimum value cannot be higher than maximum value"
-msgstr "Van datum kan niet groter zijn dan tot datum"
 
 msgid "Minimum value for label to be displayed on graph."
 msgstr "Minimale waarde van het label op grafiek."
@@ -7196,9 +7723,6 @@ msgstr "Multi-Variabelen"
 
 msgid "Multiple"
 msgstr "Meerdere"
-
-msgid "Multiple filtering"
-msgstr "Meerdere filters"
 
 msgid ""
 "Multiple formats accepted, look the geopy.points Python library for more "
@@ -7338,6 +7862,10 @@ msgstr "Nog geen %s"
 msgid "No Data"
 msgstr "Geen Data"
 
+#, fuzzy, python-format
+msgid "No Logs yet"
+msgstr "Nog geen %s"
+
 msgid "No Results"
 msgstr "Geen Resultaten"
 
@@ -7425,6 +7953,18 @@ msgstr "Er zijn geen formulierinstellingen onderhouden"
 msgid "No global filters are currently added"
 msgstr "Geen globale filters zijn momenteel toegevoegd"
 
+#, fuzzy
+msgid "No groups"
+msgstr "NOT GROUPED BY"
+
+#, fuzzy
+msgid "No groups yet"
+msgstr "Nog geen regels"
+
+#, fuzzy
+msgid "No items"
+msgstr "Geen filters"
+
 msgid "No matching records found"
 msgstr "Geen overeenkomende records gevonden"
 
@@ -7451,6 +7991,10 @@ msgstr ""
 "Geen resultaten gevonden voor deze zoekopdracht. Als u resultaten "
 "verwacht, zorg er dan voor dat alle filters correct zijn geconfigureerd "
 "en dat de gegevensbron gegevens bevat voor het geselecteerde tijdsbereik."
+
+#, fuzzy
+msgid "No roles"
+msgstr "Nog geen regels"
 
 #, fuzzy
 msgid "No roles yet"
@@ -7484,6 +8028,10 @@ msgstr "Geen tijdelijke kolommen gevonden"
 
 msgid "No time columns"
 msgstr "Geen tijdskolommen"
+
+#, fuzzy
+msgid "No user registrations yet"
+msgstr "Nog geen regels"
 
 #, fuzzy
 msgid "No users yet"
@@ -7533,6 +8081,14 @@ msgstr "Normaliseer kolomnamen"
 
 msgid "Normalized"
 msgstr "Genormaliseerd"
+
+#, fuzzy
+msgid "Not Contains"
+msgstr "Rapport verzonden"
+
+#, fuzzy
+msgid "Not Equal"
+msgstr "Niet gelijk aan (≠)"
 
 msgid "Not Time Series"
 msgstr "Geen Tijdserie"
@@ -7600,10 +8156,11 @@ msgstr "Nul of Leeg"
 msgid "Number Format"
 msgstr "Nummer Opmaak"
 
+#, fuzzy
 msgid ""
-"Number bounds used for color encoding from red to blue.\n"
+"Number bounds used for color encoding from red to blue.\r\n"
 "               Reverse the numbers for blue to red. To get pure red or "
-"blue,\n"
+"blue,\r\n"
 "               you can enter either only min or max."
 msgstr ""
 "Aantal grenzen gebruikt voor kleurencodering van rood naar blauw.\n"
@@ -7658,6 +8215,10 @@ msgstr "Aantal stappen tussen ticks bij het weergeven van de X-schaal"
 msgid "Number of steps to take between ticks when displaying the Y scale"
 msgstr "Aantal stappen tussen ticks bij het weergeven van de Y-schaal"
 
+#, fuzzy, python-format
+msgid "Numbers must be within %(min)s and %(max)s"
+msgstr "Schermafbeelding breedte moet liggen tussen %(min)spx en %(max)spx"
+
 #, fuzzy
 msgid "Numeric column used to calculate the histogram."
 msgstr "Selecteer de numerieke kolommen om het histogram te tekenen"
@@ -7670,6 +8231,10 @@ msgstr "OKT"
 
 msgid "OK"
 msgstr "OK"
+
+#, fuzzy
+msgid "OR"
+msgstr "of"
 
 msgid "OVERWRITE"
 msgstr "OVERSCHRIJVEN"
@@ -7764,6 +8329,9 @@ msgstr ""
 msgid "Only single queries supported"
 msgstr "Alleen enkelvoudige query’s worden ondersteund"
 
+msgid "Only the default catalog is supported for this connection"
+msgstr ""
+
 msgid "Oops! An error occurred!"
 msgstr "Oeps! Er is een fout opgetreden!"
 
@@ -7792,7 +8360,15 @@ msgstr "Ondoorzichtigheid, verwacht waarden tussen 0 en 100"
 msgid "Open Datasource tab"
 msgstr "Open Gegevensbron Tabblad"
 
+#, fuzzy
+msgid "Open SQL Lab in a new tab"
+msgstr "Query uitvoeren in een nieuw tabblad"
+
 msgid "Open in SQL Lab"
+msgstr "Openen in SQL Lab"
+
+#, fuzzy
+msgid "Open in SQL lab"
 msgstr "Openen in SQL Lab"
 
 msgid "Open query in SQL Lab"
@@ -7984,6 +8560,14 @@ msgstr ""
 "Afbeelding downloaden mislukt, gelieve te vernieuwen en probeer het "
 "opnieuw."
 
+#, fuzzy
+msgid "Page"
+msgstr "Gebruik"
+
+#, fuzzy
+msgid "Page Size:"
+msgstr "page_size.all"
+
 msgid "Page length"
 msgstr "Pagina lengte"
 
@@ -8048,8 +8632,16 @@ msgid "Password is required"
 msgstr "Type is vereist"
 
 #, fuzzy
+msgid "Password:"
+msgstr "Wachtwoord"
+
+#, fuzzy
 msgid "Passwords do not match!"
 msgstr "Dashboards bestaan niet"
+
+#, fuzzy
+msgid "Paste"
+msgstr "Bijwerken"
 
 msgid "Paste Private Key here"
 msgstr "Plak privésleutel hier"
@@ -8085,6 +8677,10 @@ msgstr "Percentage wijziging"
 
 msgid "Percentage difference between the time periods"
 msgstr ""
+
+#, fuzzy
+msgid "Percentage metric calculation"
+msgstr "Percentage metrieken"
 
 msgid "Percentage metrics"
 msgstr "Percentage metrieken"
@@ -8180,12 +8776,20 @@ msgid "Pin"
 msgstr "Vastzetten"
 
 #, fuzzy
+msgid "Pin Column"
+msgstr "Lijnen kolom"
+
+#, fuzzy
 msgid "Pin Left"
 msgstr "Linksboven"
 
 #, fuzzy
 msgid "Pin Right"
 msgstr "Rechtsboven"
+
+#, fuzzy
+msgid "Pivot Mode"
+msgstr "bewerk modus"
 
 msgid "Pivot Table"
 msgstr "Draaitabel"
@@ -8197,6 +8801,10 @@ msgid "Pivot operation requires at least one index"
 msgstr "Pivot bewerking vereist ten minste één index"
 
 msgid "Pivoted"
+msgstr "Gepivoteerd"
+
+#, fuzzy
+msgid "Pivots"
 msgstr "Gepivoteerd"
 
 msgid "Pixel height of each series"
@@ -8266,16 +8874,37 @@ msgstr "Gelieve te bevestigen"
 msgid "Please enter a SQLAlchemy URI to test"
 msgstr "Voer een SQLAlchemy URI in om te testen"
 
+#, fuzzy
+msgid "Please enter a valid email"
+msgstr "Voer een SQLAlchemy URI in om te testen"
+
 msgid "Please enter a valid email address"
 msgstr ""
 
 msgid "Please enter valid text. Spaces alone are not permitted."
 msgstr ""
 
-msgid "Please provide a valid range"
-msgstr ""
+#, fuzzy
+msgid "Please enter your email"
+msgstr "Gelieve te bevestigen"
 
-msgid "Please provide a value within range"
+#, fuzzy
+msgid "Please enter your first name"
+msgstr "Naam van de waarschuwing"
+
+#, fuzzy
+msgid "Please enter your last name"
+msgstr "Naam van de waarschuwing"
+
+#, fuzzy
+msgid "Please enter your password"
+msgstr "Gelieve te bevestigen"
+
+#, fuzzy
+msgid "Please enter your username"
+msgstr "Label voor uw zoekopdracht"
+
+msgid "Please provide a valid min or max value"
 msgstr ""
 
 msgid "Please re-enter the password."
@@ -8297,6 +8926,10 @@ msgid "Please save your dashboard first, then try creating a new email report."
 msgstr ""
 "Sla eerst je dashboard op, probeer dan een nieuwe e-mailrapportage aan te"
 " maken."
+
+#, fuzzy
+msgid "Please select at least one role or group"
+msgstr "Kies ten minste één \"groep bij\""
 
 msgid "Please select both a Dataset and a Chart type to proceed"
 msgstr "Selecteer een Dataset en een grafiek type om verder te gaan"
@@ -8500,9 +9133,6 @@ msgstr "Plaats je code hier"
 msgid "Python datetime string pattern"
 msgstr "Python datetime string patroon"
 
-msgid "QUERY DATA IN SQL LAB"
-msgstr "QUERY DATA IN SQL LAB"
-
 msgid "Quarter"
 msgstr "Kwartaal"
 
@@ -8528,6 +9158,14 @@ msgstr "Query B"
 
 msgid "Query History"
 msgstr "Query Geschiedenis"
+
+#, fuzzy
+msgid "Query cannot be loaded."
+msgstr "De query kon niet geladen worden"
+
+#, fuzzy
+msgid "Query data in SQL Lab"
+msgstr "QUERY DATA IN SQL LAB"
 
 msgid "Query does not exist"
 msgstr "Query bestaat niet"
@@ -8558,9 +9196,6 @@ msgstr "Query is gestopt"
 
 msgid "Query was stopped."
 msgstr "Query is gestopt."
-
-msgid "RANGE TYPE"
-msgstr "BEREIK TYPE"
 
 msgid "RGB Color"
 msgstr "RGB kleur"
@@ -8599,6 +9234,14 @@ msgstr "Radius in mijlen"
 msgid "Range"
 msgstr "Bereik"
 
+#, fuzzy
+msgid "Range Inputs"
+msgstr "Bereiken"
+
+#, fuzzy
+msgid "Range Type"
+msgstr "BEREIK TYPE"
+
 msgid "Range filter"
 msgstr "Bereik filter"
 
@@ -8607,6 +9250,10 @@ msgstr "Bereik filterplugin met behulp van AntD"
 
 msgid "Range labels"
 msgstr "Bereik labels"
+
+#, fuzzy
+msgid "Range type"
+msgstr "BEREIK TYPE"
 
 msgid "Ranges"
 msgstr "Bereiken"
@@ -8631,9 +9278,6 @@ msgstr "Recente"
 
 msgid "Recipients are separated by \",\" or \";\""
 msgstr "Ontvangers worden gescheiden door “,” of “;”"
-
-msgid "Record Count"
-msgstr "Record Aantal"
 
 msgid "Rectangle"
 msgstr "Rechthoek"
@@ -8667,11 +9311,12 @@ msgstr "Verwijs naar de"
 msgid "Referenced columns not available in DataFrame."
 msgstr "Kolommen waarnaar wordt verwezen zijn niet beschikbaar in DataFrame."
 
+#, fuzzy
+msgid "Referrer"
+msgstr "Vernieuwen"
+
 msgid "Refetch results"
 msgstr "Resultaten opnieuw ophalen"
-
-msgid "Refresh"
-msgstr "Vernieuwen"
 
 msgid "Refresh dashboard"
 msgstr "Vernieuw dashboard"
@@ -8697,6 +9342,17 @@ msgstr "Verversen grafieken"
 
 msgid "Refreshing columns"
 msgstr "Verversen kolommen"
+
+#, fuzzy
+msgid "Register"
+msgstr "Vooraf-filter"
+
+#, fuzzy
+msgid "Registration date"
+msgstr "Start datum"
+
+msgid "Registration hash"
+msgstr ""
 
 msgid "Regular"
 msgstr "Normaal"
@@ -8734,6 +9390,20 @@ msgstr "Herlaad"
 
 msgid "Remove"
 msgstr "Verwijder"
+
+msgid "Remove System Dark Theme"
+msgstr ""
+
+#, fuzzy
+msgid "Remove System Default Theme"
+msgstr "Ververs de standaard waarden"
+
+msgid "Remove as system dark theme"
+msgstr ""
+
+#, fuzzy
+msgid "Remove as system default theme"
+msgstr "Ververs de standaard waarden"
 
 msgid "Remove cross-filter"
 msgstr "Verwijder cross-filter"
@@ -8901,8 +9571,20 @@ msgid "Reset"
 msgstr "Reset"
 
 #, fuzzy
+msgid "Reset Columns"
+msgstr "Selecteer kolom"
+
+#, fuzzy
 msgid "Reset columns"
 msgstr "Selecteer kolom"
+
+#, fuzzy, python-format
+msgid "Reset my password"
+msgstr "%s WACHTWOORD"
+
+#, fuzzy, python-format
+msgid "Reset password"
+msgstr "%s WACHTWOORD"
 
 msgid "Reset state"
 msgstr "Reset status"
@@ -8981,35 +9663,11 @@ msgid "Role Name"
 msgstr "Naam van de waarschuwing"
 
 #, fuzzy
-msgid "Role is required"
-msgstr "Waarde is vereist"
-
-#, fuzzy
 msgid "Role name is required"
 msgstr "Naam is vereist"
 
-#, fuzzy
-msgid "Role successfully updated!"
-msgstr "Gegevens succesvol gewijzigd!"
-
-msgid "Role was successfully created!"
-msgstr ""
-
-msgid "Role was successfully duplicated!"
-msgstr ""
-
 msgid "Roles"
 msgstr "Rollen"
-
-msgid ""
-"Roles is a list which defines access to the dashboard. Granting a role "
-"access to a dashboard will bypass dataset level checks. If no roles are "
-"defined, regular access permissions apply."
-msgstr ""
-"Rollen is een lijst die toegang tot het dashboard definieert. Het "
-"verlenen van een rol toegang tot een dashboard zal controle op het "
-"dataset niveau omzeilen. Als geen rollen zijn gedefinieerd, zijn "
-"reguliere toegangsrechten van toepassing."
 
 msgid ""
 "Roles is a list which defines access to the dashboard. Granting a role "
@@ -9060,6 +9718,12 @@ msgstr "Rij"
 
 msgid "Row Level Security"
 msgstr "Rij Level Beveiliging"
+
+msgid ""
+"Row Limit: percentages are calculated based on the subset of data "
+"retrieved, respecting the row limit. All Records: Percentages are "
+"calculated based on the total dataset, ignoring the row limit."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -9124,8 +9788,8 @@ msgstr "Selectie uitvoeren"
 msgid "Running"
 msgstr "Bezig"
 
-#, python-format
-msgid "Running statement %(statement_num)s out of %(statement_count)s"
+#, fuzzy, python-format
+msgid "Running block %(block_num)s out of %(block_count)s"
 msgstr "Lopende verklaring %(statement_num)s van %(statement_count)s"
 
 msgid "SAT"
@@ -9138,14 +9802,8 @@ msgstr "Seconde"
 msgid "SEP"
 msgstr "SEP"
 
-msgid "SHA"
-msgstr "SHA"
-
 msgid "SQL"
 msgstr "SQL"
-
-msgid "SQL Copied!"
-msgstr "SQL gekopieerd!"
 
 msgid "SQL Lab"
 msgstr "SQL-lab"
@@ -9183,6 +9841,10 @@ msgstr "SQL expressie"
 msgid "SQL query"
 msgstr "SQL query"
 
+#, fuzzy
+msgid "SQL was formatted"
+msgstr "Y-as Opmaak"
+
 msgid "SQLAlchemy URI"
 msgstr "SQLAlchemy URI"
 
@@ -9218,9 +9880,6 @@ msgstr "SSH Tunneling is niet ingeschakeld"
 
 msgid "SSL Mode \"require\" will be used."
 msgstr "SSL-modus \"vereist\" zal worden gebruikt."
-
-msgid "START (INCLUSIVE)"
-msgstr "START (INCLUSIEF)"
 
 #, python-format
 msgid "STEP %(stepCurr)s OF %(stepLast)s"
@@ -9293,8 +9952,19 @@ msgstr "Opslaan als:"
 msgid "Save changes"
 msgstr "Wijzigingen opslaan"
 
+#, fuzzy
+msgid "Save changes to your chart?"
+msgstr "Wijzigingen opslaan"
+
+#, fuzzy
+msgid "Save changes to your dashboard?"
+msgstr "Opslaan en naar dashboard gaan"
+
 msgid "Save chart"
 msgstr "Grafiek opslaan"
+
+msgid "Save color breakpoint values"
+msgstr ""
 
 msgid "Save dashboard"
 msgstr "Dashboard opslaan"
@@ -9368,9 +10038,6 @@ msgstr "Planning"
 
 msgid "Schedule a new email report"
 msgstr "Plan een nieuw e-mailrapport"
-
-msgid "Schedule email report"
-msgstr "Plan een e-mailrapport"
 
 msgid "Schedule query"
 msgstr "Query planning"
@@ -9507,14 +10174,15 @@ msgstr "Selecteer"
 msgid "Select ..."
 msgstr "Selecteer …"
 
+#, fuzzy
+msgid "Select All"
+msgstr "Alles deselecteren"
+
 msgid "Select Delivery Method"
 msgstr "Selecteer verzendmethode"
 
 msgid "Select Tags"
 msgstr "Selecteer Tags"
-
-msgid "Select chart type"
-msgstr "Selecteer Viz Type"
 
 msgid "Select a column"
 msgstr "Selecteer een kolom"
@@ -9551,6 +10219,10 @@ msgstr "Voer een scheidingsteken in voor deze gegevens"
 msgid "Select a dimension"
 msgstr "Kies een dimensie"
 
+#, fuzzy
+msgid "Select a linear color scheme"
+msgstr "Selecteer kleurschema"
+
 msgid "Select a metric to display on the right axis"
 msgstr "Selecteer een metriek om weer te geven op de rechter as"
 
@@ -9577,6 +10249,10 @@ msgstr "Selecteer een database om het bestand naar te uploaden"
 msgid "Select a tab"
 msgstr "Verwijder database"
 
+#, fuzzy
+msgid "Select a theme"
+msgstr "Selecteer schema"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9596,9 +10272,6 @@ msgstr "Selecteer alle gegevens"
 msgid "Select all items"
 msgstr "Selecteer alle items"
 
-msgid "Select an aggregation method to apply to the metric."
-msgstr ""
-
 #, fuzzy
 msgid "Select catalog or type to search catalogs"
 msgstr "Selecteer tabel of type om tabellen te zoeken"
@@ -9614,6 +10287,9 @@ msgstr "Selecteer grafiek"
 msgid "Select chart to use"
 msgstr "Selecteer grafieken"
 
+msgid "Select chart type"
+msgstr "Selecteer Viz Type"
+
 msgid "Select charts"
 msgstr "Selecteer grafieken"
 
@@ -9622,11 +10298,6 @@ msgstr "Selecteer kleurschema"
 
 msgid "Select column"
 msgstr "Selecteer kolom"
-
-msgid "Select column names from a dropdown list that should be parsed as dates."
-msgstr ""
-"Selecteer de kolomnamen die moeten worden behandeld als datums in de "
-"vervolgkeuzelijst"
 
 msgid ""
 "Select columns that will be displayed in the table. You can multiselect "
@@ -9686,6 +10357,10 @@ msgstr "Selecteer de eerste filterwaarde als standaard"
 msgid "Select format"
 msgstr "Waarde opmaak"
 
+#, fuzzy
+msgid "Select groups"
+msgstr "Selecteer eigenaren"
+
 msgid ""
 "Select one or many metrics to display, that will be displayed in the "
 "percentages of total. Percentage metrics will be calculated only from "
@@ -9711,9 +10386,6 @@ msgstr "Selecteer operator"
 
 #, fuzzy
 msgid "Select or type a custom value..."
-msgstr "Selecteer of typ een waarde"
-
-msgid "Select or type a value"
 msgstr "Selecteer of typ een waarde"
 
 msgid "Select or type currency symbol"
@@ -9789,8 +10461,20 @@ msgstr ""
 "filters toe te passen op alle grafieken die dezelfde dataset gebruiken of"
 " dezelfde kolomnaam op het dashboard bevatten."
 
+#, fuzzy
+msgid "Select the fixed color"
+msgstr "Selecteer de kolom geojson"
+
 msgid "Select the geojson column"
 msgstr "Selecteer de kolom geojson"
+
+#, fuzzy
+msgid "Select the type of color scheme to use."
+msgstr "Selecteer kleurschema"
+
+#, fuzzy
+msgid "Select users"
+msgstr "Selecteer eigenaren"
 
 #, python-format
 msgid ""
@@ -9853,6 +10537,10 @@ msgstr "Server Pagina Lengte"
 msgid "Server pagination"
 msgstr "Server paginatie"
 
+#, python-format
+msgid "Server pagination needs to be enabled for values over %s"
+msgstr ""
+
 msgid "Service Account"
 msgstr "Service Account"
 
@@ -9860,13 +10548,33 @@ msgstr "Service Account"
 msgid "Service version"
 msgstr "Service Account"
 
+#, fuzzy, python-format
+msgid "Set %s as default datetime column"
+msgstr "Standaard datum/tijd"
+
+msgid "Set System Dark Theme"
+msgstr ""
+
+#, fuzzy
+msgid "Set System Default Theme"
+msgstr "Standaard datum/tijd"
+
+msgid "Set as system dark theme"
+msgstr ""
+
+msgid "Set as system default theme"
+msgstr ""
+
 msgid "Set auto-refresh interval"
 msgstr "Stel auto-refresh in"
 
 msgid "Set filter mapping"
 msgstr "Filter toewijzing instellen"
 
-msgid "Set header rows and the number of rows to read or skip."
+msgid "Set local theme for testing (preview only)"
+msgstr ""
+
+msgid "Set local theme. Will be applied to your session until unset."
 msgstr ""
 
 msgid "Set up an email report"
@@ -9875,8 +10583,9 @@ msgstr "Stel een e-mailrapport in"
 msgid "Set up basic details, such as name and description."
 msgstr ""
 
+#, fuzzy
 msgid ""
-"Sets the hierarchy levels of the chart. Each level is\n"
+"Sets the hierarchy levels of the chart. Each level is\r\n"
 "        represented by one ring with the innermost circle as the top of "
 "the hierarchy."
 msgstr ""
@@ -9957,10 +10666,6 @@ msgstr "Toon bubbels"
 msgid "Show CREATE VIEW statement"
 msgstr "Toon CREATE VIEW statement"
 
-#, fuzzy
-msgid "Show cell bars"
-msgstr "Toon cel balken"
-
 msgid "Show Dashboard"
 msgstr "Toon Dashboard"
 
@@ -9972,6 +10677,10 @@ msgstr "Toon Log"
 
 msgid "Show Markers"
 msgstr "Toon Markeringen"
+
+#, fuzzy
+msgid "Show Metric Name"
+msgstr "Toon Metriek Namen"
 
 msgid "Show Metric Names"
 msgstr "Toon Metriek Namen"
@@ -10016,6 +10725,7 @@ msgstr "Toon alle kolommen"
 msgid "Show axis line ticks"
 msgstr "Toon as lijntikken"
 
+#, fuzzy
 msgid "Show cell bars"
 msgstr "Toon cel balken"
 
@@ -10034,7 +10744,7 @@ msgstr "Toon gegevenspunten als cirkelmarkeringen op de lijnen"
 msgid "Show empty columns"
 msgstr "Toon lege kolommen"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "Show entries per page"
 msgstr "Toon metriek"
 
@@ -10077,6 +10787,10 @@ msgstr "Toon aanwijzer"
 
 msgid "Show progress"
 msgstr "Toon voortgang"
+
+#, fuzzy
+msgid "Show query identifiers"
+msgstr "Bekijk query details"
 
 msgid "Show rows subtotal"
 msgstr "Toon rijen subtotaal"
@@ -10160,6 +10874,14 @@ msgstr "Toont een lijst van alle series die beschikbaar zijn op dat moment"
 msgid "Shows or hides markers for the time series"
 msgstr "Toont of verbergt markeringen voor de tijdreeks"
 
+#, fuzzy
+msgid "Sign in"
+msgstr "Niet in"
+
+#, fuzzy
+msgid "Sign in with"
+msgstr "Log in met"
+
 msgid "Significance Level"
 msgstr "Significantie Niveau"
 
@@ -10204,6 +10926,21 @@ msgstr "Rijen overslaan"
 msgid "Skip spaces after delimiter"
 msgstr "Sla spaties over na het scheidingsteken"
 
+#, python-format
+msgid "Skipped %d system themes that cannot be deleted"
+msgstr ""
+
+#, fuzzy
+msgid "Slice Id"
+msgstr "Lijndikte"
+
+#, fuzzy
+msgid "Slider"
+msgstr "Stevig"
+
+msgid "Slider and range input"
+msgstr ""
+
 msgid "Slug"
 msgstr "Slak"
 
@@ -10228,6 +10965,10 @@ msgstr "Stevig"
 
 msgid "Some roles do not exist"
 msgstr "Sommige rollen bestaan niet"
+
+#, fuzzy
+msgid "Something went wrong while saving the user info"
+msgstr "Er is iets fout gegaan. Probeer het opnieuw."
 
 msgid ""
 "Something went wrong with embedded authentication. Check the dev console "
@@ -10283,6 +11024,10 @@ msgstr "Sorry, uw browser ondersteunt het kopiëren niet. Gebruik Ctrl / Cmd + C
 
 msgid "Sort"
 msgstr "Sorteren"
+
+#, fuzzy
+msgid "Sort Ascending"
+msgstr "Sorteer oplopend"
 
 msgid "Sort Descending"
 msgstr "Sorteer Aflopend"
@@ -10346,6 +11091,10 @@ msgstr "Sorteer type"
 msgid "Source"
 msgstr "Bron"
 
+#, fuzzy
+msgid "Source Color"
+msgstr "Lijnkleur"
+
 msgid "Source SQL"
 msgstr "Bron SQL"
 
@@ -10377,6 +11126,9 @@ msgstr ""
 msgid "Split number"
 msgstr "Splits nummer"
 
+msgid "Split stack by"
+msgstr ""
+
 msgid "Square kilometers"
 msgstr "Vierkante kilometer"
 
@@ -10388,6 +11140,9 @@ msgstr "Vierkante mijlen"
 
 msgid "Stack"
 msgstr "Stapel"
+
+msgid "Stack in groups, where each group corresponds to a dimension"
+msgstr ""
 
 msgid "Stack series"
 msgstr "Stapel series"
@@ -10413,8 +11168,16 @@ msgstr "Start"
 msgid "Start (Longitude, Latitude): "
 msgstr "Start (lengtegraad, breedtegraad): "
 
+#, fuzzy
+msgid "Start (inclusive)"
+msgstr "START (INCLUSIEF)"
+
 msgid "Start Longitude & Latitude"
 msgstr "Start Lengtegraad & Breedtegraad"
+
+#, fuzzy
+msgid "Start Time"
+msgstr "Start datum"
 
 msgid "Start angle"
 msgstr "Start hoek"
@@ -10441,12 +11204,12 @@ msgstr ""
 msgid "Started"
 msgstr "Gestart"
 
+#, fuzzy
+msgid "Starts With"
+msgstr "Grafiek breedte"
+
 msgid "State"
 msgstr "Status"
-
-#, python-format
-msgid "Statement %(statement_num)s out of %(statement_count)s"
-msgstr "Verklaring %(statement_num)s van %(statement_count)s"
 
 msgid "Statistical"
 msgstr "Statistisch"
@@ -10522,11 +11285,12 @@ msgstr "Stijl"
 msgid "Style the ends of the progress bar with a round cap"
 msgstr "Stijl de uiteindes van de voortgangsbalk met een ronde dop"
 
+#, fuzzy
+msgid "Subcategories"
+msgstr "Categorie"
+
 msgid "Subdomain"
 msgstr "Subdomein"
-
-msgid "Subheader Font Size"
-msgstr "Ondertitel Lettergrootte"
 
 msgid "Submit"
 msgstr "Bevestigen"
@@ -10534,10 +11298,6 @@ msgstr "Bevestigen"
 #, fuzzy
 msgid "Subtitle"
 msgstr "Titel tabblad"
-
-#, fuzzy
-msgid "Subtitle Font Size"
-msgstr "Bubbelgrootte"
 
 msgid "Subtotal"
 msgstr "Subtotaal"
@@ -10651,6 +11411,19 @@ msgstr "Syntax"
 msgid "Syntax Error: %(qualifier)s input \"%(input)s\" expecting \"%(expected)s"
 msgstr "Syntaxfout: %(qualifier)s invoer \"%(input)s\" verwacht \"%(expected)s"
 
+#, fuzzy
+msgid "System"
+msgstr "stroom"
+
+msgid "System Theme - Read Only"
+msgstr ""
+
+msgid "System dark theme removed"
+msgstr ""
+
+msgid "System default theme removed"
+msgstr ""
+
 msgid "TABLES"
 msgstr "TABLES"
 
@@ -10683,6 +11456,10 @@ msgstr "Tabwl %(table)s werd niet gevonden in de database %(db)s"
 msgid "Table Name"
 msgstr "Tabel Naam"
 
+#, fuzzy
+msgid "Table V2"
+msgstr "Tabel"
+
 #, fuzzy, python-format
 msgid ""
 "Table [%(table)s] could not be found, please double check your database "
@@ -10690,10 +11467,6 @@ msgid ""
 msgstr ""
 "Tabel [%(table_name)s] kon niet worden gevonden. Controleer de database-"
 "verbinding, schema en tabelnaam"
-
-#, fuzzy
-msgid "Table actions"
-msgstr "Tabel kolommen"
 
 msgid ""
 "Table already exists. You can change your 'if table already exists' "
@@ -10792,6 +11565,10 @@ msgstr "css_template"
 msgid "Template parameters"
 msgstr "Sjabloon parameters"
 
+#, fuzzy, python-format
+msgid "Template processing error: %(error)s"
+msgstr "Fout: %(error)s"
+
 msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
 "coming from the controls."
@@ -10811,9 +11588,6 @@ msgstr ""
 "Beëindig de zoekopdrachten wanneer het browservenster gesloten of "
 "navigeert naar een andere pagina. Beschikbaar voor Presto, Hive, MySQL, "
 "Postgres en Snowflake databases."
-
-msgid "Test Connection"
-msgstr "Test Connectie"
 
 msgid "Test connection"
 msgstr "Test connectie"
@@ -10860,11 +11634,11 @@ msgstr ""
 
 msgid ""
 "The Sankey chart visually tracks the movement and transformation of "
-"values across\n"
+"values across\r\n"
 "          system stages. Nodes represent stages, connected by links "
-"depicting value flow. Node\n"
+"depicting value flow. Node\r\n"
 "          height corresponds to the visualized metric, providing a clear "
-"representation of\n"
+"representation of\r\n"
 "          value distribution and transformation."
 msgstr ""
 
@@ -10874,9 +11648,10 @@ msgstr "De URL mist de dataset_id of slice_id parameters."
 msgid "The X-axis is not on the filters list"
 msgstr "De X-as staat niet op de filterlijst"
 
+#, fuzzy
 msgid ""
 "The X-axis is not on the filters list which will prevent it from being "
-"used in\n"
+"used in\r\n"
 "            time range filters in dashboards. Would you like to add it to"
 " the filters list?"
 msgstr ""
@@ -10903,20 +11678,12 @@ msgstr ""
 "Als een knooppunt is gekoppeld met meer dan één categorie, zal alleen de "
 "eerste worden gebruikt."
 
-msgid "The chart datasource does not exist"
-msgstr "De grafiek gegevensbron bestaat niet"
-
-msgid "The chart does not exist"
-msgstr "De grafiek bestaat niet"
-
-msgid "The chart query context does not exist"
-msgstr "De query context van de grafiek bestaat niet"
-
+#, fuzzy
 msgid ""
 "The classic. Great for showing how much of a company each investor gets, "
 "what demographics follow your blog, or what portion of the budget goes to"
-" the military industrial complex.\n"
-"\n"
+" the military industrial complex.\r\n"
+"\r\n"
 "        Pie charts can be difficult to interpret precisely. If clarity of"
 " relative proportion is important, consider using a bar or other chart "
 "type instead."
@@ -10945,17 +11712,21 @@ msgstr "De kleur van de isoline"
 msgid "The color scheme for rendering chart"
 msgstr "Het kleurenschema voor de rendering grafiek"
 
+#, fuzzy
 msgid ""
-"The color scheme is determined by the related dashboard.\n"
+"The color scheme is determined by the related dashboard.\r\n"
 "        Edit the color scheme in the dashboard properties."
 msgstr ""
 "Het kleurenschema wordt bepaald door het gerelateerde dashboard.\n"
 "        Bewerk het kleurenschema in de dashboard eigenschappen."
 
+msgid "The color used when a value doesn't match any defined breakpoints."
+msgstr ""
+
 #, fuzzy
 msgid ""
 "The colors of this chart might be overridden by custom label colors of "
-"the related dashboard.\n"
+"the related dashboard.\r\n"
 "    Check the JSON metadata in the Advanced settings."
 msgstr ""
 "Dit kleurenschema wordt overschreven door aangepaste labelkleuren.\n"
@@ -11044,10 +11815,19 @@ msgstr ""
 "weergeeft."
 
 msgid ""
-"The dataset configuration exposed here\n"
-"                affects all the charts using this dataset.\n"
-"                Be mindful that changing settings\n"
-"                here may affect other charts\n"
+"The dataset columns will be automatically synced\r\n"
+"              based on the changes in your SQL query. If your changes "
+"don't\r\n"
+"              impact the column definitions, you might want to skip this "
+"step."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"The dataset configuration exposed here\r\n"
+"                affects all the charts using this dataset.\r\n"
+"                Be mindful that changing settings\r\n"
+"                here may affect other charts\r\n"
 "                in undesirable ways."
 msgstr ""
 "De dataset configuratie die hier wordt getoond\n"
@@ -11121,9 +11901,9 @@ msgstr ""
 
 #, python-format
 msgid ""
-"The following filters have the 'Select first filter value by default'\n"
+"The following filters have the 'Select first filter value by default'\r\n"
 "                    option checked and could not be loaded, which is "
-"preventing the dashboard\n"
+"preventing the dashboard\r\n"
 "                    from rendering: %s"
 msgstr ""
 
@@ -11132,15 +11912,23 @@ msgstr ""
 "De functie die gebruikt moet worden bij het aggregeren van punten in "
 "groepen"
 
+#, fuzzy
+msgid "The group has been created successfully."
+msgstr "Het rapport is gemaakt"
+
+#, fuzzy
+msgid "The group has been updated successfully."
+msgstr "De annotatie is bijgewerkt"
+
 msgid "The height of the current zoom level to compute all heights from"
 msgstr ""
 
 msgid ""
-"The histogram chart displays the distribution of a dataset by\n"
+"The histogram chart displays the distribution of a dataset by\r\n"
 "          representing the frequency or count of values within different "
-"ranges or bins.\n"
+"ranges or bins.\r\n"
 "          It helps visualize patterns, clusters, and outliers in the data"
-" and provides\n"
+" and provides\r\n"
 "          insights into its shape, central tendency, and spread."
 msgstr ""
 
@@ -11196,6 +11984,7 @@ msgstr ""
 "De metadata_params in Extra veld is niet correct geconfigureerd. De "
 "sleutel %(key)s is ongeldig."
 
+#, python-brace-format
 msgid ""
 "The metadata_params in Extra field is not configured correctly. The key "
 "%{key}s is invalid."
@@ -11318,6 +12107,10 @@ msgstr ""
 "Het opgegeven wachtwoord bij het verbinden met een database is niet "
 "geldig."
 
+#, fuzzy
+msgid "The password reset was successful"
+msgstr "Dit dashboard is succesvol opgeslagen."
+
 msgid ""
 "The passwords for the databases below are needed in order to import them "
 "together with the charts. Please note that the \"Secure Extra\" and "
@@ -11385,9 +12178,10 @@ msgstr ""
 msgid "The pattern of timestamp format. For strings use "
 msgstr "Het patroon van de tijdstempel opmaak. Voor strings gebruik je "
 
+#, fuzzy
 msgid ""
-"The periodicity over which to pivot time. Users can provide\n"
-"            \"Pandas\" offset alias.\n"
+"The periodicity over which to pivot time. Users can provide\r\n"
+"            \"Pandas\" offset alias.\r\n"
 "            Click on the info bubble for more details on accepted "
 "\"freq\" expressions."
 msgstr ""
@@ -11508,6 +12302,18 @@ msgstr ""
 
 msgid "The rich tooltip shows a list of all series for that point in time"
 msgstr "De rijke tooltip toont een lijst van alle series voor dat punt in tijd"
+
+#, fuzzy
+msgid "The role has been created successfully."
+msgstr "Het rapport is gemaakt"
+
+#, fuzzy
+msgid "The role has been duplicated successfully."
+msgstr "Het rapport is gemaakt"
+
+#, fuzzy
+msgid "The role has been updated successfully."
+msgstr "De annotatie is bijgewerkt"
 
 msgid ""
 "The row limit set for the chart was reached. The chart may show partial "
@@ -11653,6 +12459,10 @@ msgid "The time unit used for the grouping of blocks"
 msgstr "De tijdeenheid die gebruikt wordt voor het groeperen van blokken"
 
 #, fuzzy
+msgid "The two passwords that you entered do not match!"
+msgstr "Dashboards bestaan niet"
+
+#, fuzzy
 msgid "The type of the layer"
 msgstr "Voeg de naam van de grafiek toe"
 
@@ -11665,8 +12475,16 @@ msgstr "De meeteenheid voor de opgegeven punt radius"
 msgid "The upper limit of the threshold range of the Isoband"
 msgstr "De bovengrens van het drempelbereik van de Isoband"
 
+#, fuzzy
+msgid "The user has been updated successfully."
+msgstr "Dit dashboard is succesvol opgeslagen."
+
 msgid "The user seems to have been deleted"
 msgstr "De gebruiker lijkt te zijn verwijderd"
+
+#, fuzzy
+msgid "The user was updated successfully"
+msgstr "Dit dashboard is succesvol opgeslagen."
 
 msgid "The user/password combination is not valid (Incorrect password for user)."
 msgstr ""
@@ -11681,6 +12499,9 @@ msgid "The username provided when connecting to a database is not valid."
 msgstr ""
 "De opgegeven gebruikersnaam tijdens het verbinden met een database is "
 "niet geldig."
+
+msgid "The values overlap other breakpoint values"
+msgstr ""
 
 #, fuzzy
 msgid "The version of the service"
@@ -11705,6 +12526,29 @@ msgstr "De breedte van de lijnen"
 
 msgid "The width of the lines"
 msgstr "De breedte van de lijnen"
+
+#, fuzzy
+msgid "Theme"
+msgstr "Tijd"
+
+msgid "Theme & CSS"
+msgstr ""
+
+#, fuzzy
+msgid "Theme imported"
+msgstr "Dataset geïmporteerd"
+
+#, fuzzy
+msgid "Theme not found."
+msgstr "CSS sjabloon niet gevonden."
+
+#, fuzzy
+msgid "Themes"
+msgstr "Tijd"
+
+#, fuzzy
+msgid "Themes could not be deleted."
+msgstr "De tag kon niet worden verwijderd."
 
 msgid "There are associated alerts or reports"
 msgstr "Er zijn geassocieerde waarschuwingen of rapporten"
@@ -11750,6 +12594,22 @@ msgstr ""
 "Er is niet genoeg ruimte voor dit component. Probeer de breedte ervan te "
 "verlagen, of vergroot de doelbreedte."
 
+#, fuzzy
+msgid "There was an error creating the group. Please, try again."
+msgstr "Er is een fout opgetreden bij het laden van de schema's"
+
+#, fuzzy
+msgid "There was an error creating the role. Please, try again."
+msgstr "Er is een fout opgetreden bij het laden van de schema's"
+
+#, fuzzy
+msgid "There was an error creating the user. Please, try again."
+msgstr "Er is een fout opgetreden bij het laden van de schema's"
+
+#, fuzzy
+msgid "There was an error duplicating the role. Please, try again."
+msgstr "Er was een probleem bij het dupliceren van de dataset."
+
 msgid "There was an error fetching dataset"
 msgstr "Er is een fout opgetreden bij het ophalen van dataset"
 
@@ -11777,22 +12637,39 @@ msgstr "Er is een fout opgetreden bij het laden van de tabellen"
 msgid "There was an error loading the chart data"
 msgstr "Er is een fout opgetreden bij het laden van de grafiekgegevens"
 
-msgid "There was an error loading the dataset metadata"
-msgstr "Er is een fout opgetreden bij het laden van de dataset metagegevens"
-
 msgid "There was an error loading the schemas"
 msgstr "Er is een fout opgetreden bij het laden van de schema's"
 
 msgid "There was an error loading the tables"
 msgstr "Er is een fout opgetreden bij het laden van de tabellen"
 
-#, fuzzy, python-format
+#, fuzzy
+msgid "There was an error loading users."
+msgstr "Er is een fout opgetreden bij het laden van de tabellen"
+
+#, fuzzy
 msgid "There was an error retrieving dashboard tabs."
 msgstr "Sorry, er is een fout opgetreden bij het opslaan van dit dashboard: %s"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
 msgstr "Er is een fout opgetreden bij het opslaan van de favoriete status: %s"
+
+#, fuzzy
+msgid "There was an error updating the group. Please, try again."
+msgstr "Er is een fout opgetreden bij het laden van de schema's"
+
+#, fuzzy
+msgid "There was an error updating the role. Please, try again."
+msgstr "Er is een fout opgetreden bij het laden van de schema's"
+
+#, fuzzy
+msgid "There was an error updating the user. Please, try again."
+msgstr "Er is een fout opgetreden bij het laden van de schema's"
+
+#, fuzzy
+msgid "There was an error while fetching users"
+msgstr "Er is een fout opgetreden bij het ophalen van dataset"
 
 msgid "There was an error with your request"
 msgstr "Er is een fout opgetreden in uw verzoek."
@@ -11804,6 +12681,10 @@ msgstr "Er was een probleem bij het verwijderen van: %s"
 #, python-format
 msgid "There was an issue deleting %s: %s"
 msgstr "Er was een probleem met het verwijderen van %s: %s"
+
+#, fuzzy, python-format
+msgid "There was an issue deleting registration for user: %s"
+msgstr "Er was een probleem met het verwijderen van regels: %s"
 
 #, python-format
 msgid "There was an issue deleting rules: %s"
@@ -11840,6 +12721,10 @@ msgstr "Er was een probleem bij het verwijderen van de geselecteerde query’s: 
 
 #, python-format
 msgid "There was an issue deleting the selected templates: %s"
+msgstr "Er was een probleem met het verwijderen van de geselecteerde templates: %s"
+
+#, fuzzy, python-format
+msgid "There was an issue deleting the selected themes: %s"
 msgstr "Er was een probleem met het verwijderen van de geselecteerde templates: %s"
 
 #, python-format
@@ -11907,6 +12792,10 @@ msgstr ""
 msgid "This action will permanently delete %s."
 msgstr "Deze actie zal %s permanent verwijderen."
 
+#, fuzzy
+msgid "This action will permanently delete the group."
+msgstr "Deze actie zal de laag permanent verwijderen."
+
 msgid "This action will permanently delete the layer."
 msgstr "Deze actie zal de laag permanent verwijderen."
 
@@ -11919,6 +12808,14 @@ msgstr "Deze actie zal de opgeslagen query permanent verwijderen."
 
 msgid "This action will permanently delete the template."
 msgstr "Deze actie zal de template permanent verwijderen."
+
+#, fuzzy
+msgid "This action will permanently delete the theme."
+msgstr "Deze actie zal de template permanent verwijderen."
+
+#, fuzzy
+msgid "This action will permanently delete the user registration."
+msgstr "Deze actie zal de laag permanent verwijderen."
 
 #, fuzzy
 msgid "This action will permanently delete the user."
@@ -11981,8 +12878,9 @@ msgstr ""
 "8601 formaat expliciet kan worden ingesteld als de start- en/of eindtijd "
 "wordt aangegeven."
 
+#, fuzzy
 msgid ""
-"This controls whether the \"time_range\" field from the current\n"
+"This controls whether the \"time_range\" field from the current\r\n"
 "                  view should be passed down to the chart containing the "
 "annotation data."
 msgstr ""
@@ -11990,8 +12888,9 @@ msgstr ""
 "                  weergave moet worden doorgegeven aan de grafiek met de "
 "annotatie gegevens."
 
+#, fuzzy
 msgid ""
-"This controls whether the time grain field from the current\n"
+"This controls whether the time grain field from the current\r\n"
 "                  view should be passed down to the chart containing the "
 "annotation data."
 msgstr ""
@@ -12045,11 +12944,13 @@ msgstr ""
 msgid "This dashboard was saved successfully."
 msgstr "Dit dashboard is succesvol opgeslagen."
 
+#, fuzzy
 msgid ""
-"This database does not allow for DDL/DML, and the query could not be "
-"parsed to confirm it is a read-only query. Please contact your "
-"administrator for more assistance."
+"This database does not allow for DDL/DML, but the query mutates data. "
+"Please contact your administrator for more assistance."
 msgstr ""
+"De database waarnaar verwezen wordt in deze query is niet gevonden. Neem "
+"contact op met een beheerder voor verdere hulp of probeer het opnieuw."
 
 msgid "This database is managed externally, and can't be edited in Superset"
 msgstr "Deze database wordt extern beheerd en kan niet worden bewerkt in Superset"
@@ -12068,7 +12969,9 @@ msgstr "Deze dataset wordt niet gebruikt om enige grafieken aan te sturen."
 msgid "This defines the element to be plotted on the chart"
 msgstr "Dit definieert het element dat op de grafiek moet worden uitgezet"
 
-msgid "This email is already associated with an account."
+msgid ""
+"This email is already associated with an account. Please choose another "
+"one."
 msgstr ""
 
 msgid ""
@@ -12108,6 +13011,12 @@ msgstr ""
 "behoort, kan een basis filter kan worden gemaakt met de clausule `1 = 0` "
 "(altijd onwaar)."
 
+msgid "This is the system dark theme"
+msgstr ""
+
+msgid "This is the system default theme"
+msgstr ""
+
 msgid ""
 "This json object describes the positioning of the widgets in the "
 "dashboard. It is dynamically generated when adjusting the widgets size "
@@ -12132,6 +13041,9 @@ msgstr "Dit kan veroorzaakt worden door:"
 msgid "This metric might be incompatible with current dataset"
 msgstr "Deze metriek is mogelijk niet compatibel met huidig dataset"
 
+msgid "This name is already taken. Please choose another one."
+msgstr ""
+
 msgid "This option has been disabled by the administrator."
 msgstr ""
 
@@ -12140,8 +13052,9 @@ msgid ""
 " is not the case."
 msgstr ""
 
+#, fuzzy
 msgid ""
-"This section allows you to configure how to use the slice\n"
+"This section allows you to configure how to use the slice\r\n"
 "              to generate annotations."
 msgstr ""
 "Dit gedeelte stelt je in staat om te configureren hoe je slice kan "
@@ -12176,6 +13089,12 @@ msgid ""
 msgstr ""
 "Er is al een dataset aan deze tabel gekoppeld. Je kunt slechts één "
 "dataset koppelen met een tabel.\n"
+
+msgid "This theme is set locally"
+msgstr ""
+
+msgid "This theme is set locally for your session"
+msgstr ""
 
 msgid "This username is already taken. Please choose another one."
 msgstr ""
@@ -12212,6 +13131,10 @@ msgstr "Drempelwaarde"
 
 msgid "Threshold alpha level for determining significance"
 msgstr "Drempelwaarde alfa-niveau voor het bepalen van significantie"
+
+#, fuzzy
+msgid "Threshold for Other"
+msgstr "Drempelwaarde"
 
 msgid "Threshold: "
 msgstr "Drempelwaarde: "
@@ -12298,8 +13221,9 @@ msgstr "Tijdkolom om het tijdsbereik op toe te passen"
 msgid "Time comparison"
 msgstr "Tijdsvergelijking"
 
+#, fuzzy
 msgid ""
-"Time delta in natural language\n"
+"Time delta in natural language\r\n"
 "                  (example:  24 hours, 7 days, 56 weeks, 365 days)"
 msgstr ""
 "Tijdsdelta in natuurlijke taal\n"
@@ -12372,6 +13296,10 @@ msgstr "Tijdreeks Periodieke Pivoting"
 msgid "Time-series Table"
 msgstr "Tijdreeks Tabel"
 
+#, fuzzy
+msgid "Timeline"
+msgstr "Tijdzone"
+
 msgid "Timeout error"
 msgstr "Timeout fout"
 
@@ -12410,8 +13338,20 @@ msgstr "Om te filteren op een metriek, gebruikt u het tabblad Aangepaste SQL."
 msgid "To get a readable URL for your dashboard"
 msgstr "Om een leesbare URL voor uw dashboard te krijgen"
 
+#, fuzzy
+msgid "Tool Panel"
+msgstr "Alle panelen"
+
 msgid "Tooltip"
 msgstr "Tooltip"
+
+#, fuzzy
+msgid "Tooltip (columns)"
+msgstr "Tooltip inhoud"
+
+#, fuzzy
+msgid "Tooltip (metrics)"
+msgstr "Tooltip sorteren op metriek"
 
 msgid "Tooltip Contents"
 msgstr "Tooltip inhoud"
@@ -12444,10 +13384,6 @@ msgstr "Totaal (%(aggfunc)s)"
 #, python-format
 msgid "Total (%(aggregatorName)s)"
 msgstr "Totaal (%(aggregatorName)s)"
-
-#, fuzzy, python-format
-msgid "Total (Sum)"
-msgstr "Totaal: %s"
 
 msgid "Total value"
 msgstr "Totaal waarde"
@@ -12491,6 +13427,10 @@ msgstr "Driehoek"
 
 msgid "Trigger Alert If..."
 msgstr "Trigger waarschuwing als…"
+
+#, fuzzy
+msgid "True"
+msgstr "DI"
 
 msgid "Truncate Axis"
 msgstr "As Afkappen"
@@ -12567,6 +13507,9 @@ msgstr "Type vergelijking, waarde verschil of percentage"
 msgid "UI Configuration"
 msgstr "UI Configuratie"
 
+msgid "UI theme administration is not enabled."
+msgstr ""
+
 msgid "URL"
 msgstr "URL"
 
@@ -12616,6 +13559,11 @@ msgid "Unable to find such a holiday: [%(holiday)s]"
 msgstr "Niet in staat om zo’n holiday te vinden: [%(holiday)s]"
 
 msgid ""
+"Unable to identify temporal column for date range time comparison.Please "
+"ensure your dataset has a properly configured time column."
+msgstr ""
+
+msgid ""
 "Unable to load columns for the selected table. Please select a different "
 "table."
 msgstr ""
@@ -12653,6 +13601,12 @@ msgstr ""
 msgid "Unable to parse SQL"
 msgstr ""
 
+#, fuzzy
+msgid "Unable to read the file, please refresh and try again."
+msgstr ""
+"Afbeelding downloaden mislukt, gelieve te vernieuwen en probeer het "
+"opnieuw."
+
 msgid "Unable to retrieve dashboard colors"
 msgstr "Dashboard kleuren kunnen niet worden opgehaald"
 
@@ -12687,6 +13641,10 @@ msgstr "Geen opgeslagen expressies gevonden"
 #, python-format
 msgid "Unexpected time range: %(error)s"
 msgstr "Onverwacht tijdsbereik: %(error)s"
+
+#, fuzzy
+msgid "Ungroup By"
+msgstr "Groep per"
 
 #, fuzzy
 msgid "Unhide"
@@ -12810,10 +13768,6 @@ msgstr "Upload Excel-bestand naar database"
 msgid "Upload JSON file"
 msgstr "Upload JSON bestand"
 
-#, fuzzy
-msgid "Upload a file to a database."
-msgstr "Upload bestand naar database"
-
 #, python-format
 msgid "Upload a file with a valid extension. Valid: [%s]"
 msgstr ""
@@ -12868,14 +13822,18 @@ msgstr "Gebruik een versleutelde verbinding met de database"
 msgid "Use an ssh tunnel connection to the database"
 msgstr "Gebruik een ssh tunnel verbinding met de database"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Use another existing chart as a source for annotations and overlays.\n"
+"Use another existing chart as a source for annotations and overlays.\r\n"
 "          Your chart must be one of these visualization types: [%s]"
 msgstr ""
 "Gebruik een andere bestaande grafiek als bron voor annotaties en "
 "overlays.\n"
 "          Uw grafiek moet een van deze visualisatietypes zijn: [%s]"
+
+#, fuzzy
+msgid "Use automatic color"
+msgstr "Automatische kleur"
 
 #, fuzzy
 msgid "Use current extent"
@@ -12892,9 +13850,6 @@ msgstr "Gebruik slechts één waarde."
 
 msgid "Use the Advanced Analytics options below"
 msgstr "Gebruik de onderstaande geavanceerde Analytics opties"
-
-msgid "Use the edit button to change this field"
-msgstr "Gebruik de bewerk knop om dit veld te wijzigen"
 
 msgid "Use this section if you want a query that aggregates"
 msgstr "Gebruik deze sectie als u een query wilt welke aggregeert"
@@ -12927,6 +13882,14 @@ msgstr ""
 msgid "User"
 msgstr "Gebruiker"
 
+#, fuzzy
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+#, fuzzy
+msgid "User Registrations"
+msgstr "Gebruik Gebied Proporties"
+
 msgid "User doesn't have the proper permissions."
 msgstr "Gebruiker heeft niet de juiste permissies."
 
@@ -12936,11 +13899,9 @@ msgstr "Gebruiker moet een waarde selecteren voordat hij de filter toepast"
 msgid "User query"
 msgstr "Gebruikers query"
 
-msgid "User was successfully created!"
-msgstr ""
-
-msgid "User was successfully updated!"
-msgstr ""
+#, fuzzy
+msgid "User registrations"
+msgstr "Gebruik Gebied Proporties"
 
 msgid "Username"
 msgstr "Gebruikersnaam"
@@ -12948,6 +13909,10 @@ msgstr "Gebruikersnaam"
 #, fuzzy
 msgid "Username is required"
 msgstr "Naam is vereist"
+
+#, fuzzy
+msgid "Username:"
+msgstr "Gebruikersnaam"
 
 #, fuzzy
 msgid "Users"
@@ -12993,6 +13958,14 @@ msgstr ""
 msgid "Value"
 msgstr "Waarde"
 
+#, fuzzy
+msgid "Value Aggregation"
+msgstr "Aggregatie"
+
+#, fuzzy
+msgid "Value Columns"
+msgstr "Tabel kolommen"
+
 msgid "Value Domain"
 msgstr "Waarde Domein"
 
@@ -13032,11 +14005,18 @@ msgstr "Waarde moet groter zijn dan 0"
 msgid "Value must be greater than 0"
 msgstr "Waarde moet groter zijn dan 0"
 
+#, fuzzy
+msgid "Values"
+msgstr "Waarde"
+
 msgid "Values are dependent on other filters"
 msgstr "Waarden zijn afhankelijk van andere filters"
 
 msgid "Values dependent on"
 msgstr "Waarden afhankelijk van"
+
+msgid "Values less than this percentage will be grouped into the Other category."
+msgstr ""
 
 msgid ""
 "Values selected in other filters will affect the filter options to only "
@@ -13081,6 +14061,14 @@ msgstr "Bekijk sleutels & indexen (%s)"
 
 msgid "View query"
 msgstr "Bekijk zoekopdracht"
+
+#, fuzzy
+msgid "View theme"
+msgstr "Bekijk Dataset"
+
+#, fuzzy
+msgid "View theme properties"
+msgstr "Eigenschappen bewerken"
 
 msgid "Viewed"
 msgstr "Bekeken"
@@ -13263,13 +14251,13 @@ msgstr "Kon uw query niet controleren"
 msgid "Waterfall Chart"
 msgstr "Waterval Diagram"
 
-msgid ""
-"We are unable to connect to your database. Click \"See more\" for "
-"database-provided information that may help troubleshoot the issue."
-msgstr ""
-"We kunnen geen verbinding maken met uw database. Klik op \"Meer "
-"bekijken\" voor database-gegeven informatie die kan helpen het probleem "
-"op te lossen."
+#, fuzzy, python-format
+msgid "We are unable to connect to your database."
+msgstr "Kan geen verbinding maken met database “%(database)s”."
+
+#, fuzzy
+msgid "We are working on your query"
+msgstr "Label voor uw zoekopdracht"
 
 #, python-format
 msgid "We can't seem to resolve column \"%(column)s\" at line %(location)s."
@@ -13410,10 +14398,12 @@ msgstr ""
 "Wanneer alleen een primaire metriek wordt verstrekt, wordt een "
 "categorische kleurschaal gebruikt."
 
+#, fuzzy
 msgid ""
 "When specifying SQL, the datasource acts as a view. Superset will use "
 "this statement as a subquery while grouping and filtering on the "
-"generated parent queries."
+"generated parent queries.If changes are made to your SQL query, columns "
+"in your dataset will be synced when saving the dataset."
 msgstr ""
 "Bij het specificeren van SQL, fungeert de gegevensbron als een weergave. "
 "Superset zal deze verklaring gebruiken als een subquery tijdens het "
@@ -13485,9 +14475,6 @@ msgstr ""
 "Of er een normale verdeling op basis van rang moet worden toegepast op de"
 " kleurschaal"
 
-msgid "Whether to apply filter when items are clicked"
-msgstr "Of er een filter moet worden toegepast wanneer er op items wordt geklikt"
-
 msgid "Whether to colorize numeric values by if they are positive or negative"
 msgstr ""
 "Of numerieke waarden moeten worden gekleurd op basis van of ze positief "
@@ -13526,6 +14513,10 @@ msgstr "Of de labels getoond moeten worden."
 
 msgid "Whether to display the legend (toggles)"
 msgstr "Of de legenda moet worden weergegeven (schakelen)"
+
+#, fuzzy
+msgid "Whether to display the metric name"
+msgstr "Of de metriek naam als titel moet worden weergegeven"
 
 msgid "Whether to display the metric name as a title"
 msgstr "Of de metriek naam als titel moet worden weergegeven"
@@ -13652,9 +14643,6 @@ msgstr "Welke verwanten te markeren bij zweven"
 msgid "Whisker/outlier options"
 msgstr "Opties whisker/outlier"
 
-msgid "White"
-msgstr "Wit"
-
 msgid "Width"
 msgstr "Breedte"
 
@@ -13691,9 +14679,6 @@ msgstr "Schrijf een omschrijving voor uw query"
 msgid "Write a handlebars template to render the data"
 msgstr "Schrijf een handlebars sjabloon om de gegevens weer te geven"
 
-msgid "X axis title margin"
-msgstr "X AXIS TITEL MARGE"
-
 msgid "X Axis"
 msgstr "X As"
 
@@ -13704,6 +14689,10 @@ msgid "X Axis Format"
 msgstr "X-as Opmaak"
 
 msgid "X Axis Label"
+msgstr "X-as Label"
+
+#, fuzzy
+msgid "X Axis Label Interval"
 msgstr "X-as Label"
 
 msgid "X Axis Title"
@@ -13718,6 +14707,9 @@ msgstr "X Log Schaal"
 
 msgid "X Tick Layout"
 msgstr "X Tik Indeling"
+
+msgid "X axis title margin"
+msgstr "X AXIS TITEL MARGE"
 
 msgid "X bounds"
 msgstr "X Grenzen"
@@ -13739,9 +14731,6 @@ msgstr ""
 
 msgid "Y 2 bounds"
 msgstr "Y 2 grenzen"
-
-msgid "Y axis title margin"
-msgstr "Y AXIS TITEL MARGE"
 
 msgid "Y Axis"
 msgstr "Y As"
@@ -13769,6 +14758,9 @@ msgstr "Y-as Titel Positie"
 
 msgid "Y Log Scale"
 msgstr "Y Log Schaal"
+
+msgid "Y axis title margin"
+msgstr "Y AXIS TITEL MARGE"
 
 msgid "Y bounds"
 msgstr "Y Grenzen"
@@ -13818,6 +14810,10 @@ msgstr "Ja, wijzigingen overschrijven"
 msgid "You are adding tags to %s %ss"
 msgstr "U voegt labels toe aan %s %ss"
 
+#, fuzzy, python-format
+msgid "You are edting a query from the virtual dataset "
+msgstr ""
+
 msgid ""
 "You are importing one or more charts that already exist. Overwriting "
 "might cause you to lose some of your work. Are you sure you want to "
@@ -13861,15 +14857,24 @@ msgstr ""
 " kan leiden tot verlies van je werk. Weet je zeker dat je wilt "
 "overschrijven?"
 
+#, fuzzy
+msgid ""
+"You are importing one or more themes that already exist. Overwriting "
+"might cause you to lose some of your work. Are you sure you want to "
+"overwrite?"
+msgstr ""
+"U importeert één of meer datasets die al bestaan. Overschrijven kan "
+"leiden tot verlies van je werk. Weet je zeker dat je wilt overschrijven?"
+
 msgid ""
 "You are viewing this chart in a dashboard context with labels shared "
-"across multiple charts.\n"
+"across multiple charts.\r\n"
 "        The color scheme selection is disabled."
 msgstr ""
 
 msgid ""
 "You are viewing this chart in the context of a dashboard that is directly"
-" affecting its colors.\n"
+" affecting its colors.\r\n"
 "        To edit the color scheme, open this chart outside of the "
 "dashboard."
 msgstr ""
@@ -13886,9 +14891,10 @@ msgstr "Je kunt de componenten toevoegen in de bewerkingsmodus."
 msgid "You can also just click on the chart to apply cross-filter."
 msgstr "Je kunt ook gewoon op de grafiek klikken om cross-filter toe te passen."
 
+#, fuzzy
 msgid ""
 "You can choose to display all charts that you have access to or only the "
-"ones you own.\n"
+"ones you own.\r\n"
 "              Your filter selection will be saved and remain active until"
 " you choose to change it."
 msgstr ""
@@ -13996,9 +15002,6 @@ msgstr ""
 " volgende acties niet ongedaan maken. Je kunt je huidige status opslaan "
 "om de geschiedenis te resetten."
 
-msgid "You may have an error in your SQL statement. {message}"
-msgstr ""
-
 msgid ""
 "You must be a dataset owner in order to edit. Please reach out to a "
 "dataset owner to request modifications or edit access."
@@ -14069,9 +15072,6 @@ msgstr "Uw zoekopdracht werd opgeslagen"
 
 msgid "Your query was updated"
 msgstr "Uw zoekopdracht werd bijgewerkt"
-
-msgid "Your range is not within the dataset range"
-msgstr ""
 
 msgid "Your report could not be deleted"
 msgstr "Uw rapport kon niet worden verwijderd"
@@ -14170,9 +15170,6 @@ msgstr "`rij_offset` moet groter zijn dan of gelijk aan 0"
 msgid "`width` must be greater or equal to 0"
 msgstr "`breedte` moet groter of gelijk zijn aan 0"
 
-msgid "Add colors to cell bars for +/-"
-msgstr ""
-
 msgid "aggregate"
 msgstr "aggregaat"
 
@@ -14182,9 +15179,6 @@ msgstr "waarschuwing"
 #, fuzzy
 msgid "alert condition"
 msgstr "Naam waarschuwingsconditie"
-
-msgid "alert dark"
-msgstr "donkere waarschuwing"
 
 msgid "alerts"
 msgstr "waarschuwingen"
@@ -14216,16 +15210,13 @@ msgstr "auto"
 msgid "background"
 msgstr "achtergrond"
 
-#, fuzzy
-msgid "Basic conditional formatting"
-msgstr "Voorwaardelijke opmaak"
-
 msgid "basis"
 msgstr "basis"
 
 msgid "below (example:"
 msgstr "hieronder (voorbeeld:"
 
+#, python-brace-format
 msgid "between {down} and {up} {name}"
 msgstr "tussen {down} en {up} {name}"
 
@@ -14258,6 +15249,10 @@ msgstr "wijziging"
 
 msgid "chart"
 msgstr "grafiek"
+
+#, fuzzy
+msgid "charts"
+msgstr "Grafieken"
 
 msgid "choose WHERE or HAVING..."
 msgstr "kies WHERE of HAVING…"
@@ -14327,6 +15322,10 @@ msgstr "cumsom"
 
 msgid "dashboard"
 msgstr "dashboard"
+
+#, fuzzy
+msgid "dashboards"
+msgstr "Dashboards"
 
 msgid "database"
 msgstr "database"
@@ -14403,6 +15402,10 @@ msgstr "afwijking"
 msgid "dialect+driver://username:password@host:port/database"
 msgstr "dialect+driver://gebruikersnaam:wachtwoord@host:poort/database"
 
+#, fuzzy
+msgid "documentation"
+msgstr "Documentatie"
+
 msgid "dttm"
 msgstr "dttm"
 
@@ -14460,9 +15463,6 @@ msgstr "items"
 msgid "error"
 msgstr "fout"
 
-msgid "error dark"
-msgstr "fout donker"
-
 msgid "error_message"
 msgstr "fout_melding"
 
@@ -14487,9 +15487,6 @@ msgstr "elke maand"
 msgid "expand"
 msgstr "uitklappen"
 
-msgid "explore"
-msgstr "verkennen"
-
 msgid "failed"
 msgstr "mislukt"
 
@@ -14504,6 +15501,10 @@ msgstr "vlak"
 
 msgid "for more information on how to structure your URI."
 msgstr "voor meer informatie over de structuur van uw URI."
+
+#, fuzzy
+msgid "formatted"
+msgstr "Opgemaakte datum"
 
 msgid "function type icon"
 msgstr "functie type icoon"
@@ -14526,9 +15527,6 @@ msgstr "uur"
 msgid "in"
 msgstr "in"
 
-msgid "in modal"
-msgstr "in modal"
-
 #, fuzzy
 msgid "invalid email"
 msgstr "Ongeldige permalink sleutel"
@@ -14537,8 +15535,10 @@ msgstr "Ongeldige permalink sleutel"
 msgid "is"
 msgstr "in"
 
-msgid "is expected to be a Mapbox URL"
-msgstr "wordt verwacht een Mapbox URL te zijn"
+msgid ""
+"is expected to be a Mapbox/OSM URL (eg. mapbox://styles/...) or a tile "
+"server URL (eg. tile://http...)"
+msgstr ""
 
 msgid "is expected to be a number"
 msgstr "wordt verwacht dat het een getal is"
@@ -14584,6 +15584,7 @@ msgstr "laatste partitie:"
 msgid "left"
 msgstr "links"
 
+#, python-brace-format
 msgid "less than {min} {name}"
 msgstr "minder dan {min} {name}"
 
@@ -14630,6 +15631,7 @@ msgstr "monotoon"
 msgid "month"
 msgstr "maand"
 
+#, python-brace-format
 msgid "more than {max} {name}"
 msgstr "meer dan {max} {name}"
 
@@ -14652,6 +15654,9 @@ msgstr "numeriek type icoon"
 msgid "nvd3"
 msgstr "nvd3"
 
+msgid "of"
+msgstr ""
+
 msgid "offline"
 msgstr "offline"
 
@@ -14666,6 +15671,10 @@ msgstr "of gebruik bestaande vanuit het paneel aan de rechterkant"
 
 msgid "orderby column must be populated"
 msgstr "sorteren op kolom moet worden ingevuld"
+
+#, fuzzy
+msgid "original"
+msgstr "Origineel"
 
 msgid "overall"
 msgstr "algemeen"
@@ -14689,9 +15698,6 @@ msgstr "p95"
 msgid "p99"
 msgstr "p99"
 
-msgid "page_size.all"
-msgstr "page_size.all"
-
 msgid "pending"
 msgstr "in behandeling"
 
@@ -14704,6 +15710,10 @@ msgstr ""
 
 msgid "permalink state not found"
 msgstr "permalink status niet gevonden"
+
+#, fuzzy
+msgid "pivoted_xlsx"
+msgstr "Gepivoteerd"
 
 msgid "pixels"
 msgstr "pixels"
@@ -14813,9 +15823,6 @@ msgstr "string type icoon"
 msgid "success"
 msgstr "succes"
 
-msgid "success dark"
-msgstr "succes donker"
-
 msgid "sum"
 msgstr "som"
 
@@ -14834,6 +15841,14 @@ msgstr "tijdelijk type icoon"
 msgid "textarea"
 msgstr "tekstveld"
 
+#, fuzzy
+msgid "theme"
+msgstr "Tijd"
+
+#, fuzzy
+msgid "to"
+msgstr "bovenkant"
+
 msgid "top"
 msgstr "bovenkant"
 
@@ -14847,7 +15862,7 @@ msgstr "onbekend type icoon"
 msgid "unset"
 msgstr "Juni"
 
-#, fuzzy, python-format
+#, fuzzy
 msgid "updated"
 msgstr "laatst bijgewerkt %s"
 
