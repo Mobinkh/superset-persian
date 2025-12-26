@@ -29,6 +29,11 @@ from flask_caching.backends.filesystemcache import FileSystemCache
 
 logger = logging.getLogger()
 
+LANGUAGES = {
+    'en': {'flag': 'us', 'name': 'English'},
+    "fa": {"flag": "ir", "name": "فارسی"},
+}
+
 DATABASE_DIALECT = os.getenv("DATABASE_DIALECT")
 DATABASE_USER = os.getenv("DATABASE_USER")
 DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")

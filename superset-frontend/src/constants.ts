@@ -188,12 +188,26 @@ export enum FilterPlugins {
   Time = 'filter_time',
   TimeColumn = 'filter_timecolumn',
   TimeGrain = 'filter_timegrain',
+  PersianCalendar = 'filter_persian_calendar',
 }
 
 export enum Actions {
   CREATE = 'create',
   UPDATE = 'update',
 }
+
+export const rtlLanguages = [
+  'ar',
+  'fa',
+  'he',
+  'iw',
+  'sd',
+  'dv',
+  'ps',
+  'ug',
+  'ur',
+  'yi',
+];
 
 /**
  * Default threshold for CSV streaming export.

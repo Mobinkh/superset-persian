@@ -24,11 +24,13 @@ import type { Languages } from './LanguagePicker';
 const LanguagePicker = ({
   locale,
   languages,
+  setDirection,
 }: {
   locale: string;
   languages: Languages;
+  setDirection: (direction: 'ltr' | 'rtl') => void;
 }) => {
-  const languageMenuItem = useLanguageMenuItems({ locale, languages });
+  const languageMenuItem = useLanguageMenuItems({ locale, languages, setDirection });
 
   return (
     <Menu aria-label="Languages" items={[languageMenuItem]} mode="horizontal" />
@@ -62,6 +64,7 @@ const mockedProps = {
       url: '/lang/it',
     },
   },
+  setDirection: () => {},
 };
 
 const Template = (args: any) => <LanguagePicker {...args} />;

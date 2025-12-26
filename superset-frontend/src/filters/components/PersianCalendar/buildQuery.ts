@@ -16,24 +16,25 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-import { GenericDataType } from '@apache-superset/core/api/core';
+import { buildQueryContext, BuildQuery, QueryFormData } from '@superset-ui/core';
 
-export const INPUT_HEIGHT = 32;
-
-export const INPUT_WIDTH = 270;
-
-export const TIME_FILTER_INPUT_WIDTH = 350;
-
-export const FILTER_SUPPORTED_TYPES = {
-  filter_time: [GenericDataType.Temporal],
-  filter_timegrain: [GenericDataType.Temporal],
-  filter_timecolumn: [GenericDataType.Temporal],
-  filter_select: [
-    GenericDataType.Boolean,
-    GenericDataType.String,
-    GenericDataType.Numeric,
-    GenericDataType.Temporal,
-  ],
-  filter_range: [GenericDataType.Numeric],
-  filter_persian_calendar: [GenericDataType.Temporal],
+const buildQuery: BuildQuery<QueryFormData> = (
+  formData: QueryFormData,
+  options,
+) => {
+  // For native filters, return a minimal valid query structure
+  // The filter works by setting data mask which affects other charts
+  return buildQueryContext(formData, () => {
+    return [
+      {
+        result_type: 'columns',
+        columns: [],
+        metrics: [],
+        orderby: [],
+        time_range: formData.time_range,
+      },
+    ];
+  });
 };
+
+export default buildQuery;

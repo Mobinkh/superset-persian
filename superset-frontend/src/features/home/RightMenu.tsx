@@ -152,6 +152,7 @@ const RightMenu = ({
   const showUploads = allowUploads || isAdmin;
   const {
     setThemeMode,
+    setDirection,
     themeMode,
     clearLocalOverrides,
     hasDevOverride,
@@ -350,6 +351,7 @@ const RightMenu = ({
   const languageMenuItem = useLanguageMenuItems({
     locale: navbarRight.locale || 'en',
     languages: navbarRight.languages || {},
+    setDirection
   });
 
   // Build main menu items

@@ -39,6 +39,7 @@ const StyledHeader = styled.div<{ backgroundColor?: string }>`
   background-color: ${({ theme, backgroundColor }) =>
     backgroundColor || theme.colorBgContainer};
   align-items: center;
+  justify-content: space-between;
   position: relative;
   padding: ${({ theme }) => theme.sizeUnit * 2}px
     ${({ theme }) => theme.sizeUnit * 4}px;

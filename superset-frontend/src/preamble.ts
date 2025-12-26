@@ -44,6 +44,11 @@ import 'dayjs/plugin/duration';
 import 'dayjs/plugin/updateLocale';
 import 'dayjs/plugin/localizedFormat';
 
+// dayjs-jalali will be loaded dynamically in components that need it
+
+// Import react-multi-date-picker CSS globally
+import 'react-multi-date-picker/styles/layouts/mobile.css';
+
 configure();
 
 // Set hot reloader config
@@ -53,6 +58,23 @@ if (process.env.WEBPACK_MODE === 'development') {
 
 // Grab initial bootstrap data
 const bootstrapData = getBootstrapData();
+
+const useJalali =
+  bootstrapData?.common?.extra_settings?.use_jalali_calendar;
+
+if (typeof window !== 'undefined') {
+  configure({ languagePack: bootstrapData.common.language_pack });
+  dayjs.locale(bootstrapData.common.locale);
+
+  if (useJalali) {
+    // make Jalali the default calendar
+    dayjs.calendar('jalali');
+  } else {
+    dayjs.calendar('gregory');
+  }
+} else {
+  configure();
+}
 
 setupFormatters(
   bootstrapData.common.d3_format,
